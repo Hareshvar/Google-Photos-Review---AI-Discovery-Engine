@@ -261,22 +261,10 @@ class RAGEngine:
 
         disclaimer = f"Answers come only from the public posts we collected (n={total_relevant:,} sample). Not a measure of all Google Photos users."
 
-        # Handle API Quota / Generation Limit Gracefully via Grounded Evidence Synthesis
+        # Handle API Quota / 503 Capacity Limit Gracefully via Smart Grounded Synthesis
         if not answer_text:
-            logger.warning("All LLM models failed or hit quota limits. Synthesizing grounded deterministic response from retrieved evidence.")
-            top_quotes = [f'"{c["quote"]}"' for c in citations if c.get("quote")]
-            if top_quotes:
-                quote_summary = " ".join(top_quotes[:2])
-                answer_text = (
-                    f"Analysis of collected feedback (n={total_relevant:,}) reveals user photo retrieval friction. "
-                    f"Specifically, verified user submissions highlight: {quote_summary}. "
-                    f"Inspect the verified quote citations below for full post details."
-                )
-            else:
-                answer_text = (
-                    f"Analysis of collected feedback (n={total_relevant:,}) indicates user friction when attempting to locate photos. "
-                    f"Searchers frequently report difficulty retrieving photos when exact dates or visual tags are missing."
-                )
+            logger.warning("All LLM models failed or hit quota/capacity limits. Synthesizing smart grounded response from precomputed stats & retrieved evidence.")
+            answer_text = self._synthesize_smart_fallback(prompt, total_relevant, citations)
 
         answer_text = clean_response_formatting(answer_text)
 
@@ -294,10 +282,56 @@ class RAGEngine:
             "citations": citations
         }
 
+    def _synthesize_smart_fallback(self, prompt: str, total_relevant: int, citations: List[Dict[str, Any]]) -> str:
+        prompt_lower = prompt.lower()
+        key_insights = []
+        if os.path.exists(self.precomputed_file):
+            try:
+                with open(self.precomputed_file, "r", encoding="utf-8") as f:
+                    precomputed = json.load(f)
+                    key_insights = precomputed.get("key_insights", [])
+            except Exception:
+                pass
+
+        # Q1: Target Types / photo types
+        if any(w in prompt_lower for w in ["type", "kinds", "category", "what photos", "which photo", "content", "struggle"]):
+            q1 = next((item for item in key_insights if item.get("number") == 1), None)
+            if q1 and q1.get("distribution"):
+                top_3 = q1["distribution"][:3]
+                dist_str = ", ".join([f"{d.get('label') or d.get('category')} ({d.get('share_pct') or d.get('pct')}%)" for d in top_3])
+                return f"Based on verified feedback (n={total_relevant:,}), users struggle most to find: {dist_str}. Inspect the verified quote citations below for specific post evidence."
+
+        # Q2 / Q3: Remembered or forgotten cues
+        if any(w in prompt_lower for w in ["cue", "remember", "forget", "clue", "information", "recall"]):
+            q2 = next((item for item in key_insights if item.get("number") == 2), None)
+            if q2 and q2.get("distribution"):
+                top_3 = q2["distribution"][:3]
+                dist_str = ", ".join([f"{d.get('label') or d.get('category')} ({d.get('share_pct') or d.get('pct')}%)" for d in top_3])
+                return f"According to user records (n={total_relevant:,}), the primary clues people remember about a photo are: {dist_str}. Inspect the verified quote citations below for specific post evidence."
+
+        # Q6 / Q9: Flow / Errors / Failures
+        if any(w in prompt_lower for w in ["error", "fail", "flow", "breakdown", "kpi", "step", "problem"]):
+            q9 = next((item for item in key_insights if item.get("number") == 9), None)
+            if q9 and q9.get("distribution"):
+                top_3 = [d for d in q9["distribution"] if d.get("key") != "no_failure"][:3]
+                dist_str = ", ".join([f"{d.get('category') or d.get('label')} ({d.get('share_pct') or d.get('pct')}%)" for d in top_3])
+                return f"Analysis of retrieval breakdowns (n={total_relevant:,}) indicates major search failure modes occur at: {dist_str}. Inspect the verified quote citations below for specific post evidence."
+
+        # General quote summary fallback
+        top_quotes = [f'"{c["quote"]}"' for c in citations if c.get("quote")]
+        if top_quotes:
+            return (
+                f"Analysis of collected feedback (n={total_relevant:,}) reveals user photo retrieval friction. "
+                f"Specifically, verified user submissions highlight: {' '.join(top_quotes[:2])}. "
+                f"Inspect the verified quote citations below for full post details."
+            )
+
+        return f"Analysis of collected feedback (n={total_relevant:,}) indicates user friction when attempting to locate photos."
+
     def _generate_llm_answer(self, prompt: str) -> Optional[str]:
-        # Try Gemini models (gemini-3.8-flash first, then gemini-3.6-flash)
+        # Try Gemini models (gemini-3.6-flash first for high capacity, then gemini-3.8-flash)
         if self._gemini_client:
-            for m in ["gemini-3.8-flash", "gemini-3.6-flash"]:
+            for m in ["gemini-3.6-flash", "gemini-3.8-flash"]:
                 try:
                     resp = self._gemini_client.models.generate_content(
                         model=m,
