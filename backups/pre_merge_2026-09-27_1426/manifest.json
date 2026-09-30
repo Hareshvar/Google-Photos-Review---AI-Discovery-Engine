@@ -1,0 +1,98 @@
+[
+  {
+    "original_path": "data/tagged_posts.json",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\data_tagged_posts.json",
+    "md5": "c98f9641f51b8a5adcd38f647340ef9d",
+    "bytes": 17926015
+  },
+  {
+    "original_path": "data/precomputed_stats.json",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\data_precomputed_stats.json",
+    "md5": "e2470ff8ec72ef8073b2a1ad70a505b0",
+    "bytes": 71505
+  },
+  {
+    "original_path": "data/final_tagged_dataset.json",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\data_final_tagged_dataset.json",
+    "md5": "22c728504ffee75d46e50c88da3211c5",
+    "bytes": 7433924
+  },
+  {
+    "original_path": "data/final_tagged_dataset_mapped.json",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\data_final_tagged_dataset_mapped.json",
+    "md5": "e728bdad26941ac70a339f6d6b7def61",
+    "bytes": 7432923
+  },
+  {
+    "original_path": "data/clean_report.json",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\data_clean_report.json",
+    "md5": "b1921de236f2c086c76fc0d2353eeeb7",
+    "bytes": 2163
+  },
+  {
+    "original_path": "data/source_probe.json",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\data_source_probe.json",
+    "md5": "89092b0188e575f020d605e6c6a1061c",
+    "bytes": 1393
+  },
+  {
+    "original_path": "data/excluded_fallback_records.json",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\data_excluded_fallback_records.json",
+    "md5": "b0b75b6c5cf6f28b77b92fc1d17784d6",
+    "bytes": 5810902
+  },
+  {
+    "original_path": "data/retag_sample_v2.json",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\data_retag_sample_v2.json",
+    "md5": "b12e395fbeb9cda1f8cad2e6b199cbd5",
+    "bytes": 7374682
+  },
+  {
+    "original_path": "data/retag_sample_v3_1500.json",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\data_retag_sample_v3_1500.json",
+    "md5": "5411bde07c55f1b6cc290293a75f30b2",
+    "bytes": 2760889
+  },
+  {
+    "original_path": "data/retag_v3_fallback_retry.json",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\data_retag_v3_fallback_retry.json",
+    "md5": "4227002032367aba08673e7e8cde3a0d",
+    "bytes": 2660674
+  },
+  {
+    "original_path": "backend/analysis/insights_engine.py",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\backend_analysis_insights_engine.py",
+    "md5": "22a831dc7750fa7e256bb722d092bedf",
+    "bytes": 20958
+  },
+  {
+    "original_path": "backend/analysis/pipeline.py",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\backend_analysis_pipeline.py",
+    "md5": "d52c7dfe5f0421327092b06a3db07622",
+    "bytes": 4653
+  },
+  {
+    "original_path": "backend/api/router.py",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\backend_api_router.py",
+    "md5": "01204fc337860bfa19ce320010f9e780",
+    "bytes": 8188
+  },
+  {
+    "original_path": "backend/rag/vector_store.py",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\backend_rag_vector_store.py",
+    "md5": "a1c500205849e9292c6619c90347a416",
+    "bytes": 4952
+  },
+  {
+    "original_path": "backend/rag/rag_engine.py",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\backend_rag_rag_engine.py",
+    "md5": "5e4d8cf93d332d4b1fd45dd3057c8301",
+    "bytes": 11991
+  },
+  {
+    "original_path": "frontend/src/components/CollapsibleInsightCard.tsx",
+    "backup_path": "backups/pre_merge_2026-09-27_1426\\frontend_src_components_CollapsibleInsightCard.tsx",
+    "md5": "63a82bca826430bba5ece47992e5f130",
+    "bytes": 10611
+  }
+]

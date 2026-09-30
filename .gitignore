@@ -1,0 +1,42 @@
+# Environment Variables & Secrets
+.env
+.env.local
+*.env
+
+# Data & Database Cache Files
+data/raw/
+data/chroma_db/
+data/*.json
+!data/source_probe.json
+!data/precomputed_stats.json
+!data/retrieval_lens_analysis_bundle.json
+!data/clean_report.json
+!data/final_tagged_dataset_mapped.json
+!data/final_tagged_dataset.json
+!data/judge_validation_report.json
+!data/consistency_flags.json
+!data/human_labels.json
+!data/quality_bar_audit_report.json
+
+# Python Bytecode & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+*.log
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

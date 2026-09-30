@@ -1,0 +1,56 @@
+[
+  {
+    "source": "help_community",
+    "display_name": "Google Photos Help Community",
+    "records_collected": 405,
+    "records_cleaned": 339,
+    "records_relevant": 337,
+    "status": "active",
+    "error_message": null
+  },
+  {
+    "source": "reddit_googlephotos",
+    "display_name": "Reddit r/googlephotos",
+    "records_collected": 19285,
+    "records_cleaned": 8296,
+    "records_relevant": 8296,
+    "status": "active",
+    "error_message": null
+  },
+  {
+    "source": "reddit_geminiai",
+    "display_name": "Reddit r/GeminiAI",
+    "records_collected": 1726,
+    "records_cleaned": 341,
+    "records_relevant": 341,
+    "status": "active",
+    "error_message": null
+  },
+  {
+    "source": "play_store",
+    "display_name": "Google Play Store Reviews",
+    "records_collected": 8507,
+    "records_cleaned": 538,
+    "records_relevant": 538,
+    "status": "active",
+    "error_message": null
+  },
+  {
+    "source": "app_store",
+    "display_name": "Apple App Store Reviews",
+    "records_collected": 1317,
+    "records_cleaned": 247,
+    "records_relevant": 247,
+    "status": "active",
+    "error_message": null
+  },
+  {
+    "source": "youtube",
+    "display_name": "YouTube Comments",
+    "records_collected": 55,
+    "records_cleaned": 15,
+    "records_relevant": 15,
+    "status": "active",
+    "error_message": null
+  }
+]

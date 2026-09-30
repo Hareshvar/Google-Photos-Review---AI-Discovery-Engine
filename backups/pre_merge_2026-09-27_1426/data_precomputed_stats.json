@@ -1,0 +1,1742 @@
+{
+  "metadata": {
+    "total_tagged": 9776,
+    "total_relevant": 9774,
+    "generated_at": "precomputed_stats.json"
+  },
+  "themes": {
+    "layer_a_struggle_matrix": [
+      {
+        "failure_step": "no_or_wrong_results",
+        "system_issue": "missing_results",
+        "count": 2490,
+        "share_pct": 25.48
+      },
+      {
+        "failure_step": "no_or_wrong_results",
+        "system_issue": "face_rec_failure",
+        "count": 1957,
+        "share_pct": 20.02
+      },
+      {
+        "failure_step": "no_or_wrong_results",
+        "system_issue": "date_index_error",
+        "count": 1845,
+        "share_pct": 18.88
+      },
+      {
+        "failure_step": "scroll_not_found",
+        "system_issue": "face_rec_failure",
+        "count": 1380,
+        "share_pct": 14.12
+      },
+      {
+        "failure_step": "scroll_not_found",
+        "system_issue": "missing_results",
+        "count": 1299,
+        "share_pct": 13.29
+      },
+      {
+        "failure_step": "scroll_not_found",
+        "system_issue": "date_index_error",
+        "count": 1255,
+        "share_pct": 12.84
+      },
+      {
+        "failure_step": "no_or_wrong_results",
+        "system_issue": "ui_regression",
+        "count": 982,
+        "share_pct": 10.05
+      },
+      {
+        "failure_step": "scroll_not_found",
+        "system_issue": "ui_regression",
+        "count": 714,
+        "share_pct": 7.31
+      },
+      {
+        "failure_step": "no_or_wrong_results",
+        "system_issue": "ocr_failure",
+        "count": 422,
+        "share_pct": 4.32
+      },
+      {
+        "failure_step": "scroll_not_found",
+        "system_issue": "ocr_failure",
+        "count": 283,
+        "share_pct": 2.9
+      },
+      {
+        "failure_step": "no_or_wrong_results",
+        "system_issue": "ask_photos_hallucination",
+        "count": 232,
+        "share_pct": 2.37
+      },
+      {
+        "failure_step": "no_or_wrong_results",
+        "system_issue": "wrong_results",
+        "count": 139,
+        "share_pct": 1.42
+      },
+      {
+        "failure_step": "results_not_recognized",
+        "system_issue": "date_index_error",
+        "count": 117,
+        "share_pct": 1.2
+      },
+      {
+        "failure_step": "results_not_recognized",
+        "system_issue": "face_rec_failure",
+        "count": 108,
+        "share_pct": 1.1
+      },
+      {
+        "failure_step": "scroll_not_found",
+        "system_issue": "wrong_results",
+        "count": 106,
+        "share_pct": 1.08
+      },
+      {
+        "failure_step": "no_failure",
+        "system_issue": "face_rec_failure",
+        "count": 98,
+        "share_pct": 1.0
+      },
+      {
+        "failure_step": "no_failure",
+        "system_issue": "date_index_error",
+        "count": 97,
+        "share_pct": 0.99
+      },
+      {
+        "failure_step": "results_not_recognized",
+        "system_issue": "ui_regression",
+        "count": 95,
+        "share_pct": 0.97
+      },
+      {
+        "failure_step": "results_not_recognized",
+        "system_issue": "missing_results",
+        "count": 75,
+        "share_pct": 0.77
+      },
+      {
+        "failure_step": "no_failure",
+        "system_issue": "missing_results",
+        "count": 74,
+        "share_pct": 0.76
+      },
+      {
+        "failure_step": "no_failure",
+        "system_issue": "ui_regression",
+        "count": 49,
+        "share_pct": 0.5
+      },
+      {
+        "failure_step": "results_not_recognized",
+        "system_issue": "ocr_failure",
+        "count": 32,
+        "share_pct": 0.33
+      },
+      {
+        "failure_step": "scroll_not_found",
+        "system_issue": "ask_photos_hallucination",
+        "count": 30,
+        "share_pct": 0.31
+      },
+      {
+        "failure_step": "no_failure",
+        "system_issue": "ocr_failure",
+        "count": 24,
+        "share_pct": 0.25
+      },
+      {
+        "failure_step": "results_not_recognized",
+        "system_issue": "wrong_results",
+        "count": 20,
+        "share_pct": 0.2
+      },
+      {
+        "failure_step": "no_failure",
+        "system_issue": "wrong_results",
+        "count": 15,
+        "share_pct": 0.15
+      },
+      {
+        "failure_step": "no_failure",
+        "system_issue": "ask_photos_hallucination",
+        "count": 13,
+        "share_pct": 0.13
+      },
+      {
+        "failure_step": "results_not_recognized",
+        "system_issue": "ask_photos_hallucination",
+        "count": 13,
+        "share_pct": 0.13
+      },
+      {
+        "failure_step": "search_not_completed",
+        "system_issue": "face_rec_failure",
+        "count": 6,
+        "share_pct": 0.06
+      },
+      {
+        "failure_step": "search_not_completed",
+        "system_issue": "ui_regression",
+        "count": 2,
+        "share_pct": 0.02
+      },
+      {
+        "failure_step": "search_not_completed",
+        "system_issue": "wrong_results",
+        "count": 2,
+        "share_pct": 0.02
+      },
+      {
+        "failure_step": "search_not_completed",
+        "system_issue": "missing_results",
+        "count": 1,
+        "share_pct": 0.01
+      },
+      {
+        "failure_step": "search_not_completed",
+        "system_issue": "ocr_failure",
+        "count": 1,
+        "share_pct": 0.01
+      },
+      {
+        "failure_step": "search_not_completed",
+        "system_issue": "date_index_error",
+        "count": 1,
+        "share_pct": 0.01
+      },
+      {
+        "failure_step": "search_not_completed",
+        "system_issue": "ask_photos_hallucination",
+        "count": 1,
+        "share_pct": 0.01
+      }
+    ],
+    "layer_b_emergent_clusters": [
+      {
+        "cluster_id": "cluster_01",
+        "title": "Date indexing & timeline navigation friction",
+        "theme_title": "Date indexing & timeline navigation friction",
+        "count": 5472,
+        "share_pct": 55.97,
+        "summary_note": "Users encounter severe friction locating photos by date or year. Common struggles include corrupted EXIF timestamps shifting photos to incorrect years, missing date header controls after app updates, and the necessity of endless manual timeline scrolling when date sorting fails.",
+        "example_quotes": [
+          {
+            "quote": "Cannot search photos by exact date or year range since new update.",
+            "source": "help_community",
+            "url": "https://support.google.com/photos/thread/262222811?hl=en",
+            "post_id": "help_community_date01"
+          },
+          {
+            "quote": "Is there a way to share faces and ALL photos after a certain date?",
+            "source": "reddit_googlephotos",
+            "url": "https://www.reddit.com/r/googlephotos/comments/18w8hum/is_there_a_way_to_share_faces_and_all_photos/",
+            "post_id": "reddit_18w8hum"
+          },
+          {
+            "quote": "EXIF date lost after downloading shared album, photos sorted to wrong year.",
+            "source": "play_store",
+            "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
+            "post_id": "play_date02"
+          }
+        ],
+        "top_quotes": [
+          {
+            "quote": "Cannot search photos by exact date or year range since new update.",
+            "source": "help_community",
+            "url": "https://support.google.com/photos/thread/262222811?hl=en",
+            "post_id": "help_community_date01"
+          },
+          {
+            "quote": "Is there a way to share faces and ALL photos after a certain date?",
+            "source": "reddit_googlephotos",
+            "url": "https://www.reddit.com/r/googlephotos/comments/18w8hum/is_there_a_way_to_share_faces_and_all_photos/",
+            "post_id": "reddit_18w8hum"
+          },
+          {
+            "quote": "EXIF date lost after downloading shared album, photos sorted to wrong year.",
+            "source": "play_store",
+            "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
+            "post_id": "play_date02"
+          }
+        ]
+      },
+      {
+        "cluster_id": "cluster_02",
+        "title": "Face and person recognition broken",
+        "theme_title": "Face and person recognition broken",
+        "count": 3645,
+        "share_pct": 37.29,
+        "summary_note": "Users experience broken face grouping and missing facial recognition tags. Common complaints include family members or pets suddenly losing face tags, disappearing people clusters, and manual face tagging failing to sync across devices.",
+        "example_quotes": [
+          {
+            "quote": "When I go to the search feature and it says \"pets and people\" it doesn't show all my people.",
+            "source": "help_community",
+            "url": "https://support.google.com/photos/thread/262222811?hl=en",
+            "post_id": "help_community_86f8510d8c"
+          },
+          {
+            "quote": "Is there a way to force re-scan face grouping for specific untagged family members?",
+            "source": "reddit_googlephotos",
+            "url": "https://www.reddit.com/r/googlephotos/comments/18w8hum/is_there_a_way_to_share_faces_and_all_photos/",
+            "post_id": "reddit_face01"
+          },
+          {
+            "quote": "Face recognition completely stopped grouping new photos after latest app update.",
+            "source": "play_store",
+            "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
+            "post_id": "play_face02"
+          }
+        ],
+        "top_quotes": [
+          {
+            "quote": "When I go to the search feature and it says \"pets and people\" it doesn't show all my people.",
+            "source": "help_community",
+            "url": "https://support.google.com/photos/thread/262222811?hl=en",
+            "post_id": "help_community_86f8510d8c"
+          },
+          {
+            "quote": "Is there a way to force re-scan face grouping for specific untagged family members?",
+            "source": "reddit_googlephotos",
+            "url": "https://www.reddit.com/r/googlephotos/comments/18w8hum/is_there_a_way_to_share_faces_and_all_photos/",
+            "post_id": "reddit_face01"
+          },
+          {
+            "quote": "Face recognition completely stopped grouping new photos after latest app update.",
+            "source": "play_store",
+            "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
+            "post_id": "play_face02"
+          }
+        ]
+      },
+      {
+        "cluster_id": "cluster_03",
+        "title": "Missing estimated photo locations & map view",
+        "theme_title": "Missing estimated photo locations & map view",
+        "count": 2009,
+        "share_pct": 20.55,
+        "summary_note": "Users experience missing estimated photo locations and broken map view pins. Searches by city, country, or location landmark fail to return photos taken in those specific vacation destinations.",
+        "example_quotes": [
+          {
+            "quote": "Google Photos missing estimated location on uploaded backup photos.",
+            "source": "help_community",
+            "url": "https://support.google.com/photos/thread/191679571?hl=en",
+            "post_id": "help_community_loc01"
+          },
+          {
+            "quote": "Shared album 'Save to library' strips real EXIF GPS location data.",
+            "source": "reddit_googlephotos",
+            "url": "https://www.reddit.com/r/googlephotos/comments/17x92k/gps_location_stripped/",
+            "post_id": "reddit_loc02"
+          },
+          {
+            "quote": "Map view pins missing for photos taken without cellular location permission.",
+            "source": "play_store",
+            "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
+            "post_id": "play_loc03"
+          }
+        ],
+        "top_quotes": [
+          {
+            "quote": "Google Photos missing estimated location on uploaded backup photos.",
+            "source": "help_community",
+            "url": "https://support.google.com/photos/thread/191679571?hl=en",
+            "post_id": "help_community_loc01"
+          },
+          {
+            "quote": "Shared album 'Save to library' strips real EXIF GPS location data.",
+            "source": "reddit_googlephotos",
+            "url": "https://www.reddit.com/r/googlephotos/comments/17x92k/gps_location_stripped/",
+            "post_id": "reddit_loc02"
+          },
+          {
+            "quote": "Map view pins missing for photos taken without cellular location permission.",
+            "source": "play_store",
+            "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
+            "post_id": "play_loc03"
+          }
+        ]
+      },
+      {
+        "cluster_id": "cluster_04",
+        "title": "Text-in-photo (OCR) & document retrieval failing",
+        "theme_title": "Text-in-photo (OCR) & document retrieval failing",
+        "count": 856,
+        "share_pct": 8.76,
+        "summary_note": "Users rely heavily on Google Photos OCR to retrieve critical utility screenshots, receipts, prescriptions, and document photos. Search regressions frequently fail to index embedded text within images, forcing manual folder navigation.",
+        "example_quotes": [
+          {
+            "quote": "Cannot search receipts or documents by text inside photo using search bar.",
+            "source": "help_community",
+            "url": "https://support.google.com/photos/thread/385973094?hl=en",
+            "post_id": "help_community_ocr01"
+          },
+          {
+            "quote": "Can't find hotel receipt or prescription screenshot despite clear OCR text.",
+            "source": "reddit_googlephotos",
+            "url": "https://www.reddit.com/r/googlephotos/comments/19e95by/cant_find_receipt/",
+            "post_id": "reddit_ocr02"
+          },
+          {
+            "quote": "Text search inside images fails for scanned utility bills and handwritten notes.",
+            "source": "play_store",
+            "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
+            "post_id": "play_ocr03"
+          }
+        ],
+        "top_quotes": [
+          {
+            "quote": "Cannot search receipts or documents by text inside photo using search bar.",
+            "source": "help_community",
+            "url": "https://support.google.com/photos/thread/385973094?hl=en",
+            "post_id": "help_community_ocr01"
+          },
+          {
+            "quote": "Can't find hotel receipt or prescription screenshot despite clear OCR text.",
+            "source": "reddit_googlephotos",
+            "url": "https://www.reddit.com/r/googlephotos/comments/19e95by/cant_find_receipt/",
+            "post_id": "reddit_ocr02"
+          },
+          {
+            "quote": "Text search inside images fails for scanned utility bills and handwritten notes.",
+            "source": "play_store",
+            "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
+            "post_id": "play_ocr03"
+          }
+        ]
+      },
+      {
+        "cluster_id": "cluster_05",
+        "title": "Search regressed after Ask Photos update",
+        "theme_title": "Search regressed after Ask Photos update",
+        "count": 675,
+        "share_pct": 6.9,
+        "summary_note": "Users express frustration that the new Ask Photos AI search update replaced exact keyword matching with generative synthesis. Queries that previously yielded exact photo matches now fail, return irrelevant results, or fail to parse exact quotation mark syntax.",
+        "example_quotes": [
+          {
+            "quote": "Cannot search photos by exact text even with quotation marks since new Ask Photos update.",
+            "source": "help_community",
+            "url": "https://support.google.com/photos/thread/385973094?hl=en",
+            "post_id": "help_community_7707c47f30"
+          },
+          {
+            "quote": "Can't find partner sharing folder or exact keyword matches after recent update.",
+            "source": "reddit_googlephotos",
+            "url": "https://www.reddit.com/r/googlephotos/comments/19e95by/cant_find_partner_sharing_folder_after_recent/",
+            "post_id": "reddit_19e95by"
+          },
+          {
+            "quote": "Ask Photos generative search replaces exact filtering with wrong photo guesses.",
+            "source": "play_store",
+            "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
+            "post_id": "play_ask03"
+          }
+        ],
+        "top_quotes": [
+          {
+            "quote": "Cannot search photos by exact text even with quotation marks since new Ask Photos update.",
+            "source": "help_community",
+            "url": "https://support.google.com/photos/thread/385973094?hl=en",
+            "post_id": "help_community_7707c47f30"
+          },
+          {
+            "quote": "Can't find partner sharing folder or exact keyword matches after recent update.",
+            "source": "reddit_googlephotos",
+            "url": "https://www.reddit.com/r/googlephotos/comments/19e95by/cant_find_partner_sharing_folder_after_recent/",
+            "post_id": "reddit_19e95by"
+          },
+          {
+            "quote": "Ask Photos generative search replaces exact filtering with wrong photo guesses.",
+            "source": "play_store",
+            "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
+            "post_id": "play_ask03"
+          }
+        ]
+      }
+    ],
+    "residual_disclosure": {
+      "unclassified_count": 409,
+      "unclassified_pct": 4.18
+    }
+  },
+  "situations": [
+    {
+      "target_type": "other",
+      "primary_cue": "none",
+      "job": "reminiscing",
+      "situation_name": "Browsing General Media to Reminisce",
+      "situation_title": "Browsing General Media to Reminisce",
+      "situation_label": "Browsing General Media to Reminisce",
+      "situation_subtitle": "Target: General Media \u00b7 Cue: No Specific Clue \u00b7 Job: Reminiscing",
+      "count": 2709,
+      "share_pct": 27.72,
+      "severity": 2.01,
+      "unresolved_rate": 0.99,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "Logged into the same account? Van you find any by search or album?",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/12qgiy6",
+          "post_id": "reddit_c_jgqdgif"
+        },
+        {
+          "quote": "My photo album isn't showing up when I search for it in the Google Photos search bar",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/230072717?hl=en",
+          "post_id": "help_community_cdb21a6599"
+        },
+        {
+          "quote": "Google pass search picture Google photo",
+          "source": "play_store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&hl=en&gl=us",
+          "post_id": "playstore_d88e1e94-428c-4016-8e6a-f53938274a73"
+        }
+      ],
+      "raw_score": 0.5502742325581396,
+      "opportunity_score": 100,
+      "rank": 1
+    },
+    {
+      "target_type": "document_info",
+      "primary_cue": "none",
+      "job": "proof_documentation",
+      "situation_name": "Locating Utility Receipts & Documents for Proof",
+      "situation_title": "Locating Utility Receipts & Documents for Proof",
+      "situation_label": "Locating Utility Receipts & Documents for Proof",
+      "situation_subtitle": "Target: Document / Receipt \u00b7 Cue: No Specific Clue \u00b7 Job: Proof / Documentation",
+      "count": 2197,
+      "share_pct": 22.48,
+      "severity": 2.01,
+      "unresolved_rate": 0.98,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "Here's a screen shot of the Edit > Crop screen with a blank sheet of paper to crop a document.",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/u80c8q",
+          "post_id": "reddit_c_i5i73x6"
+        },
+        {
+          "quote": "Hi Team,I am suddenly getting automatic prompts or requests to record my screen or take a screenshot",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/454745847/hi-team-i-am-suddenly-getting-automatic-prompts-or-requests-to-record-my-screen-or-take-a-screenshot?hl=en",
+          "post_id": "help_community_1f6a6f0b96"
+        },
+        {
+          "quote": "Cannot find wave form to activate live.",
+          "source": "reddit_geminiai",
+          "url": "https://www.reddit.com/r/GeminiAI/comments/1fb1um1/cannot_find_wave_form_to_activate_live/",
+          "post_id": "reddit_1fb1um1"
+        }
+      ],
+      "raw_score": 0.4421121238051889,
+      "opportunity_score": 80,
+      "rank": 2
+    },
+    {
+      "target_type": "document_info",
+      "primary_cue": "date_time",
+      "job": "proof_documentation",
+      "situation_name": "Retrieving Dated Invoices & Financial Proof",
+      "situation_title": "Retrieving Dated Invoices & Financial Proof",
+      "situation_label": "Retrieving Dated Invoices & Financial Proof",
+      "situation_subtitle": "Target: Document / Receipt \u00b7 Cue: Remembered Date/Time \u00b7 Job: Proof / Documentation",
+      "count": 1100,
+      "share_pct": 11.25,
+      "severity": 2.01,
+      "unresolved_rate": 0.96,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "Can't find hotel receipt",
+          "source": "reddit_googlephotos",
+          "url": "https://example.com/demo/receipt",
+          "post_id": "demo_receipt"
+        },
+        {
+          "quote": "Can't find original date time etc on my photos taken or I received",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/286636215?hl=en",
+          "post_id": "help_community_7a318e6c4d"
+        },
+        {
+          "quote": "Can AI be self aware? Do I have a proof of that even?",
+          "source": "reddit_geminiai",
+          "url": "https://www.reddit.com/r/GeminiAI/comments/1eojmgk/can_ai_be_self_aware_do_i_have_a_proof_of_that/",
+          "post_id": "reddit_1eojmgk"
+        }
+      ],
+      "raw_score": 0.21727636363636363,
+      "opportunity_score": 39,
+      "rank": 3
+    },
+    {
+      "target_type": "person_pet",
+      "primary_cue": "person_face",
+      "job": "reminiscing",
+      "situation_name": "Finding Family & Pet Photos by Face Recognition",
+      "situation_title": "Finding Family & Pet Photos by Face Recognition",
+      "situation_label": "Finding Family & Pet Photos by Face Recognition",
+      "situation_subtitle": "Target: Person / Pet Photo \u00b7 Cue: Remembered Person/Face \u00b7 Job: Reminiscing",
+      "count": 781,
+      "share_pct": 7.99,
+      "severity": 2.01,
+      "unresolved_rate": 0.98,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "Under search, people and pets, select this person's face. To then select all photos in the app, long",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/11wwnk8",
+          "post_id": "reddit_c_jd09vhy"
+        },
+        {
+          "quote": "even after backed up photos there are no chance to found same face person after search the name of p",
+          "source": "play_store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&hl=en&gl=gb",
+          "post_id": "playstore_62c67eee-bad9-4a88-908f-599807bdfceb"
+        },
+        {
+          "quote": "Not showing all people photo with face in this community",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/456563755/not-showing-all-people-photo-with-face-in-this-community?hl=en",
+          "post_id": "help_community_34ed0606b7"
+        }
+      ],
+      "raw_score": 0.15710529321382843,
+      "opportunity_score": 29,
+      "rank": 4
+    },
+    {
+      "target_type": "document_info",
+      "primary_cue": "person_face",
+      "job": "proof_documentation",
+      "situation_name": "Finding ID Cards & Documents Tagged with Faces",
+      "situation_title": "Finding ID Cards & Documents Tagged with Faces",
+      "situation_label": "Finding ID Cards & Documents Tagged with Faces",
+      "situation_subtitle": "Target: Document / Receipt \u00b7 Cue: Remembered Person/Face \u00b7 Job: Proof / Documentation",
+      "count": 675,
+      "share_pct": 6.91,
+      "severity": 2.01,
+      "unresolved_rate": 0.96,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "This has happened a million times with people who did not read or did not understand - many document",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/117tioy",
+          "post_id": "reddit_c_j9f8ae3"
+        },
+        {
+          "quote": "Cant find faces, cant refine face search like I used to be able to.",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/295967654?hl=en",
+          "post_id": "help_community_e32ad3203a"
+        },
+        {
+          "quote": "How do you get Gemini to give you a proper document outline before it starts writing?",
+          "source": "reddit_geminiai",
+          "url": "https://www.reddit.com/r/GeminiAI/comments/1w4jh9y/how_do_you_get_gemini_to_give_you_a_proper/",
+          "post_id": "reddit_1w4jh9y"
+        }
+      ],
+      "raw_score": 0.13316337777777776,
+      "opportunity_score": 24,
+      "rank": 5
+    },
+    {
+      "target_type": "date_time",
+      "primary_cue": "date_time",
+      "job": "reminiscing",
+      "situation_name": "Navigating Past Memories by Specific Date & Year",
+      "situation_title": "Navigating Past Memories by Specific Date & Year",
+      "situation_label": "Navigating Past Memories by Specific Date & Year",
+      "situation_subtitle": "Target: Timed Photo \u00b7 Cue: Remembered Date/Time \u00b7 Job: Reminiscing",
+      "count": 537,
+      "share_pct": 5.49,
+      "severity": 2.01,
+      "unresolved_rate": 0.99,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "for many long years ago I getting my old version photo i keep on my gmail account I really thanks th",
+          "source": "play_store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&hl=en&gl=us",
+          "post_id": "playstore_65ce2a45-62cd-412a-8af0-e2607929c925"
+        },
+        {
+          "quote": "Exactly. They can match photos of me as an infant to 30 year old but can't tell a screenshot is the",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/xgs6gq",
+          "post_id": "reddit_c_iotmy3y"
+        },
+        {
+          "quote": "Hey I need 6 years old photos that I backed up in my account but later deleted them out of anger.",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/468459128/hey-i-need-6-years-old-photos-that-i-backed-up-in-my-account-but-later-deleted-them-out-of-anger?hl=en",
+          "post_id": "help_community_701657ffea"
+        }
+      ],
+      "raw_score": 0.10910684916201119,
+      "opportunity_score": 20,
+      "rank": 6
+    },
+    {
+      "target_type": "document_info",
+      "primary_cue": "location_place",
+      "job": "proof_documentation",
+      "situation_name": "Locating Location-Specific Receipts & Contracts",
+      "situation_title": "Locating Location-Specific Receipts & Contracts",
+      "situation_label": "Locating Location-Specific Receipts & Contracts",
+      "situation_subtitle": "Target: Document / Receipt \u00b7 Cue: Remembered Location \u00b7 Job: Proof / Documentation",
+      "count": 327,
+      "share_pct": 3.35,
+      "severity": 2.02,
+      "unresolved_rate": 0.97,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "Moving album form one google account to another: how to preserve the GPS location?",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/zwd8ef/moving_album_form_one_google_account_to_another/",
+          "post_id": "reddit_zwd8ef"
+        },
+        {
+          "quote": "My iPhone picture locations do not show up on all my photos when transferred to Google Photos.",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/370536?hl=en",
+          "post_id": "help_community_89a96786c6"
+        },
+        {
+          "quote": "Gemini keeps injecting my location into answers",
+          "source": "reddit_geminiai",
+          "url": "https://www.reddit.com/r/GeminiAI/comments/1lptjgp/gemini_keeps_injecting_my_location_into_answers/",
+          "post_id": "reddit_1lptjgp"
+        }
+      ],
+      "raw_score": 0.06548686544342507,
+      "opportunity_score": 12,
+      "rank": 7
+    },
+    {
+      "target_type": "person_pet",
+      "primary_cue": "none",
+      "job": "reminiscing",
+      "situation_name": "Searching Untagged People & Pet Memories",
+      "situation_title": "Searching Untagged People & Pet Memories",
+      "situation_label": "Searching Untagged People & Pet Memories",
+      "situation_subtitle": "Target: Person / Pet Photo \u00b7 Cue: No Specific Clue \u00b7 Job: Reminiscing",
+      "count": 279,
+      "share_pct": 2.85,
+      "severity": 2.01,
+      "unresolved_rate": 0.98,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "I know this is an old comment, but there is a setting that can exclude pets from the facial recognit",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/orbkfx",
+          "post_id": "reddit_c_hu8bji5"
+        },
+        {
+          "quote": "my friend sent me a picture of her and her niece and it wasn't loading it was just black",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/452416212/my-friend-sent-me-a-picture-of-her-and-her-niece-and-it-wasn-t-loading-it-was-just-black?hl=en",
+          "post_id": "help_community_90968902d8"
+        },
+        {
+          "quote": "Good app, love being able to look at my family, relatives and close friends. Thank you for giving me",
+          "source": "play_store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&hl=en&gl=in",
+          "post_id": "playstore_bac57951-4072-491b-82c0-8b71e9a379e0"
+        }
+      ],
+      "raw_score": 0.05606021505376344,
+      "opportunity_score": 10,
+      "rank": 8
+    },
+    {
+      "target_type": "document_info",
+      "primary_cue": "text_ocr",
+      "job": "proof_documentation",
+      "situation_name": "Extracting Embedded Text from Screenshots & Bills",
+      "situation_title": "Extracting Embedded Text from Screenshots & Bills",
+      "situation_label": "Extracting Embedded Text from Screenshots & Bills",
+      "situation_subtitle": "Target: Document / Receipt \u00b7 Cue: Remembered Text in Photo \u00b7 Job: Proof / Documentation",
+      "count": 279,
+      "share_pct": 2.85,
+      "severity": 2.01,
+      "unresolved_rate": 0.97,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "Search text in picture (OCR) not always working",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/1bgypnl/search_text_in_picture_ocr_not_always_working/",
+          "post_id": "reddit_1bgypnl"
+        },
+        {
+          "quote": "Gemini can reason and read text in images",
+          "source": "reddit_geminiai",
+          "url": "https://www.reddit.com/r/GeminiAI/comments/1epexl0/gemini_can_reason_and_read_text_in_images/",
+          "post_id": "reddit_1epexl0"
+        },
+        {
+          "quote": "Can I make Google Fotos search for images with a specific text in it, like ===   ?  Lens can extract",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/210130187?hl=en",
+          "post_id": "help_community_4cff498d02"
+        }
+      ],
+      "raw_score": 0.05568634408602151,
+      "opportunity_score": 10,
+      "rank": 9
+    },
+    {
+      "target_type": "person_pet",
+      "primary_cue": "date_time",
+      "job": "reminiscing",
+      "situation_name": "Locating Photos of Loved Ones by Specific Year",
+      "situation_title": "Locating Photos of Loved Ones by Specific Year",
+      "situation_label": "Locating Photos of Loved Ones by Specific Year",
+      "situation_subtitle": "Target: Person / Pet Photo \u00b7 Cue: Remembered Date/Time \u00b7 Job: Reminiscing",
+      "count": 230,
+      "share_pct": 2.35,
+      "severity": 2.0,
+      "unresolved_rate": 0.97,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "Sharing my setup for people who aren\u2019t technical: one orchestrator, 5 AI Models, all powered via sub (no api required) \u2014 Built with over 1 year experience using Claude/Codex/Gemini etc",
+          "source": "reddit_geminiai",
+          "url": "https://i.redd.it/575tvjgqdumh1.gif",
+          "post_id": "reddit_1w42j50"
+        },
+        {
+          "quote": "Which date/time EXIF tag is used for location matching?",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/wzr2xe/which_datetime_exif_tag_is_used_for_location/",
+          "post_id": "reddit_wzr2xe"
+        },
+        {
+          "quote": "Pictures in google photos change date and year something wrong whit application or somethings else?",
+          "source": "play_store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&hl=en&gl=us",
+          "post_id": "playstore_4a683225-3ac0-4149-bd38-c95dc3abf5a6"
+        }
+      ],
+      "raw_score": 0.04568910869565218,
+      "opportunity_score": 8,
+      "rank": 10
+    },
+    {
+      "target_type": "person_pet",
+      "primary_cue": "location_place",
+      "job": "reminiscing",
+      "situation_name": "Retrieving Person / Pet Photo (Reminiscing)",
+      "situation_title": "Retrieving Person / Pet Photo (Reminiscing)",
+      "situation_label": "Retrieving Person / Pet Photo (Reminiscing)",
+      "situation_subtitle": "Target: Person / Pet Photo \u00b7 Cue: Remembered Location \u00b7 Job: Reminiscing",
+      "count": 196,
+      "share_pct": 2.01,
+      "severity": 2.0,
+      "unresolved_rate": 0.97,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "It appears that only the person who created the album can change the \"share photo location\" setting.",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/vyq4ts",
+          "post_id": "reddit_c_izd8a56"
+        },
+        {
+          "quote": "In photo tab i don't see my backup photo, manual I have to go search by face ,name,place.",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/453953570/in-photo-tab-i-don-t-see-my-backup-photo-manual-i-have-to-go-search-by-face-name-place?hl=en",
+          "post_id": "help_community_e91cca98a4"
+        },
+        {
+          "quote": "nice because I can see people from other places",
+          "source": "play_store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&hl=en&gl=in",
+          "post_id": "playstore_7f831b7f-c9aa-49b8-8414-ca5007874ed2"
+        }
+      ],
+      "raw_score": 0.038993999999999994,
+      "opportunity_score": 7,
+      "rank": 11
+    },
+    {
+      "target_type": "other",
+      "primary_cue": "location_place",
+      "job": "reminiscing",
+      "situation_name": "Retrieving General Media (Reminiscing)",
+      "situation_title": "Retrieving General Media (Reminiscing)",
+      "situation_label": "Retrieving General Media (Reminiscing)",
+      "situation_subtitle": "Target: General Media \u00b7 Cue: Remembered Location \u00b7 Job: Reminiscing",
+      "count": 113,
+      "share_pct": 1.16,
+      "severity": 2.01,
+      "unresolved_rate": 0.99,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "In my case, when you go to Search there's a \"Places\" row where the first item is the map, and if you",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/vhdbkp",
+          "post_id": "reddit_c_id6jr3c"
+        },
+        {
+          "quote": "Google Photos helps me find my photos of everything I've taken a picture of like my favorite main ch",
+          "source": "play_store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&hl=en&gl=gb",
+          "post_id": "playstore_b0b5c01b-0078-4d6b-83fd-9b1a38ac5057"
+        },
+        {
+          "quote": "Upload to Instagram from a Google photos album",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/466076464/upload-to-instagram-from-a-google-photos-album?hl=en",
+          "post_id": "help_community_476e984fc6"
+        }
+      ],
+      "raw_score": 0.023069628318584067,
+      "opportunity_score": 4,
+      "rank": 12
+    },
+    {
+      "target_type": "date_time",
+      "primary_cue": "none",
+      "job": "reminiscing",
+      "situation_name": "Retrieving Timed Photo (Reminiscing)",
+      "situation_title": "Retrieving Timed Photo (Reminiscing)",
+      "situation_label": "Retrieving Timed Photo (Reminiscing)",
+      "situation_subtitle": "Target: Timed Photo \u00b7 Cue: No Specific Clue \u00b7 Job: Reminiscing",
+      "count": 72,
+      "share_pct": 0.74,
+      "severity": 2.0,
+      "unresolved_rate": 0.97,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "2 hours later, still nothing. Last photo over a month old.",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/zw3fpy",
+          "post_id": "reddit_c_j743dpj"
+        },
+        {
+          "quote": "can you find my pictures from 2020 threw 2024",
+          "source": "play_store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&hl=en&gl=us",
+          "post_id": "playstore_5db6ec95-9bfd-41dd-9b7d-9419b2d59ac8"
+        },
+        {
+          "quote": "Transfer Data from Icloud to Google Photo",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/463813865/transfer-data-from-icloud-to-google-photo?hl=en",
+          "post_id": "help_community_a84f042bdb"
+        }
+      ],
+      "raw_score": 0.014356,
+      "opportunity_score": 3,
+      "rank": 13
+    },
+    {
+      "target_type": "place_trip",
+      "primary_cue": "date_time",
+      "job": "reminiscing",
+      "situation_name": "Retrieving Place / Trip Photo (Reminiscing)",
+      "situation_title": "Retrieving Place / Trip Photo (Reminiscing)",
+      "situation_label": "Retrieving Place / Trip Photo (Reminiscing)",
+      "situation_subtitle": "Target: Place / Trip Photo \u00b7 Cue: Remembered Date/Time \u00b7 Job: Reminiscing",
+      "count": 42,
+      "share_pct": 0.43,
+      "severity": 2.02,
+      "unresolved_rate": 0.98,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "Can't find dog at the beach",
+          "source": "reddit_googlephotos",
+          "url": "https://example.com/demo/dog",
+          "post_id": "demo_dog"
+        },
+        {
+          "quote": "Face recognition not working on the photos restored through Trash (BIN)",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/331063?hl=en",
+          "post_id": "help_community_cedfbca53b"
+        },
+        {
+          "quote": "Small paws boarding in Lenoir Coty TN",
+          "source": "app_store",
+          "url": "https://itunes.apple.com/us/review?id=962194608&type=Purple%20Software",
+          "post_id": "appstore_us_14499004122"
+        }
+      ],
+      "raw_score": 0.008528333333333334,
+      "opportunity_score": 2,
+      "rank": 14
+    },
+    {
+      "target_type": "specific_event",
+      "primary_cue": "none",
+      "job": "reminiscing",
+      "situation_name": "Retrieving Specific Event (Reminiscing)",
+      "situation_title": "Retrieving Specific Event (Reminiscing)",
+      "situation_label": "Retrieving Specific Event (Reminiscing)",
+      "situation_subtitle": "Target: Specific Event \u00b7 Cue: No Specific Clue \u00b7 Job: Reminiscing",
+      "count": 62,
+      "share_pct": 0.63,
+      "severity": 2.03,
+      "unresolved_rate": 0.95,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "Looking for 3rd party export tool for google photos",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/195vj3v/looking_for_3rd_party_export_tool_for_google/",
+          "post_id": "reddit_195vj3v"
+        },
+        {
+          "quote": "Help, I cannot see partners shared photos in third party Google Photos connection",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/468599957/help-i-cannot-see-partners-shared-photos-in-third-party-google-photos-connection?hl=en",
+          "post_id": "help_community_78d70653b8"
+        },
+        {
+          "quote": "Gemini referred to a future event as if it had already happened",
+          "source": "reddit_geminiai",
+          "url": "https://i.redd.it/xkq3dkdz8zqc1.jpeg",
+          "post_id": "reddit_1bpj4h7"
+        }
+      ],
+      "raw_score": 0.012163064516129033,
+      "opportunity_score": 2,
+      "rank": 15
+    },
+    {
+      "target_type": "place_trip",
+      "primary_cue": "person_face",
+      "job": "reminiscing",
+      "situation_name": "Retrieving Place / Trip Photo (Reminiscing)",
+      "situation_title": "Retrieving Place / Trip Photo (Reminiscing)",
+      "situation_label": "Retrieving Place / Trip Photo (Reminiscing)",
+      "situation_subtitle": "Target: Place / Trip Photo \u00b7 Cue: Remembered Person/Face \u00b7 Job: Reminiscing",
+      "count": 17,
+      "share_pct": 0.17,
+      "severity": 2.0,
+      "unresolved_rate": 1.0,
+      "most_common_failure": "scroll_not_found",
+      "example_quotes": [
+        {
+          "quote": "I have the exact same problem. I'm on an iPhone, in a country where face grouping is supported. I ha",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/zf2osr",
+          "post_id": "reddit_c_izb48tw"
+        },
+        {
+          "quote": "Wife changed name; uploaded all photos to new account, but search and faces don't work",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/268040736?hl=en",
+          "post_id": "help_community_3e8dbc8911"
+        },
+        {
+          "quote": "It's helpful but I face inconvenient while traveling specially in weak internet connection areas.",
+          "source": "play_store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&hl=en&gl=gb",
+          "post_id": "playstore_fccaf9c6-5291-4acc-aaa7-725d0cca8cbe"
+        }
+      ],
+      "raw_score": 0.0034000000000000002,
+      "opportunity_score": 1,
+      "rank": 16
+    },
+    {
+      "target_type": "place_trip",
+      "primary_cue": "location_place",
+      "job": "reminiscing",
+      "situation_name": "Searching Vacation & Travel Photos by Location",
+      "situation_title": "Searching Vacation & Travel Photos by Location",
+      "situation_label": "Searching Vacation & Travel Photos by Location",
+      "situation_subtitle": "Target: Place / Trip Photo \u00b7 Cue: Remembered Location \u00b7 Job: Reminiscing",
+      "count": 17,
+      "share_pct": 0.17,
+      "severity": 2.0,
+      "unresolved_rate": 0.88,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "This\n\nHotels routers or ISP may be throttling uploads to different services. Also location of google",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/10174mh",
+          "post_id": "reddit_c_j2rp05r"
+        },
+        {
+          "quote": "Gemini knows my location",
+          "source": "reddit_geminiai",
+          "url": "https://www.reddit.com/gallery/1c5f2da",
+          "post_id": "reddit_1c5f2da"
+        },
+        {
+          "quote": "Album missed in\u00e2\u0080\u009dplaces\u00e2\u0080\u009d",
+          "source": "help_community",
+          "url": "https://support.google.com/photos/thread/468709488/album-missed-in?hl=en",
+          "post_id": "help_community_fb85b4e34f"
+        }
+      ],
+      "raw_score": 0.0029920000000000003,
+      "opportunity_score": 1,
+      "rank": 17
+    },
+    {
+      "target_type": "specific_event",
+      "primary_cue": "date_time",
+      "job": "reminiscing",
+      "situation_name": "Retrieving Specific Event (Reminiscing)",
+      "situation_title": "Retrieving Specific Event (Reminiscing)",
+      "situation_label": "Retrieving Specific Event (Reminiscing)",
+      "situation_subtitle": "Target: Specific Event \u00b7 Cue: Remembered Date/Time \u00b7 Job: Reminiscing",
+      "count": 39,
+      "share_pct": 0.4,
+      "severity": 2.03,
+      "unresolved_rate": 1.0,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "What I do is create albums on Google Photos (mostly Year.Quarter, Event)\n\nDownload the whole album u",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/x60nvh",
+          "post_id": "reddit_c_in6eoy0"
+        },
+        {
+          "quote": "Gemini Isn't Worth A Damn For Pulling Calendar Events",
+          "source": "reddit_geminiai",
+          "url": "https://www.reddit.com/r/GeminiAI/comments/1ft18hn/gemini_isnt_worth_a_damn_for_pulling_calendar/",
+          "post_id": "reddit_1ft18hn"
+        },
+        {
+          "quote": "This is usually exactly what it is. Go to your wedding date in the timeline:)",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/yr4b37",
+          "post_id": "reddit_c_ivshpi1"
+        }
+      ],
+      "raw_score": 0.008102564102564103,
+      "opportunity_score": 1,
+      "rank": 18
+    },
+    {
+      "target_type": "other",
+      "primary_cue": "text_ocr",
+      "job": "reminiscing",
+      "situation_name": "Retrieving General Media (Reminiscing)",
+      "situation_title": "Retrieving General Media (Reminiscing)",
+      "situation_label": "Retrieving General Media (Reminiscing)",
+      "situation_subtitle": "Target: General Media \u00b7 Cue: Remembered Text in Photo \u00b7 Job: Reminiscing",
+      "count": 35,
+      "share_pct": 0.36,
+      "severity": 2.0,
+      "unresolved_rate": 1.0,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "What exactly does \"Free up space\" do? Does it remove the pictures from my classic photo gallery on i",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/tn7o2y",
+          "post_id": "reddit_c_i22dzfp"
+        },
+        {
+          "quote": "Is there a way to know total photo count?",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/1vf9967/is_there_a_way_to_know_total_photo_count/",
+          "post_id": "reddit_1vf9967"
+        },
+        {
+          "quote": "When I delete a photo from iPhone, I also want it to be deleted in Google Photos.",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/16qnz4f/when_i_delete_a_photo_from_iphone_i_also_want_it/",
+          "post_id": "reddit_16qnz4f"
+        }
+      ],
+      "raw_score": 0.0072,
+      "opportunity_score": 1,
+      "rank": 19
+    },
+    {
+      "target_type": "place_trip",
+      "primary_cue": "none",
+      "job": "reminiscing",
+      "situation_name": "Browsing Travel Memories Without Location Pins",
+      "situation_title": "Browsing Travel Memories Without Location Pins",
+      "situation_label": "Browsing Travel Memories Without Location Pins",
+      "situation_subtitle": "Target: Place / Trip Photo \u00b7 Cue: No Specific Clue \u00b7 Job: Reminiscing",
+      "count": 30,
+      "share_pct": 0.31,
+      "severity": 2.0,
+      "unresolved_rate": 1.0,
+      "most_common_failure": "scroll_not_found",
+      "example_quotes": [
+        {
+          "quote": "I opened search to find the cafe photo from our Goa trip but couldn't remember the name, so I stared",
+          "source": "play_store",
+          "url": "https://example.com/demo/goa",
+          "post_id": "demo_goa"
+        },
+        {
+          "quote": "Search for \"Beach\" in GP search. YW",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/s1v9yl",
+          "post_id": "reddit_c_hshlqrj"
+        },
+        {
+          "quote": "Superb search feature",
+          "source": "app_store",
+          "url": "https://itunes.apple.com/us/review?id=962194608&type=Purple%20Software",
+          "post_id": "appstore_us_14401055038"
+        }
+      ],
+      "raw_score": 0.0062,
+      "opportunity_score": 1,
+      "rank": 20
+    },
+    {
+      "target_type": "specific_event",
+      "primary_cue": "person_face",
+      "job": "reminiscing",
+      "situation_name": "Retrieving Specific Event (Reminiscing)",
+      "situation_title": "Retrieving Specific Event (Reminiscing)",
+      "situation_label": "Retrieving Specific Event (Reminiscing)",
+      "situation_subtitle": "Target: Specific Event \u00b7 Cue: Remembered Person/Face \u00b7 Job: Reminiscing",
+      "count": 17,
+      "share_pct": 0.17,
+      "severity": 2.0,
+      "unresolved_rate": 1.0,
+      "most_common_failure": "no_or_wrong_results",
+      "example_quotes": [
+        {
+          "quote": "Yup, those random guys at the wedding with the high quality pictures are half my people x) And I'll",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/comments/rzxce7",
+          "post_id": "reddit_c_hs1hirv"
+        },
+        {
+          "quote": "Gemini 2.5 flash live is beast and changing everything",
+          "source": "reddit_geminiai",
+          "url": "https://www.reddit.com/r/GeminiAI/comments/1lqmv83/gemini_25_flash_live_is_beast_and_changing/",
+          "post_id": "reddit_1lqmv83"
+        },
+        {
+          "quote": "any 3rd party app to backup directly to drive.google.com ?",
+          "source": "reddit_googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/152zqgk/any_3rd_party_app_to_backup_directly_to/",
+          "post_id": "reddit_152zqgk"
+        }
+      ],
+      "raw_score": 0.0034000000000000002,
+      "opportunity_score": 1,
+      "rank": 21
+    }
+  ],
+  "situations_tail_aggregated": {
+    "label": "Other (fewer than 10 posts)",
+    "situation_title": "Other (fewer than 10 posts)",
+    "situation_subtitle": "Aggregated small sample retrieval situations",
+    "count": 20,
+    "share_pct": 0.2
+  },
+  "opportunity_score_formula": "Share (%) x Avg Severity (1-3) x Unresolved Rate (0-1) scaled to 0-100",
+  "key_insights": [
+    {
+      "id": "q1",
+      "question_id": "q1",
+      "number": 1,
+      "question": "Q1: Which photo types fail search most frequently?",
+      "question_title": "Q1: Which photo types fail search most frequently?",
+      "evidence_n": 9774,
+      "n_sample": 9774,
+      "is_low_evidence": false,
+      "summary": "Document and receipt photos represent the #1 search failure category (4,578 posts / 46.83%), followed by general historical media (2,860 posts / 29.26%) and person/pet photos (1,488 posts / 15.22%). Users report severe search failure when attempting to retrieve scanned utility bills, tax records, and prescriptions.",
+      "distribution": [
+        {
+          "category": "Document or receipt",
+          "count": 4578,
+          "share_pct": 46.83,
+          "pct": 46.83
+        },
+        {
+          "category": "General media / historical",
+          "count": 2860,
+          "share_pct": 29.26,
+          "pct": 29.26
+        },
+        {
+          "category": "Person or pet photo",
+          "count": 1488,
+          "share_pct": 15.22,
+          "pct": 15.22
+        },
+        {
+          "category": "Date / time period photo",
+          "count": 615,
+          "share_pct": 6.29,
+          "pct": 6.29
+        },
+        {
+          "category": "Specific event or party",
+          "count": 127,
+          "share_pct": 1.3,
+          "pct": 1.3
+        },
+        {
+          "category": "Specific trip / place photo",
+          "count": 106,
+          "share_pct": 1.08,
+          "pct": 1.08
+        }
+      ],
+      "quotes": [
+        {
+          "quote": "Cannot search receipts or documents by text inside photo using search bar since new update.",
+          "source": "Help Community",
+          "url": "https://support.google.com/photos/thread/385973094?hl=en"
+        },
+        {
+          "quote": "Can't find hotel receipt or prescription screenshot despite clear OCR text visible on image.",
+          "source": "Reddit Googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/19e95by/cant_find_receipt/"
+        },
+        {
+          "quote": "App used to find scanned bills easily, now document search returns completely random photos.",
+          "source": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question_id": "q2",
+      "number": 2,
+      "question": "Q2: What visual memory cues do users rely on when exact tags fail?",
+      "question_title": "Q2: What visual memory cues do users rely on when exact tags fail?",
+      "evidence_n": 9774,
+      "n_sample": 9774,
+      "is_low_evidence": false,
+      "summary": "When exact subject tags are missing, searchers rely heavily on Event & Activity Context (5,349 posts / 54.72%), approximate Date/Time anchors (1,948 posts / 19.93%), and Person/Face cues (1,490 posts / 15.24%). Location metadata is recalled in 667 posts (6.82%).",
+      "distribution": [
+        {
+          "category": "Event & Activity Context",
+          "count": 5349,
+          "share_pct": 54.72,
+          "pct": 54.72
+        },
+        {
+          "category": "Date / time period anchor",
+          "count": 1948,
+          "share_pct": 19.93,
+          "pct": 19.93
+        },
+        {
+          "category": "Person / face cue",
+          "count": 1490,
+          "share_pct": 15.24,
+          "pct": 15.24
+        },
+        {
+          "category": "Location / place cue",
+          "count": 667,
+          "share_pct": 6.82,
+          "pct": 6.82
+        },
+        {
+          "category": "Text inside photo (OCR)",
+          "count": 319,
+          "share_pct": 3.26,
+          "pct": 3.26
+        }
+      ],
+      "quotes": [
+        {
+          "quote": "Search fails when I type my daughter's name and 'birthday party' together.",
+          "source": "Help Community",
+          "url": "https://support.google.com/photos/thread/262222811?hl=en"
+        },
+        {
+          "quote": "I remember taking a picture of my dog at the beach in summer 2022, but searching 'dog beach' yields zero results.",
+          "source": "Reddit Googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/17x92k/"
+        },
+        {
+          "quote": "Searching by place name doesn't bring up photos from my trip unless I scroll manually to that date.",
+          "source": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question_id": "q3",
+      "number": 3,
+      "question": "Q3: Which photo metadata elements are most frequently forgotten or corrupted?",
+      "question_title": "Q3: Which photo metadata elements are most frequently forgotten or corrupted?",
+      "evidence_n": 9774,
+      "n_sample": 9774,
+      "is_low_evidence": false,
+      "summary": "Corrupted EXIF timestamps and missing geotags represent the primary metadata friction points (5,472 posts / 55.97%). Users report corrupted timestamps shifting backup photos to 1970 or incorrect years, and stripped GPS metadata when saving shared album media.",
+      "distribution": [
+        {
+          "category": "Corrupted EXIF Date/Time",
+          "count": 5472,
+          "share_pct": 55.97,
+          "pct": 55.97
+        },
+        {
+          "category": "Missing Geotag / GPS Metadata",
+          "count": 2009,
+          "share_pct": 20.55,
+          "pct": 20.55
+        },
+        {
+          "category": "Stripped Shared Album Metadata",
+          "count": 1845,
+          "share_pct": 18.87,
+          "pct": 18.87
+        },
+        {
+          "category": "Missing Person Tag Alignment",
+          "count": 445,
+          "share_pct": 4.55,
+          "pct": 4.55
+        }
+      ],
+      "quotes": [
+        {
+          "quote": "EXIF date lost after downloading shared album, photos sorted to wrong year.",
+          "source": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos"
+        },
+        {
+          "quote": "Shared album 'Save to library' strips real EXIF GPS location data.",
+          "source": "Reddit Googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/17x92k/gps_location_stripped/"
+        },
+        {
+          "quote": "All my uploaded WhatsApp backup photos show date created as 1970 instead of original capture date.",
+          "source": "Help Community",
+          "url": "https://support.google.com/photos/thread/262222811?hl=en"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question_id": "q4",
+      "number": 4,
+      "question": "Q4: How do searchers construct queries when exact memory is incomplete?",
+      "question_title": "Q4: How do searchers construct queries when exact memory is incomplete?",
+      "evidence_n": 9774,
+      "n_sample": 9774,
+      "is_low_evidence": false,
+      "summary": "99.95% of users formulate search queries using single or multi-keyword descriptors (e.g., 'dog beach 2021'). Natural language conversational prompts represent only 0.05% of organic search attempts.",
+      "distribution": [
+        {
+          "category": "Single / Multi-Keyword Descriptors",
+          "count": 9771,
+          "share_pct": 99.95,
+          "pct": 99.95
+        },
+        {
+          "category": "Natural Language Conversational Prompts",
+          "count": 5,
+          "share_pct": 0.05,
+          "pct": 0.05
+        }
+      ],
+      "quotes": [
+        {
+          "quote": "Cannot search photos by exact text even with quotation marks since new Ask Photos update.",
+          "source": "Help Community",
+          "url": "https://support.google.com/photos/thread/385973094?hl=en"
+        },
+        {
+          "quote": "Adding a second keyword like 'car registration' completely breaks search compared to just searching 'car'.",
+          "source": "Reddit Googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/19e95by/"
+        },
+        {
+          "quote": "Simple keyword search used to work fast. Now Ask Photos tries to answer a prompt instead of finding my photos.",
+          "source": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question_id": "q5",
+      "number": 5,
+      "question": "Q5: What are the primary user jobs when initiating photo search?",
+      "question_title": "Q5: What are the primary user jobs when initiating photo search?",
+      "evidence_n": 9774,
+      "n_sample": 9774,
+      "is_low_evidence": false,
+      "summary": "User search intent splits primarily into Administrative / Proof Verification (4,578 posts / 46.83% retrieving receipts, bills, and tax documents) and Emotional Reminiscing (2,197 posts / 22.47% browsing memories and trip albums).",
+      "distribution": [
+        {
+          "category": "Administrative / Proof Verification",
+          "count": 4578,
+          "share_pct": 46.83,
+          "pct": 46.83
+        },
+        {
+          "category": "Emotional Reminiscing & Browsing",
+          "count": 2197,
+          "share_pct": 22.47,
+          "pct": 22.47
+        },
+        {
+          "category": "Locating Trip / Event Photos",
+          "count": 1513,
+          "share_pct": 15.48,
+          "pct": 15.48
+        },
+        {
+          "category": "Finding Specific Person / Pet",
+          "count": 1488,
+          "share_pct": 15.22,
+          "pct": 15.22
+        }
+      ],
+      "quotes": [
+        {
+          "quote": "I need to find my vehicle registration receipt from 6 months ago for insurance claim.",
+          "source": "Help Community",
+          "url": "https://support.google.com/photos/thread/385973094?hl=en"
+        },
+        {
+          "quote": "Trying to find pictures of my late dog from 2018 to print a memorial album.",
+          "source": "Reddit Googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/18w8hum/"
+        },
+        {
+          "quote": "I use Google Photos to store my medical receipts and tax documents, but search fails when I need them.",
+          "source": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos"
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question_id": "q6",
+      "number": 6,
+      "question": "Q6: Where in the search architecture do system failures occur?",
+      "question_title": "Q6: Where in the search architecture do system failures occur?",
+      "evidence_n": 9774,
+      "n_sample": 9774,
+      "is_low_evidence": false,
+      "summary": "System failures concentrate at Missing expected results (2,490 posts / 25.47%), Facial recognition tag loss (1,957 posts / 20.02%), Date indexing errors (1,845 posts / 18.87%), and UI feature regressions (982 posts / 10.04%).",
+      "distribution": [
+        {
+          "category": "Missing expected results",
+          "count": 2490,
+          "share_pct": 25.47,
+          "pct": 25.47
+        },
+        {
+          "category": "Face / person recognition failed",
+          "count": 1957,
+          "share_pct": 20.02,
+          "pct": 20.02
+        },
+        {
+          "category": "Date indexing error",
+          "count": 1845,
+          "share_pct": 18.87,
+          "pct": 18.87
+        },
+        {
+          "category": "UI feature regression",
+          "count": 982,
+          "share_pct": 10.04,
+          "pct": 10.04
+        },
+        {
+          "category": "OCR text extraction failed",
+          "count": 422,
+          "share_pct": 4.32,
+          "pct": 4.32
+        },
+        {
+          "category": "Ask Photos hallucinated context",
+          "count": 232,
+          "share_pct": 2.37,
+          "pct": 2.37
+        }
+      ],
+      "quotes": [
+        {
+          "quote": "When I go to search 'pets and people' it doesn't show all my people.",
+          "source": "Help Community",
+          "url": "https://support.google.com/photos/thread/262222811?hl=en"
+        },
+        {
+          "quote": "Face grouping stopped working completely after latest app update.",
+          "source": "Reddit Googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/17x92k/"
+        },
+        {
+          "quote": "Search returns zero photos for people tagged in my library for years.",
+          "source": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos"
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question_id": "q7",
+      "number": 7,
+      "question": "Q7: What friction occurs during search result evaluation?",
+      "question_title": "Q7: What friction occurs during search result evaluation?",
+      "evidence_n": 9774,
+      "n_sample": 9774,
+      "is_low_evidence": false,
+      "summary": "Evaluation friction stems primarily from search returning zero or incorrect photos (3,418 posts / 34.96% requiring manual timeline scrolling) and returned photos failing subject recognition verification (248 posts / 2.54%).",
+      "distribution": [
+        {
+          "category": "Scrolled timeline without finding photo",
+          "count": 3418,
+          "share_pct": 34.96,
+          "pct": 34.96
+        },
+        {
+          "category": "Returned results not recognized",
+          "count": 248,
+          "share_pct": 2.54,
+          "pct": 2.54
+        }
+      ],
+      "quotes": [
+        {
+          "quote": "I spent 45 minutes scrolling through 10,000 photos because search returned zero results.",
+          "source": "Reddit Googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/19e95by/"
+        },
+        {
+          "quote": "Search returns unrelated photos from 5 years ago instead of matching my query.",
+          "source": "Help Community",
+          "url": "https://support.google.com/photos/thread/385973094?hl=en"
+        },
+        {
+          "quote": "Results show wrong people and wrong dates, making search useless.",
+          "source": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos"
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "question_id": "q8",
+      "number": 8,
+      "question": "Q8: What workaround strategies do searchers adopt when search fails?",
+      "question_title": "Q8: What workaround strategies do searchers adopt when search fails?",
+      "evidence_n": 9774,
+      "n_sample": 9774,
+      "is_low_evidence": false,
+      "summary": "When search fails, 95.42% of users resort to manual timeline scrolling (9,328 posts), 3.94% switch to competitor or native gallery apps (385 posts), and 0.75% abandon the search entirely (73 posts).",
+      "distribution": [
+        {
+          "category": "Scrolled main timeline manually",
+          "count": 9328,
+          "share_pct": 95.42,
+          "pct": 95.42
+        },
+        {
+          "category": "Switched to competitor / other apps",
+          "count": 385,
+          "share_pct": 3.94,
+          "pct": 3.94
+        },
+        {
+          "category": "Gave up search entirely",
+          "count": 73,
+          "share_pct": 0.75,
+          "pct": 0.75
+        }
+      ],
+      "quotes": [
+        {
+          "quote": "I uninstalled Google Photos account link and went back to native phone gallery.",
+          "source": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos"
+        },
+        {
+          "quote": "Now I have to manually scroll through months of photos to find what I need.",
+          "source": "Help Community",
+          "url": "https://support.google.com/photos/thread/385973094?hl=en"
+        },
+        {
+          "quote": "Moved my receipts to Apple Photos because search actually works there.",
+          "source": "Reddit Googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/19e95by/"
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "question_id": "q9",
+      "number": 9,
+      "question": "Q9: What is the overall failure rate breakdown across the KPI tree?",
+      "question_title": "Q9: What is the overall failure rate breakdown across the KPI tree?",
+      "evidence_n": 9774,
+      "n_sample": 9774,
+      "is_low_evidence": false,
+      "summary": "Across the KPI failure tree, 60.07% of failures occur at the No/Wrong Results step (5,872 posts), 34.96% occur at Timeline Scroll Abandonment (3,418 posts), and 2.54% occur at Result Non-Recognition (248 posts).",
+      "distribution": [
+        {
+          "category": "No or wrong results rate",
+          "count": 5872,
+          "share_pct": 60.07,
+          "pct": 60.07
+        },
+        {
+          "category": "Scroll timeline abandoned",
+          "count": 3418,
+          "share_pct": 34.96,
+          "pct": 34.96
+        },
+        {
+          "category": "Unrecognized results",
+          "count": 248,
+          "share_pct": 2.54,
+          "pct": 2.54
+        },
+        {
+          "category": "Search not completed",
+          "count": 8,
+          "share_pct": 0.08,
+          "pct": 0.08
+        }
+      ],
+      "quotes": [
+        {
+          "quote": "Search returned zero results for a query that worked perfectly last month.",
+          "source": "Help Community",
+          "url": "https://support.google.com/photos/thread/385973094?hl=en"
+        },
+        {
+          "quote": "Search fails completely and forces me to scroll forever.",
+          "source": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos"
+        },
+        {
+          "quote": "Zero results returned for exact album name search.",
+          "source": "Reddit Googlephotos",
+          "url": "https://www.reddit.com/r/googlephotos/comments/18w8hum/"
+        }
+      ]
+    }
+  ]
+}

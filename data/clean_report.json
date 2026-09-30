@@ -1,0 +1,84 @@
+{
+  "total_raw_collected": 31295,
+  "total_cleaned_kept": 9776,
+  "total_dropped": 21519,
+  "exact_duplicates_dropped": 216,
+  "minhash_duplicates_dropped": 24,
+  "non_english_dropped": 133,
+  "under_length_dropped": 5293,
+  "keyword_miss_dropped": 15853,
+  "per_source_report": {
+    "help_community": {
+      "source": "help_community",
+      "total_raw": 405,
+      "total_cleaned": 339,
+      "exact_duplicates": 2,
+      "near_duplicates": 1,
+      "non_english": 0,
+      "placeholder": 0,
+      "short_text": 0,
+      "prefilter_excluded": 63,
+      "malformed": 0
+    },
+    "reddit_googlephotos": {
+      "source": "reddit_googlephotos",
+      "total_raw": 19285,
+      "total_cleaned": 8296,
+      "exact_duplicates": 34,
+      "near_duplicates": 9,
+      "non_english": 3,
+      "placeholder": 2,
+      "short_text": 1067,
+      "prefilter_excluded": 9874,
+      "malformed": 0
+    },
+    "reddit_geminiai": {
+      "source": "reddit_geminiai",
+      "total_raw": 1726,
+      "total_cleaned": 341,
+      "exact_duplicates": 2,
+      "near_duplicates": 1,
+      "non_english": 0,
+      "placeholder": 0,
+      "short_text": 76,
+      "prefilter_excluded": 1306,
+      "malformed": 0
+    },
+    "play_store": {
+      "source": "play_store",
+      "total_raw": 8507,
+      "total_cleaned": 538,
+      "exact_duplicates": 178,
+      "near_duplicates": 12,
+      "non_english": 120,
+      "placeholder": 2,
+      "short_text": 3775,
+      "prefilter_excluded": 3882,
+      "malformed": 0
+    },
+    "app_store": {
+      "source": "app_store",
+      "total_raw": 1317,
+      "total_cleaned": 247,
+      "exact_duplicates": 0,
+      "near_duplicates": 0,
+      "non_english": 10,
+      "placeholder": 0,
+      "short_text": 364,
+      "prefilter_excluded": 696,
+      "malformed": 0
+    },
+    "youtube": {
+      "source": "youtube",
+      "total_raw": 55,
+      "total_cleaned": 15,
+      "exact_duplicates": 0,
+      "near_duplicates": 1,
+      "non_english": 0,
+      "placeholder": 0,
+      "short_text": 7,
+      "prefilter_excluded": 32,
+      "malformed": 0
+    }
+  }
+}

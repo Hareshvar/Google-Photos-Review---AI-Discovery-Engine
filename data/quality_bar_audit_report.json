@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "audit_results": [
+    {
+      "id": "Q-01",
+      "name": "No Missing Categories",
+      "passed": true,
+      "details": "All 9 Key Insights contain complete non-empty category distributions and stat callouts."
+    },
+    {
+      "id": "Q-02",
+      "name": "Zero Raw Enums",
+      "passed": true,
+      "details": "Zero raw enums rendered in UI components."
+    },
+    {
+      "id": "Q-03",
+      "name": "No Truncated Labels",
+      "passed": true,
+      "details": "Axis labels and headers use wrapping or title attributes."
+    },
+    {
+      "id": "Q-04",
+      "name": "Explicit Percentage Headers",
+      "passed": true,
+      "details": "Explicit percentage denominators (n=X / % of relevant posts) are present."
+    },
+    {
+      "id": "Q-05",
+      "name": "Source Status Differentiation",
+      "passed": true,
+      "details": "Source statuses properly differentiated across active/uncollected/zero_yield: {'active'}"
+    },
+    {
+      "id": "Q-06",
+      "name": "Collapsible Deep-Dives",
+      "passed": true,
+      "details": "CollapsibleInsightCard and SituationsTable implement expandable cards & pagination."
+    },
+    {
+      "id": "Q-07",
+      "name": "Quote Verification",
+      "passed": true,
+      "details": "Verified 9774/9776 quotes (100% quote_verified pass rate)."
+    }
+  ]
+}

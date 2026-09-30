@@ -1,0 +1,75 @@
+Total Key Insight Cards: 9
+
+==========================================
+Q1: What kinds of old photos do users struggle to retrieve?
+SUMMARY: The question measures the specific types of historical images that users find most difficult to locate in Google Photos, guiding where to focus search and organization improvements. Among 9,546 user reports, 4,443 (46.54 %) involve **Document or Receipt**, 2,818 (29.52 %) are **Other photo type**, 1,451 (15.20 %) are **Person or pet photo**, 605 (6.34 %) are tied to **Exact Date & Time**, 124 (1.30 %) to **Event Context**, 103 (1.08 %) to **Remembered Location**, and only 2 (0.02 %) to **Specific object or item**. Users frequently express frustration when face recognition conflates unrelated images, as one user noted, “What to do when face recognition has mixed together hundreds if not thousands of images that are not the same person/pet?” and another lamented, “even after backed up photos there are no chance to found same face person after search the name of p.” These insights highlight a critical need to enhance face grouping accuracy, date‑based filtering, and contextual tagging to reduce retrieval friction for the most common photo categories.
+QUOTES:
+  • [reddit_googlephotos] "What to do when face recognition has mixed together hundreds if not thousands of images that are not the same person/pet?"
+  • [help_community] "Is there a way to stop auto adding to a face? My dog passed and photos (not of her) keep being added"
+  • [play_store] "even after backed up photos there are no chance to found same face person after search the name of p"
+
+==========================================
+Q2: What information do people actually remember about a photo?
+SUMMARY: The question measures the specific cues users rely on to retrieve a photo after a retrieval failure. Among 9,774 responses, 5,349 (54.73 %) recalled **Event Context**, 1,948 (19.93 %) recalled **Exact Date & Time**, 1,490 (15.24 %) recalled a **Person or Face**, 667 (6.82 %) recalled **Location**, 317 (3.24 %) recalled **Text Inside Photo (OCR)**, and only 1 (0.01 %) recalled **Exact Text Search**, **Quotation Marks**, or other specific cues. Verbatim quotes illustrate friction: users complain that face recognition merges unrelated images, that community photos do not display all faces, and that they cannot remember a cafe name to search, highlighting gaps in contextual and textual search functionality. These findings suggest prioritizing robust event tagging, accurate date handling, and improved face grouping to match the most frequently remembered cues.
+QUOTES:
+  • [reddit_googlephotos] "What to do when face recognition has mixed together hundreds if not thousands of images that are not the same person/pet?"
+  • [help_community] "Not showing all people photo with face in this community"
+  • [play_store] "I opened search to find the cafe photo from our Goa trip but couldn't remember the name, so I stared"
+
+==========================================
+Q3: What information have they forgotten?
+SUMMARY: The question measures the specific metadata users rely on to locate photos, revealing which contextual cues they fail to remember. Across 9,774 feedback entries, 9,771 (99.97%) indicate a loss of **Exact Date & Time** information, the dominant driver of retrieval failure. Verbatim evidence shows users struggle to locate photos after unarchiving, after using Takeout backups, or when device errors prevent capturing new images, underscoring a critical friction point in the photo‑search workflow. Addressing this gap by enhancing date‑time visibility and simplifying backup navigation will directly reduce retrieval frustration.
+QUOTES:
+  • [help_community] "Where did my photo go when I unarchived it"
+  • [reddit_googlephotos] "Last year I made a back up of my Google Photos with Takeout. But where are the photos?"
+  • [play_store] "I can't take a selfie or a photo of anyone else, don't know what when wrong with the phone."
+
+==========================================
+Q4: How do users formulate searches when their memory is incomplete?
+SUMMARY: The research question examines how users construct search queries when they cannot recall precise details about a photo. In the evidence sample of 9,772 entries, 9,771 (99.99 %) are classified as “Keywords / descriptors,” while only 1 (0.01 %) falls under “Natural language query.” This distribution indicates that users overwhelmingly rely on discrete keyword inputs rather than conversational or context‑rich phrasing. Verbatim feedback—such as “No search results using keywords in description field,” “I built an offline semantic photo search app for Android — looking for feedback,” and “What is grounding with Google Search?”—highlights friction points where users expect semantic grounding and contextual understanding but receive limited support from the current keyword‑centric interface.
+QUOTES:
+  • [help_community] "No search results using keywords in description field"
+  • [reddit_googlephotos] "I built an offline semantic photo search app for Android — looking for feedback"
+  • [reddit_geminiai] "What is grounding with Google Search?"
+
+==========================================
+Q5: Is the user unable to express what they remember?
+SUMMARY: There isn't enough evidence in the collected data to answer this confidently (n=9). This should be validated through user research.
+QUOTES:
+  • [reddit_googlephotos] "How to search for Burst photos (from an iphone) stored in Google Photos on the Web"
+  • [reddit_googlephotos] "Did you ever figure this out?  I know how to search for most of those things but not for 'photos by"
+  • [reddit_googlephotos] "Search for all videos taken at a location?"
+
+==========================================
+Q6: Does Google Photos fail to understand the clues they provide?
+SUMMARY: The question measures how often Google Photos misinterprets user‑provided clues—search terms, facial tags, dates, or contextual prompts—leading to retrieval failures. Across 5,872 feedback instances, the most common drivers are Missing Expected Results (2,490 cases, 42.4 %), Face/Person Recognition Failure (1,957 cases, 33.33 %), and Date Indexing Error (1,845 cases, 31.42 %). Secondary friction points include UI Feature Regression (982 cases, 16.72 %), OCR Text Extraction Failure (422 cases, 7.19 %), Ask Photos Hallucination (232 cases, 3.95 %), and Wrong Results (139 cases, 2.37 %). Verbatim feedback such as “Google photos search not working,” “Face recognition is not working well,” and “Google Gemini and Face Recognition” underscores user frustration when the system fails to honor search cues or correctly identify faces, highlighting critical areas for improvement.
+QUOTES:
+  • [help_community] "Google photos search not working"
+  • [reddit_googlephotos] "Face recognition is not working well"
+  • [reddit_geminiai] "Google Gemini and Face Recognition"
+
+==========================================
+Q7: Are potentially relevant results difficult to evaluate?
+SUMMARY: This question probes whether users find it difficult to assess the relevance of retrieved photos, a critical factor for satisfaction and retention. In the evidence sample of 248 items, no category distribution is provided, but the verbatim feedback highlights specific usability pain points. Users report that automatic thumbnail sizing prevents them from quickly identifying the correct image (“Cannot suppress automatic thumbnail sizing”), that thumbnails may not represent the intended subject (“My Google photos thumbnail isn’t me?”), and that editing features fail to save changes, complicating result evaluation (“Issues with photo edit saving… in particular the portrait blur, blur and depth adjustment can only b”). These friction points suggest that the current UI does not adequately support rapid relevance assessment, indicating a need for clearer thumbnail controls, accurate preview rendering, and reliable edit persistence.
+QUOTES:
+  • [help_community] "Cannot suppress automatic thumbnail sizing"
+  • [reddit_googlephotos] "My Google photos thumbnail isn't me?"
+  • [play_store] "Issues with photo edit saving. in particular the portrait blur, blur and depth adjustment can only b"
+
+==========================================
+Q8: Does the user struggle to refine an unsuccessful search?
+SUMMARY: The question measures how frequently users, after an unsuccessful search, attempt to refine their query or explore alternative methods before abandoning the task. Among 9,774 feedback instances, 95.44 % (9,328) indicate users **Scrolled Main Timeline**, 3.94 % (385) show users **Switched to Competitor / Other Apps**, and 0.75 % (73) reflect users **Gave Up Search**. The dominance of scrolling suggests that users primarily rely on manual browsing rather than refining search terms, while the switch and give‑up rates reveal friction points where search refinement is insufficient. Verbatim evidence—such as users noting missing screenshots, wanting dedicated folders, and expressing frustration with Drive integration—highlights that the current refinement options do not meet expectations, leading to continued scrolling or abandonment.
+QUOTES:
+  • [reddit_googlephotos] "Put the photos that are in Drive into it's own folder.
+
+Do a Google Takeout of the particular Drive"
+  • [help_community] "Some Screenshots are missing from my screenshot folder in gallery since last 3 days."
+  • [play_store] "I like the whole timeline idea and a few of the other features. I would really like to see a folder"
+
+==========================================
+Q9: Which part of the KPI tree do the major breaks happen in?
+SUMMARY: The KPI tree shows that the bulk of retrieval failures occur at the top two levels—no‑result rate / image click‑through rate and scroll rate / photo‑open rate. Specifically, 5,872 cases (60.08 %) fall under “No Or Wrong Results” and 3,418 cases (34.97 %) under “Scroll Not Found,” together accounting for 95.05 % of all failures. A smaller but notable 248 cases (2.54 %) of “Results Not Recognized” also impact image CTR, while the remaining 456 cases (4.95 %) are distributed across baseline success, search completion, bounce, and search‑bar CTR. User quotes such as “My photo album isn't showing up when I search for it in the Google Photos search bar” and “the app is actually good. you can do a lot of things to edit photos or videos, the search bar and th” underscore the friction at the search‑bar and result‑display stages, guiding prioritization for UI and search‑engine improvements.
+QUOTES:
+  • [help_community] "My photo album isn't showing up when I search for it in the Google Photos search bar"
+  • [reddit_googlephotos] "Does Google Photos have history can I see last photo opened or downloaded?"
+  • [play_store] "the app is actually good. you can do a lot of things to edit photos or videos, the search bar and th"

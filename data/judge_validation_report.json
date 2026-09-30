@@ -1,0 +1,591 @@
+{
+  "status": "completed",
+  "timestamp": "2026-09-25T05:31:56Z",
+  "sample_size": 150,
+  "total_fields_evaluated": 900,
+  "overall_inter_judge_agreement_pct": 91.4,
+  "field_agreements_pct": {
+    "relevant": 100.0,
+    "target_type": 92.0,
+    "failure_step": 69.3,
+    "primary_cue": 90.0,
+    "severity": 99.3,
+    "outcome": 98.0
+  },
+  "human_verified_sample_size": 21,
+  "human_validation_accuracy_pct": 95.2,
+  "total_disputed_posts": 61,
+  "disagreement_rate_pct": 40.7,
+  "disagreement_cases": [
+    {
+      "post_id": "help_community_7707c47f30",
+      "title": "No more Exact Text functionality whatsoever.",
+      "disagreements": [
+        "target_type",
+        "primary_cue",
+        "severity"
+      ],
+      "primary_tags": {
+        "target_type": "other",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "text_ocr",
+        "severity": "high"
+      },
+      "judge_a_tags": {
+        "target_type": "date_time",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "date_time",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "date_time",
+        "consensus_failure_step": "no_or_wrong_results",
+        "consensus_primary_cue": "text_ocr",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "high",
+        "winning_judge": "judge_a",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_86f8510d8c",
+      "title": "When I go to the search feature and it says \u00e2\u0080\u009cpets and people\u00e2\u0080\u009d it doesn\u00e2\u0080\u0099t s",
+      "disagreements": [
+        "primary_cue"
+      ],
+      "primary_tags": {
+        "target_type": "person_pet",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "person_face",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "person_pet",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "person_pet",
+        "consensus_failure_step": "no_or_wrong_results",
+        "consensus_primary_cue": "person_face",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_0b51acaf11",
+      "title": "New ways to find out if Photos are edited with AI",
+      "disagreements": [
+        "failure_step",
+        "primary_cue"
+      ],
+      "primary_tags": {
+        "target_type": "document_info",
+        "failure_step": "scroll_not_found",
+        "primary_cue": "location_place",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "document_info",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "document_info",
+        "consensus_failure_step": "scroll_not_found",
+        "consensus_primary_cue": "location_place",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_476e984fc6",
+      "title": "Upload to Instagram from a Google photos album",
+      "disagreements": [
+        "failure_step"
+      ],
+      "primary_tags": {
+        "target_type": "other",
+        "failure_step": "scroll_not_found",
+        "primary_cue": "location_place",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "other",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "location_place",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "other",
+        "consensus_failure_step": "scroll_not_found",
+        "consensus_primary_cue": "location_place",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_a39c379460",
+      "title": "Locked Folder missing in Google Photos on OPPO Find X9 Ultra Android16",
+      "disagreements": [
+        "failure_step"
+      ],
+      "primary_tags": {
+        "target_type": "document_info",
+        "failure_step": "scroll_not_found",
+        "primary_cue": "date_time",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "document_info",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "date_time",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "document_info",
+        "consensus_failure_step": "scroll_not_found",
+        "consensus_primary_cue": "date_time",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_dff535c449",
+      "title": "Why I don't have the wordrobe feature in my Google photos?",
+      "disagreements": [
+        "target_type",
+        "primary_cue"
+      ],
+      "primary_tags": {
+        "target_type": "person_pet",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "person_face",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "other",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "person_pet",
+        "consensus_failure_step": "no_or_wrong_results",
+        "consensus_primary_cue": "person_face",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_cdb21a6599",
+      "title": "My photo album isn't showing up when I search for it in the Google Photos search",
+      "disagreements": [
+        "failure_step"
+      ],
+      "primary_tags": {
+        "target_type": "other",
+        "failure_step": "scroll_not_found",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "other",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "other",
+        "consensus_failure_step": "scroll_not_found",
+        "consensus_primary_cue": "none",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_8d8122f416",
+      "title": "Please let us have a uniform gallery again.",
+      "disagreements": [
+        "failure_step"
+      ],
+      "primary_tags": {
+        "target_type": "document_info",
+        "failure_step": "results_not_recognized",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "document_info",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "document_info",
+        "consensus_failure_step": "results_not_recognized",
+        "consensus_primary_cue": "none",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_3869b3d7f5",
+      "title": "Pic is not added to persons face folders",
+      "disagreements": [
+        "failure_step"
+      ],
+      "primary_tags": {
+        "target_type": "person_pet",
+        "failure_step": "scroll_not_found",
+        "primary_cue": "person_face",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "person_pet",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "person_face",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "person_pet",
+        "consensus_failure_step": "scroll_not_found",
+        "consensus_primary_cue": "person_face",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_3bdde27943",
+      "title": "Why Google Photos Album names are whole Uppercase? It takes too much space.",
+      "disagreements": [
+        "failure_step"
+      ],
+      "primary_tags": {
+        "target_type": "other",
+        "failure_step": "scroll_not_found",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "other",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "other",
+        "consensus_failure_step": "scroll_not_found",
+        "consensus_primary_cue": "none",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_9ff829d30a",
+      "title": "Image link can't be accessed.",
+      "disagreements": [
+        "target_type"
+      ],
+      "primary_tags": {
+        "target_type": "person_pet",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "other",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "person_pet",
+        "consensus_failure_step": "no_or_wrong_results",
+        "consensus_primary_cue": "none",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_ccbfd26ef7",
+      "title": "I would like to suggest a feature that",
+      "disagreements": [
+        "failure_step"
+      ],
+      "primary_tags": {
+        "target_type": "document_info",
+        "failure_step": "scroll_not_found",
+        "primary_cue": "date_time",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "document_info",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "date_time",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "document_info",
+        "consensus_failure_step": "scroll_not_found",
+        "consensus_primary_cue": "date_time",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_cc399810cd",
+      "title": "Photos keeps adding random folders",
+      "disagreements": [
+        "failure_step"
+      ],
+      "primary_tags": {
+        "target_type": "other",
+        "failure_step": "scroll_not_found",
+        "primary_cue": "location_place",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "other",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "location_place",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "other",
+        "consensus_failure_step": "scroll_not_found",
+        "consensus_primary_cue": "location_place",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_8dae6f898b",
+      "title": "Album name fonts",
+      "disagreements": [
+        "failure_step"
+      ],
+      "primary_tags": {
+        "target_type": "other",
+        "failure_step": "scroll_not_found",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "other",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "other",
+        "consensus_failure_step": "scroll_not_found",
+        "consensus_primary_cue": "none",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_7e40f31c6b",
+      "title": "sorting file types",
+      "disagreements": [
+        "failure_step"
+      ],
+      "primary_tags": {
+        "target_type": "document_info",
+        "failure_step": "scroll_not_found",
+        "primary_cue": "person_face",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "document_info",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "person_face",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "document_info",
+        "consensus_failure_step": "scroll_not_found",
+        "consensus_primary_cue": "person_face",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_90968902d8",
+      "title": "my friend sent me a picture of her and her niece and it wasn't loading it was ju",
+      "disagreements": [
+        "target_type"
+      ],
+      "primary_tags": {
+        "target_type": "person_pet",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "other",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "person_pet",
+        "consensus_failure_step": "no_or_wrong_results",
+        "consensus_primary_cue": "none",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_2b2a049861",
+      "title": "Uniform grid view",
+      "disagreements": [
+        "failure_step"
+      ],
+      "primary_tags": {
+        "target_type": "document_info",
+        "failure_step": "scroll_not_found",
+        "primary_cue": "date_time",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "document_info",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "date_time",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "document_info",
+        "consensus_failure_step": "scroll_not_found",
+        "consensus_primary_cue": "date_time",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_656276e478",
+      "title": "Recovery my photo delete accidentally pls help",
+      "disagreements": [
+        "primary_cue"
+      ],
+      "primary_tags": {
+        "target_type": "document_info",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "text_ocr",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "document_info",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "document_info",
+        "consensus_failure_step": "no_or_wrong_results",
+        "consensus_primary_cue": "text_ocr",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_cba4bbbb0a",
+      "title": "I have lost data on photos app not photos itself but albums, people etc",
+      "disagreements": [
+        "failure_step"
+      ],
+      "primary_tags": {
+        "target_type": "document_info",
+        "failure_step": "scroll_not_found",
+        "primary_cue": "date_time",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "document_info",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "date_time",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "document_info",
+        "consensus_failure_step": "scroll_not_found",
+        "consensus_primary_cue": "date_time",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    },
+    {
+      "post_id": "help_community_cabab759cf",
+      "title": "Raw photos are primary by default in paired photo stacks",
+      "disagreements": [
+        "failure_step"
+      ],
+      "primary_tags": {
+        "target_type": "document_info",
+        "failure_step": "results_not_recognized",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "judge_a_tags": {
+        "target_type": "document_info",
+        "failure_step": "no_or_wrong_results",
+        "primary_cue": "none",
+        "severity": "medium"
+      },
+      "consensus_resolution": {
+        "consensus_target_type": "document_info",
+        "consensus_failure_step": "results_not_recognized",
+        "consensus_primary_cue": "none",
+        "consensus_outcome": "not_found",
+        "consensus_severity": "medium",
+        "winning_judge": "primary",
+        "resolution_reasoning": "Selected specific non-generic taxonomy enum through rule-based tiebreaking."
+      }
+    }
+  ],
+  "judges_metadata": {
+    "primary_tagger": "Gemini 3.6 Flash / LLMTagger",
+    "judge_a_blind": "Groq Llama-3.3-70b / GroqJudge",
+    "judge_b_tiebreaker": "Gemini 3.6 Flash / GeminiTiebreaker",
+    "human_benchmarks": "data/human_labels.json (N=21)"
+  }
+}

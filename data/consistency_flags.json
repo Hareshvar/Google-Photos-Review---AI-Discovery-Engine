@@ -1,0 +1,2337 @@
+[
+  {
+    "rule_id": "C1",
+    "post_id": "help_community_c5041b5a75",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "help_community_5829d92197",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "help_community_e995c7a5ba",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "help_community_0d322602ef",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "high"
+    }
+  },
+  {
+    "rule_id": "C4",
+    "post_id": "help_community_0d322602ef",
+    "description": "workarounds contains 'gave_up' but outcome is 'found_eventually'",
+    "fields": {
+      "workarounds": [
+        "gave_up"
+      ],
+      "outcome": "found_eventually"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "help_community_a8dc363adb",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "help_community_99df563d4f",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "help_community_0166c537e5",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1w63x4d",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1w55t8o",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1vj25te",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1umrrr1",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1umbfkw",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1ukyso5",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1ukp13t",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1u0tp58",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1u0mvw4",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_18xa8xp",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_18zib65",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_191p4yo",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_19ebnrz",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1adxkck",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1asupwe",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1aub8np",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1awepau",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1b4cuxk",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1bah2ul",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1bjs2n9",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1bmszzu",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1bu9as2",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1bya9s0",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1c0l5xi",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1cejcnv",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1cmld9v",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1cohy4x",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_schgey",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_sjcbi6",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_sjrpgz",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_sqs4a1",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_t30tai",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_tj049o",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_tpha34",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_u7ba2v",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_uow3yp",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_uozis9",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "high"
+    }
+  },
+  {
+    "rule_id": "C4",
+    "post_id": "reddit_uozis9",
+    "description": "workarounds contains 'gave_up' but outcome is 'found_eventually'",
+    "fields": {
+      "workarounds": [
+        "gave_up"
+      ],
+      "outcome": "found_eventually"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_vr2ebd",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_vrbccn",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_w5hbhm",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_w7krbp",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_w7sxtg",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_w8cz2m",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_wcga87",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_wdubko",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_x60nvh",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_x6hhsx",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_xoer8m",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_xrinfm",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_y9kqys",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_ykeuzz",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_yv0t0x",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_z24rfn",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_z3houu",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_z6q6sh",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_10174mh",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_10hqpbu",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_10su3a5",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_10syckb",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_10uqik1",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_10wp8hs",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_117tioy",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_11p8rgk",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_12agcud",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_12ehj48",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_134niio",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_136ynw9",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_13d2hgl",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_13esfsd",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_123ej56",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_13skm9i",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1409qp2",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_143ior5",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_14yr8f9",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_158hha8",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "high"
+    }
+  },
+  {
+    "rule_id": "C4",
+    "post_id": "reddit_158hha8",
+    "description": "workarounds contains 'gave_up' but outcome is 'found_eventually'",
+    "fields": {
+      "workarounds": [
+        "gave_up"
+      ],
+      "outcome": "found_eventually"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_15i9qd5",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1661j6o",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_167i5rs",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_167sr0n",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_16ngqgo",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_16salmy",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_16tv2pz",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_16xopau",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_16yyzww",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_178jc1q",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_17jqxzi",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_17qgkrl",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_17x1j79",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_182ty3g",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_184q2wi",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_hs9iqc4",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_huieovd",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_hvtqfhd",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_hw0i94i",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_hw87861",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i0eenn0",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i0zgjhi",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i2pcpw9",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i2pe27w",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i3lghgu",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i53elzw",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i5i73x6",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i6j2h26",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i77lnjz",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i7bmvrv",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i80w379",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i8uuc8c",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i8w3dzs",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i946at4",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_i96esaz",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ib9zj0t",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ibi4915",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ibujq4y",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ibuqvnh",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ibw3t5o",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ic7m9j8",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ic82zdo",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_icgfjmv",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_icv7dev",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_id7ptsv",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ifcfi0y",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ibaurzk",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ifvf1i7",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ign2k10",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ihru0vf",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "high"
+    }
+  },
+  {
+    "rule_id": "C4",
+    "post_id": "reddit_c_ihru0vf",
+    "description": "workarounds contains 'gave_up' but outcome is 'found_eventually'",
+    "fields": {
+      "workarounds": [
+        "gave_up"
+      ],
+      "outcome": "found_eventually"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ihrzr3u",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ihw3vtf",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ii2icr6",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_iiqa74c",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ij18qoj",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ikgk4va",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ikk0lbd",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ikn72bh",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_iknxium",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ilf6m3e",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_imuftdr",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_in3a008",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ine5ge8",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_infgqu2",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_iniyxb7",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_iniz10q",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_inlgtoo",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ino9zwh",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ioaxz2n",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ioslovw",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ip8wx24",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ipco8gf",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_iptybwc",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_iqlvshi",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_iqmqi83",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_iqn5x5u",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_iqonblr",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_iqtntn7",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_irt4f33",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_it95eek",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_itecvvo",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_itg63vo",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ium7kpe",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ivyapny",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ivyb0ho",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_iw3ldux",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_iw6c09r",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_iwdo7xy",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_iwm24wp",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_ix3mh6q",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_izdk7le",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j0329m4",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j0zaeun",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j1plckq",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j2hs7iy",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j2huk05",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j2mvbkw",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j2uqq0c",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j3zpc28",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j45bou6",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j4pd1na",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j5tsjvd",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j6tioye",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j71a73z",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j7445id",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j77gpos",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j77mamr",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j7moiim",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j92jlp6",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j9bwyhh",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_j9h4i0n",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_jat55ld",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_jb0az4c",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_jbp1i1h",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_jcfc9gg",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_jcjbsix",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_jd1kqli",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_jdk1ljz",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_jfg8k2q",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_c_jidfgjo",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1w4crma",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1cdm31p",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1dwujqg",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1f1hee1",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1f4pwct",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1lp8b2z",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1lppfpx",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1lr09c6",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1lsi0st",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1glioru",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1gmqnv9",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1h2mt7y",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1h6d356",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "reddit_1ha5dv5",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "playstore_f19ec3c3-9c85-4451-8d72-8470688cc07b",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "playstore_47ec74f7-2c8e-48ce-a4e4-a9dc1405fed5",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "playstore_0255dce2-8817-44cb-b51e-8b82333baadc",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "playstore_17ff7e6d-5871-4b4a-961b-a8643651fead",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "playstore_572f4437-c0e7-40df-ba44-dab48e3dad57",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "playstore_cbb835d0-f0c6-4771-a8c3-a0f7a6bca484",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "appstore_us_14567323878",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "appstore_us_14566705730",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "appstore_gb_14559325265",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "appstore_gb_14386292415",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "appstore_gb_14230042732",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "high"
+    }
+  },
+  {
+    "rule_id": "C4",
+    "post_id": "appstore_gb_14230042732",
+    "description": "workarounds contains 'gave_up' but outcome is 'found_eventually'",
+    "fields": {
+      "workarounds": [
+        "gave_up"
+      ],
+      "outcome": "found_eventually"
+    }
+  },
+  {
+    "rule_id": "C1",
+    "post_id": "appstore_gb_13083919726",
+    "description": "failure_step is 'no_failure' but outcome is 'not_found' or severity is not 'low'",
+    "fields": {
+      "failure_step": "no_failure",
+      "outcome": "found_eventually",
+      "severity": "medium"
+    }
+  }
+]

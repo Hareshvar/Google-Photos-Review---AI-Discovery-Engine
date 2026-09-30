@@ -1,0 +1,424 @@
+[
+  {
+    "post_id": "playstore_645778f9-8df3-4592-a56a-42b547308060",
+    "source": "play_store",
+    "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&hl=en&gl=gb",
+    "created_at": "2026-09-19",
+    "title": "",
+    "raw_text": "Comparing to Flickr the upload and organization feature is better. Loved the mini AI tool - the Assistant of suggesting artifacts. Liked the app and love to have more better UX in next releases, though it's still a good one. +1 BTW, would love to have the feature: Local photo vs. Synced photo filter will let us easily distinguish the non-synced items, instead searching through all the mess.",
+    "author_id": null,
+    "source_metadata": {
+      "kind": "review",
+      "rating": 4,
+      "score": null,
+      "country": "gb",
+      "collector": "google_play_scraper"
+    },
+    "priority_score": 0,
+    "sample_bucket": "cursor_import",
+    "tag_source": "cursor_reused",
+    "fallback_reason": null,
+    "taxonomy": {
+      "relevant": true,
+      "vague_memory": "unclear",
+      "target_type": "other",
+      "primary_cue": "other",
+      "photo_age": "unspecified",
+      "failure_step": "scroll_not_found",
+      "memory_break": "not_memory_related",
+      "search_tool": "classic_search",
+      "job": "practical_utility",
+      "outcome": "unknown",
+      "severity": "low",
+      "consequence": "unspecified",
+      "confidence": "medium",
+      "cues_remembered": [],
+      "cues_forgotten": [],
+      "hedged": false,
+      "query_styles": [
+        "none_stated"
+      ],
+      "queries_quoted": [],
+      "attempts_mentioned": null,
+      "workarounds": [
+        "scroll_timeline"
+      ],
+      "system_issues": [
+        "cannot_filter_or_refine"
+      ],
+      "wish": "Add local photo vs. synced photo filter",
+      "unmapped_note": "",
+      "quote": "Local photo vs. Synced photo filter will let us easily distinguish the non-synced items, instead searching through all the mess.",
+      "quote_verified": true,
+      "consistency_flags": []
+    }
+  },
+  {
+    "post_id": "appstore_us_14558771493",
+    "source": "app_store",
+    "url": "https://itunes.apple.com/us/review?id=962194608&type=Purple%20Software",
+    "created_at": "2026-09-16",
+    "title": "wrong date",
+    "raw_text": "so me and my grandmother were looking on this app for her dog that died and she found the last photo and mind you this was taken in 2013 and it said December if 1969",
+    "author_id": null,
+    "source_metadata": {
+      "kind": "review",
+      "rating": 3,
+      "score": null,
+      "country": "us",
+      "collector": "apple_rss"
+    },
+    "priority_score": 0,
+    "sample_bucket": "cursor_import",
+    "tag_source": "cursor_reused",
+    "fallback_reason": null,
+    "taxonomy": {
+      "relevant": true,
+      "vague_memory": "precise",
+      "target_type": "person",
+      "primary_cue": "time",
+      "photo_age": "over_three_years",
+      "failure_step": "no_failure",
+      "memory_break": "not_memory_related",
+      "search_tool": "search_tab",
+      "job": "reminiscing",
+      "outcome": "found_eventually",
+      "severity": "low",
+      "consequence": "none",
+      "confidence": "high",
+      "cues_remembered": [
+        "time"
+      ],
+      "cues_forgotten": [],
+      "hedged": false,
+      "query_styles": [
+        "none_stated"
+      ],
+      "queries_quoted": [],
+      "attempts_mentioned": null,
+      "workarounds": [
+        "none"
+      ],
+      "system_issues": [
+        "wrong_results"
+      ],
+      "wish": "",
+      "unmapped_note": "",
+      "quote": "so me and my grandmother were looking on this app for her dog that died and she found the last photo and mind you this was taken in 2013 and it said December if 1969",
+      "quote_verified": true,
+      "consistency_flags": []
+    }
+  },
+  {
+    "post_id": "appstore_us_14549475195",
+    "source": "app_store",
+    "url": "https://itunes.apple.com/us/review?id=962194608&type=Purple%20Software",
+    "created_at": "2026-09-14",
+    "title": "5 years and counting!",
+    "raw_text": "Tried again and it’s still an unorganized mess.\n\nUpdate: Just cancelled my subscription. Not giving any more money when feedback is being ignored across all Google products. \n\n4 years and still no fix…\nThere’s still no slider for recently added, only on the default homepage, which makes photos and videos I save from social media end up out of order. The slider on recently added only scrolls a little at a time compared to the defualt page being able to jump months or years. On iPhone the video player is buggy too. The play button keeps showing on loops and they stutter instead of playing smooth. Android finally got the slider back but iPhone is still waiting. I already back everything up with another service, but it’s frustrating that Google ignores feedback. It’s been years with no simple improvements. Same with YouTube Music. No quick scroll in long playlists and no way to search songs inside a playlist. These are basic features that should’ve been here by now 🤷‍♂️",
+    "author_id": null,
+    "source_metadata": {
+      "kind": "review",
+      "rating": 1,
+      "score": null,
+      "country": "us",
+      "collector": "apple_rss"
+    },
+    "priority_score": 0,
+    "sample_bucket": "cursor_import",
+    "tag_source": "cursor_reused",
+    "fallback_reason": null,
+    "taxonomy": {
+      "relevant": true,
+      "vague_memory": "unclear",
+      "target_type": "other",
+      "primary_cue": "time",
+      "photo_age": "unspecified",
+      "failure_step": "scroll_not_found",
+      "memory_break": "unclear",
+      "search_tool": "classic_search",
+      "job": "unknown",
+      "outcome": "unknown",
+      "severity": "high",
+      "consequence": "switched_service",
+      "confidence": "medium",
+      "cues_remembered": [],
+      "cues_forgotten": [],
+      "hedged": false,
+      "query_styles": [
+        "none_stated"
+      ],
+      "queries_quoted": [],
+      "attempts_mentioned": null,
+      "workarounds": [
+        "none"
+      ],
+      "system_issues": [],
+      "wish": "Add a fast time slider to recently added photos",
+      "unmapped_note": "",
+      "quote": "Tried again and it’s still an unorganized mess.",
+      "quote_verified": true,
+      "consistency_flags": []
+    }
+  },
+  {
+    "post_id": "reddit_1w6sg9x",
+    "source": "reddit_googlephotos",
+    "url": "https://www.reddit.com/r/googlephotos/comments/1w6sg9x/how_can_i_stop_my_photos_from_showing_up_when_i/",
+    "created_at": "2026-09-04",
+    "title": "How can I stop my photos from showing up when I log into a different Google Photos account? (Pls read below im DESPERATE)",
+    "raw_text": "&#x200B;\n\n I accidentally backed up my photos to a different Gmail account, and when I checked that account from another device, my photos were there. That other account belongs to my class, so I assume everyone in the class can now see my entire life. I deleted everything from that account, but when I went back to my original account, all the photos had been deleted there too. I looked it up on Google and found out that the accounts get linked, but that other people can't actually see those photos. Even so, it’s undeniable that the backup caused my photos to appear in the class account for everyone else to see. Now I can't tell which photos are mine and which ones were backed up to the other account. I’ve been trying to restore the photos to my original account, but I don't know if restoring them will also bring back the ones I deleted from the class account. I'm desperate. HELP",
+    "author_id": null,
+    "source_metadata": {
+      "kind": "post",
+      "rating": null,
+      "score": 6,
+      "country": null,
+      "collector": "arctic_shift"
+    },
+    "priority_score": 0,
+    "sample_bucket": "cursor_import",
+    "tag_source": "cursor_reused",
+    "fallback_reason": null,
+    "taxonomy": {
+      "relevant": true,
+      "vague_memory": "unclear",
+      "target_type": "other",
+      "primary_cue": "other",
+      "photo_age": "unspecified",
+      "failure_step": "results_not_recognized",
+      "memory_break": "not_memory_related",
+      "search_tool": "classic_search",
+      "job": "practical_utility",
+      "outcome": "unknown",
+      "severity": "high",
+      "consequence": "wasted_time",
+      "confidence": "medium",
+      "cues_remembered": [],
+      "cues_forgotten": [],
+      "hedged": false,
+      "query_styles": [
+        "none_stated"
+      ],
+      "queries_quoted": [],
+      "attempts_mentioned": 1,
+      "workarounds": [
+        "none"
+      ],
+      "system_issues": [],
+      "wish": "Distinguish and recover personal photos from mixed account backup",
+      "unmapped_note": "",
+      "quote": "Now I can't tell which photos are mine and which ones were backed up to the other account.",
+      "quote_verified": true,
+      "consistency_flags": []
+    }
+  },
+  {
+    "post_id": "playstore_e5d98652-fca6-4d68-b145-310996ec2298",
+    "source": "play_store",
+    "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&hl=en&gl=in",
+    "created_at": "2026-09-20",
+    "title": "",
+    "raw_text": "bring back old photo editor or fix its dependency on internet connection just to apply some tint or brightness 🤦",
+    "author_id": null,
+    "source_metadata": {
+      "kind": "review",
+      "rating": 1,
+      "score": null,
+      "country": "in",
+      "collector": "google_play_scraper"
+    },
+    "priority_score": 0,
+    "sample_bucket": "cursor_import",
+    "tag_source": "cursor_reused",
+    "fallback_reason": null,
+    "taxonomy": {
+      "relevant": false,
+      "vague_memory": "unclear",
+      "target_type": "other",
+      "primary_cue": "other",
+      "cues_remembered": [],
+      "cues_forgotten": [],
+      "hedged": false,
+      "photo_age": "unspecified",
+      "failure_step": "unclear",
+      "memory_break": "unclear",
+      "query_styles": [
+        "none_stated"
+      ],
+      "queries_quoted": [],
+      "attempts_mentioned": null,
+      "workarounds": [
+        "none"
+      ],
+      "search_tool": "search_tab",
+      "job": "unknown",
+      "system_issues": [],
+      "outcome": "unknown",
+      "severity": "low",
+      "consequence": "unspecified",
+      "wish": "",
+      "unmapped_note": "",
+      "quote": "",
+      "quote_verified": false,
+      "confidence": "low",
+      "consistency_flags": []
+    }
+  },
+  {
+    "post_id": "reddit_18w8wxi",
+    "source": "reddit_googlephotos",
+    "url": "https://www.reddit.com/r/googlephotos/comments/18w8wxi/google_photos_slownot_able_to_backup_images_videos/",
+    "created_at": "2024-01-01",
+    "title": "Google photos slow/not able to backup images &videos?",
+    "raw_text": "Hey folks,\n\nFor some reason, whenever I select back up on a series of photos that aren't backed up. I just get a message saying\n\n\"Backup -Getting ready to back up x items left\" \n\nI've left this for a few hours and I'm on WiFi yet no luck. Is there any ideas as to how I can fix this or force the back up to happen?",
+    "author_id": null,
+    "source_metadata": {
+      "kind": "post",
+      "rating": null,
+      "score": 1,
+      "country": null,
+      "collector": "arctic_shift"
+    },
+    "priority_score": 0,
+    "sample_bucket": "cursor_import",
+    "tag_source": "cursor_reused",
+    "fallback_reason": null,
+    "taxonomy": {
+      "relevant": false,
+      "vague_memory": "unclear",
+      "target_type": "other",
+      "primary_cue": "other",
+      "cues_remembered": [],
+      "cues_forgotten": [],
+      "hedged": false,
+      "photo_age": "unspecified",
+      "failure_step": "unclear",
+      "memory_break": "unclear",
+      "query_styles": [
+        "none_stated"
+      ],
+      "queries_quoted": [],
+      "attempts_mentioned": null,
+      "workarounds": [
+        "none"
+      ],
+      "search_tool": "search_tab",
+      "job": "unknown",
+      "system_issues": [],
+      "outcome": "unknown",
+      "severity": "low",
+      "consequence": "unspecified",
+      "wish": "",
+      "unmapped_note": "",
+      "quote": "",
+      "quote_verified": false,
+      "confidence": "low",
+      "consistency_flags": []
+    }
+  },
+  {
+    "post_id": "reddit_18w8hum",
+    "source": "reddit_googlephotos",
+    "url": "https://www.reddit.com/r/googlephotos/comments/18w8hum/is_there_a_way_to_share_faces_and_all_photos/",
+    "created_at": "2024-01-01",
+    "title": "Is there a way to share faces and ALL photos after a certain date?",
+    "raw_text": "Hi everyone\n\nI started partner sharing. I would like to share pictures with certain faces (old photos) and ALL new photos that will be uploaded in the upcoming months. Is this possible or am I stuck with the faces only setting?\n\nThank you. \n\nSorry if it's a dumb question",
+    "author_id": null,
+    "source_metadata": {
+      "kind": "post",
+      "rating": null,
+      "score": 1,
+      "country": null,
+      "collector": "arctic_shift"
+    },
+    "priority_score": 0,
+    "sample_bucket": "cursor_import",
+    "tag_source": "cursor_reused",
+    "fallback_reason": null,
+    "taxonomy": {
+      "relevant": false,
+      "vague_memory": "unclear",
+      "target_type": "other",
+      "primary_cue": "other",
+      "cues_remembered": [],
+      "cues_forgotten": [],
+      "hedged": false,
+      "photo_age": "unspecified",
+      "failure_step": "unclear",
+      "memory_break": "unclear",
+      "query_styles": [
+        "none_stated"
+      ],
+      "queries_quoted": [],
+      "attempts_mentioned": null,
+      "workarounds": [
+        "none"
+      ],
+      "search_tool": "search_tab",
+      "job": "unknown",
+      "system_issues": [],
+      "outcome": "unknown",
+      "severity": "low",
+      "consequence": "unspecified",
+      "wish": "",
+      "unmapped_note": "",
+      "quote": "",
+      "quote_verified": false,
+      "confidence": "low",
+      "consistency_flags": []
+    }
+  },
+  {
+    "post_id": "reddit_18vvea7",
+    "source": "reddit_googlephotos",
+    "url": "https://www.reddit.com/r/googlephotos/comments/18vvea7/google_drive_shows_google_photos_as_300gb_but/",
+    "created_at": "2024-01-01",
+    "title": "Google drive shows Google Photos as 300GB but photos says I'm using 70GB?",
+    "raw_text": "So I'm trying to free up some space on my Google Drive. If I log into Google Drive and look at storage, it tells me how much I've used in Drive, Gmail and Photos. Here it tells me that Photos is using up 300GB.\n\nSo I then go into Google Photos to see what I can delete, but there it's telling me I've only used up 70GB.\n\nIs there something I'm missing here?",
+    "author_id": null,
+    "source_metadata": {
+      "kind": "post",
+      "rating": null,
+      "score": 2,
+      "country": null,
+      "collector": "arctic_shift"
+    },
+    "priority_score": 0,
+    "sample_bucket": "cursor_import",
+    "tag_source": "cursor_reused",
+    "fallback_reason": null,
+    "taxonomy": {
+      "relevant": false,
+      "vague_memory": "unclear",
+      "target_type": "other",
+      "primary_cue": "other",
+      "cues_remembered": [],
+      "cues_forgotten": [],
+      "hedged": false,
+      "photo_age": "unspecified",
+      "failure_step": "unclear",
+      "memory_break": "unclear",
+      "query_styles": [
+        "none_stated"
+      ],
+      "queries_quoted": [],
+      "attempts_mentioned": null,
+      "workarounds": [
+        "none"
+      ],
+      "search_tool": "search_tab",
+      "job": "unknown",
+      "system_issues": [],
+      "outcome": "unknown",
+      "severity": "low",
+      "consequence": "unspecified",
+      "wish": "",
+      "unmapped_note": "",
+      "quote": "",
+      "quote_verified": false,
+      "confidence": "low",
+      "consistency_flags": []
+    }
+  }
+]

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Roboto+Flex:wght@100..900&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-container":"#dde0e6","tertiary-container":"#008939","on-secondary-container":"#5f6368","surface-variant":"#e3e2e6","surface-container-low":"#f4f3f7","on-primary-container":"#ffffff","secondary-fixed":"#dfe3e8","error":"#ba1a1a","surface-tint":"#005bc0","surface-container-highest":"#e3e2e6","surface-dim":"#dbd9dd","google-red-tint":"#fce8e6","surface-container":"#efedf1","tertiary-fixed-dim":"#6ddd81","outline":"#727785","secondary-fixed-dim":"#c3c7cc","google-red":"#ea4335","on-secondary-fixed-variant":"#43474c","on-tertiary":"#ffffff","primary-fixed-dim":"#adc7ff","on-surface":"#1a1b1e","on-error":"#ffffff","primary-container":"#1a73e8","primary-fixed":"#d8e2ff","google-blue-tint":"#e8f0fe","surface-container-lowest":"#ffffff","google-yellow":"#fbbc04","error-container":"#ffdad6","google-yellow-tint":"#fef7e0","on-primary-fixed-variant":"#004493","inverse-on-surface":"#f1f0f4","on-tertiary-fixed-variant":"#005320","inverse-surface":"#2f3033","tertiary":"#006d2c","on-secondary":"#ffffff","google-green-tint":"#e6f4ea","surface-bg":"#f8f9fa","border-subtle":"#dadce0","inverse-primary":"#adc7ff","surface-card":"#ffffff","outline-variant":"#c1c6d6","on-secondary-fixed":"#181c20","tertiary-fixed":"#89fa9b","surface":"#faf9fd","on-tertiary-container":"#ffffff","on-primary":"#ffffff","on-primary-fixed":"#001a41","on-surface-variant":"#414754","on-tertiary-fixed":"#002108","surface-bright":"#faf9fd","on-error-container":"#93000a","on-background":"#1a1b1e","background":"#faf9fd","primary":"#005bbf","secondary":"#5b5f64","surface-container-high":"#e9e7eb"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-xl":"2rem",margin:"2rem","space-sm":"0.5rem","space-lg":"1.5rem",gutter:"1.5rem","space-md":"1rem","space-xs":"0.25rem"},fontFamily:{"body-lg":["Inter"],"label-md":["Inter"],"headline-sm":["Roboto Flex"],"headline-lg":["Roboto Flex"],"headline-md":["Roboto Flex"],"title-md":["Inter"],"body-md":["Inter"],"label-lg":["Inter"]},fontSize:{"body-lg":["16px",{lineHeight:"24px",fontWeight:"400"}],"label-md":["14px",{lineHeight:"20px",letterSpacing:"0.1px",fontWeight:"600"}],"headline-sm":["20px",{lineHeight:"28px",fontWeight:"500"}],"headline-lg":["32px",{lineHeight:"40px",fontWeight:"600"}],"headline-md":["24px",{lineHeight:"32px",fontWeight:"600"}],"title-md":["16px",{lineHeight:"24px",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",fontWeight:"400"}],"label-lg":["14px",{lineHeight:"20px",fontWeight:"500"}]}}}}</script></head><body class="bg-surface-bg font-body-md text-on-surface antialiased"><div class="fixed top-0 left-0 right-0 z-50 flex flex-col"><div class="h-9 w-full bg-google-yellow-tint border-b border-border-subtle flex items-center justify-center px-4 gap-2 text-on-surface select-none"><span class="material-symbols-outlined text-google-yellow text-[18px]">info</span><span class="font-label-md text-xs font-medium tracking-tight text-on-surface-variant">Demo data — for layout preview only. Collected 4,820 public posts across Reddit, App Stores, and Forums.</span></div><header class="h-16 w-full bg-surface-card border-b border-border-subtle flex items-center justify-between px-space-lg shadow-[0_1px_4px_rgba(60,64,67,0.06)]"><div class="flex items-center gap-3"><img alt="Google Photos Pinwheel Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UvnrGJJhVC3hHx1BKAGcfTIv7nqO8hAxQihmnAf8sO3GoOZ2NUktyIOmfNFlfu_qSfQxMjfcEt0i-dk6_TeCHfiXiz1wZB_6p7YIQlYsZfJBDPDb3vmQ9ojSbpY7_bzsrrUzJo4yuaXfkruH2sAsqnl8XDN-J2TkTcRDActEXYwM6WspFtXdfsWw-fVNAItu3DYUrK8AD343lwPaB9yfZeD7fHqvix4JXijIUnzTwLEQZjkdR9-g8VHGc1"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight font-medium">Retrieval Lens</span><span class="ml-1 px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant text-[11px] font-label-md uppercase tracking-wider">Research View</span></div><div class="flex-1 max-w-xl mx-space-xl"><div class="relative flex items-center"><span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px] pointer-events-none">search</span><input class="w-full h-10 pl-10 pr-4 bg-surface-bg border border-border-subtle rounded-full font-body-md text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:border-primary-container focus:bg-surface-card transition-all" placeholder="Search themes, verbatim quotes, or intents..." type="text"/></div></div><div class="flex items-center gap-space-md"><button class="h-9 px-4 rounded-full border border-border-subtle bg-surface-card text-on-surface font-label-md text-label-md flex items-center gap-2 hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-[18px] text-on-surface-variant">download</span><span>Download full analysis</span></button><div class="flex items-center pl-2 border-l border-border-subtle"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-border-subtle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1tSTGhfB1svpSPwRaivz1rc8e08_1IrIGsRoa61atyEVGpStU8vIjFL9nc6digDhUYPsiPve1NQnD3qS2ohk6wWCCMwvtzrmF9JR6rWHORJG6cONZRSbKBB4rmOSJYWApR3oM1fjIXKWkq6Lp_I9fQPvWAZFZwOsa23DGQq9E7v3E1CA0tVbVDLc8HX7wX_zfiF_0bX3cMlIukSUs2JLTdH_9vgiorw797LDOvaxZ_LP1hSzP0L-L0A"/></div></div></header></div><aside class="fixed left-0 top-[100px] bottom-0 w-60 bg-surface-card border-r border-border-subtle z-40 flex flex-col py-space-md px-3"><nav class="flex flex-col gap-1 w-full" data-active-classes="bg-google-blue-tint text-primary-container font-medium"><a class="flex items-center gap-3 px-4 py-2.5 rounded-full font-label-lg text-label-lg text-on-secondary-container hover:bg-surface-container hover:text-on-surface transition-all" data-path="overview" href="#"><span class="material-symbols-outlined text-[20px]">explore</span><span>Overview</span></a><a aria-current="page" class="flex items-center gap-3 px-4 py-2.5 rounded-full transition-all bg-google-blue-tint text-primary-container font-medium" data-path="themes" href="#"><span class="material-symbols-outlined text-[20px]">bubble_chart</span><span>Themes</span></a><a class="flex items-center gap-3 px-4 py-2.5 rounded-full font-label-lg text-label-lg text-on-secondary-container hover:bg-surface-container hover:text-on-surface transition-all" data-path="situations" href="#"><span class="material-symbols-outlined text-[20px]">table_chart</span><span>Situations</span></a><a class="flex items-center gap-3 px-4 py-2.5 rounded-full font-label-lg text-label-lg text-on-secondary-container hover:bg-surface-container hover:text-on-surface transition-all" data-path="key-insights" href="#"><span class="material-symbols-outlined text-[20px]">lightbulb</span><span>Key Insights</span></a><a class="flex items-center gap-3 px-4 py-2.5 rounded-full font-label-lg text-label-lg text-on-secondary-container hover:bg-surface-container hover:text-on-surface transition-all" data-path="ask-the-data" href="#"><span class="material-symbols-outlined text-[20px]">chat</span><span>Ask the data</span></a><a class="flex items-center gap-3 px-4 py-2.5 rounded-full font-label-lg text-label-lg text-on-secondary-container hover:bg-surface-container hover:text-on-surface transition-all" data-path="method-and-limits" href="#"><span class="material-symbols-outlined text-[20px]">tune</span><span>Method and limits</span></a></nav><div class="mt-auto p-3 bg-surface-bg rounded-xl border border-border-subtle"><div class="flex items-center gap-2 mb-1"><span class="material-symbols-outlined text-tertiary text-[16px]">verified</span><span class="font-label-md text-xs font-semibold text-on-surface">Dataset Active</span></div><p class="font-body-md text-xs text-on-surface-variant leading-snug">Corpus v2.4 synced • N=4,820</p></div></aside><div class="pl-60"><main class="relative pt-[100px] min-h-screen bg-surface-bg p-space-xl"><div class="flex flex-col w-full">
+<!-- Header Banner -->
+<div class="flex flex-col gap-2 mb-8">
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-full bg-google-blue-tint font-label-md text-label-md text-primary-container">Corpus Synthesis • Section 3</span>
+<span class="font-body-md text-label-md text-secondary">N = 1,874 search failure incidents</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Failure Themes &amp; Discussion Clusters</h1>
+<p class="font-body-lg text-body-lg text-on-secondary-container max-w-4xl">Categorizing where search mechanisms break down when users rely on incomplete memories.</p>
+</div>
+<!-- SECTION A: Failure Step x System Issue Crosstab Heatmap -->
+<section class="flex flex-col mb-10">
+<div class="flex items-center justify-between mb-4">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">Where do people struggle (Failure Step × System Issue)</h2>
+<p class="font-body-md text-body-md text-on-secondary-container mt-1">Crosstab heatmap showing intersections of failure touchpoints with technical subsystems (n=1,874 search failures).</p>
+</div>
+<div class="flex items-center gap-3">
+<button class="h-9 px-4 rounded-full bg-surface-container hover:bg-surface-variant text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1.5 shadow-sm" id="toggle-relative-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">percent</span>
+<span>Toggle View (% / Total)</span>
+</button>
+</div>
+</div>
+<!-- Heatmap Card -->
+<div class="bg-surface-card rounded-2xl p-6 shadow-sm flex flex-col gap-6">
+<!-- Heatmap Table Matrix -->
+<div class="w-full overflow-x-auto">
+<table class="w-full border-collapse min-w-[760px] table-fixed">
+<thead>
+<tr>
+<th class="w-[210px] pb-4 pr-4 text-left font-label-md text-label-md text-on-surface-variant align-bottom">
+<span class="uppercase tracking-wider text-[11px] block text-secondary">Touchpoint \ Subsystem</span>
+                Failure Step
+              </th>
+<th class="pb-4 px-2 text-center font-label-md text-label-md text-on-surface align-bottom">
+<span class="block px-2 py-1.5 rounded-lg bg-surface-container-low text-center leading-snug">Search Query Parsing</span>
+</th>
+<th class="pb-4 px-2 text-center font-label-md text-label-md text-on-surface align-bottom">
+<span class="block px-2 py-1.5 rounded-lg bg-surface-container-low text-center leading-snug">Visual Recognition (Faces/Objects)</span>
+</th>
+<th class="pb-4 px-2 text-center font-label-md text-label-md text-on-surface align-bottom">
+<span class="block px-2 py-1.5 rounded-lg bg-surface-container-low text-center leading-snug">Temporal/Metadata Sorting</span>
+</th>
+<th class="pb-4 px-2 text-center font-label-md text-label-md text-on-surface align-bottom">
+<span class="block px-2 py-1.5 rounded-lg bg-surface-container-low text-center leading-snug">Semantic OCR (Text in Image)</span>
+</th>
+<th class="pb-4 px-2 text-center font-label-md text-label-md text-on-surface align-bottom">
+<span class="block px-2 py-1.5 rounded-lg bg-surface-container-low text-center leading-snug">Album &amp; Sync Indexing</span>
+</th>
+</tr>
+</thead>
+<tbody class="space-y-2">
+<!-- Row 1 -->
+<tr class="group">
+<td class="py-2.5 pr-4 font-label-md text-label-md text-on-surface align-middle">
+                No results returned
+              </td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-primary-fixed text-primary transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="142">
+<span class="font-label-md text-label-md font-bold">142</span>
+<span class="font-body-md text-[11px] opacity-75">7.6%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-google-blue-tint text-primary-container transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="88">
+<span class="font-label-md text-label-md font-bold">88</span>
+<span class="font-body-md text-[11px] opacity-75">4.7%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-google-blue-tint text-primary-container transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="64">
+<span class="font-label-md text-label-md font-bold">64</span>
+<span class="font-body-md text-[11px] opacity-75">3.4%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-primary-container text-on-primary font-semibold transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="184">
+<span class="font-label-md text-label-md font-bold">184</span>
+<span class="font-body-md text-[11px] opacity-90">9.8%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-google-blue-tint text-primary-container transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="96">
+<span class="font-label-md text-label-md font-bold">96</span>
+<span class="font-body-md text-[11px] opacity-75">5.1%</span>
+</div>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="group">
+<td class="py-2.5 pr-4 font-label-md text-label-md text-on-surface align-middle">
+                Wrong photo surfaced
+              </td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-google-red-tint text-google-red font-semibold transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="212"><span class="font-label-md text-label-md font-bold">212</span><span class="font-body-md text-[11px] opacity-90">11.3%</span></div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-google-red text-on-primary font-bold shadow-md transition-transform hover:scale-[1.03] cursor-default" data-val="268"><span class="font-label-md text-label-md font-bold">268</span><span class="font-body-md text-[11px] opacity-90">14.3%</span></div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-surface-container text-on-surface-variant transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="52">
+<span class="font-label-md text-label-md font-bold">52</span>
+<span class="font-body-md text-[11px] opacity-75">2.8%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-google-blue-tint text-primary-container transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="78">
+<span class="font-label-md text-label-md font-bold">78</span>
+<span class="font-body-md text-[11px] opacity-75">4.2%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-surface-container-low text-secondary transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="22">
+<span class="font-label-md text-label-md font-bold">22</span>
+<span class="font-body-md text-[11px] opacity-75">1.2%</span>
+</div>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="group">
+<td class="py-2.5 pr-4 font-label-md text-label-md text-on-surface align-middle">
+                Too many false positives
+              </td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-primary-container text-on-primary font-semibold transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="164">
+<span class="font-label-md text-label-md font-bold">164</span>
+<span class="font-body-md text-[11px] opacity-90">8.8%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-primary-fixed text-primary transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="124">
+<span class="font-label-md text-label-md font-bold">124</span>
+<span class="font-body-md text-[11px] opacity-75">6.6%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-surface-container text-on-surface-variant transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="46">
+<span class="font-label-md text-label-md font-bold">46</span>
+<span class="font-body-md text-[11px] opacity-75">2.5%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-surface-container-low text-secondary transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="32">
+<span class="font-label-md text-label-md font-bold">32</span>
+<span class="font-body-md text-[11px] opacity-75">1.7%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-surface-container-low text-secondary transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="18">
+<span class="font-label-md text-label-md font-bold">18</span>
+<span class="font-body-md text-[11px] opacity-75">1.0%</span>
+</div>
+</td>
+</tr>
+<!-- Row 4 -->
+<tr class="group">
+<td class="py-2.5 pr-4 font-label-md text-label-md text-on-surface align-middle">
+                Unable to refine filter
+              </td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-google-blue-tint text-primary-container transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="98">
+<span class="font-label-md text-label-md font-bold">98</span>
+<span class="font-body-md text-[11px] opacity-75">5.2%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-surface-container text-on-surface-variant transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="42">
+<span class="font-label-md text-label-md font-bold">42</span>
+<span class="font-body-md text-[11px] opacity-75">2.2%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-primary-fixed text-primary transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="116">
+<span class="font-label-md text-label-md font-bold">116</span>
+<span class="font-body-md text-[11px] opacity-75">6.2%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-surface-container-low text-secondary transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="14">
+<span class="font-label-md text-label-md font-bold">14</span>
+<span class="font-body-md text-[11px] opacity-75">0.7%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-surface-container-low text-secondary transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="30">
+<span class="font-label-md text-label-md font-bold">30</span>
+<span class="font-body-md text-[11px] opacity-75">1.6%</span>
+</div>
+</td>
+</tr>
+<!-- Row 5 -->
+<tr class="group">
+<td class="py-2.5 pr-4 font-label-md text-label-md text-on-surface align-middle">
+                Results buried in timeline
+              </td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-surface-container text-on-surface-variant transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="38">
+<span class="font-label-md text-label-md font-bold">38</span>
+<span class="font-body-md text-[11px] opacity-75">2.0%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-surface-container-low text-secondary transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="26">
+<span class="font-label-md text-label-md font-bold">26</span>
+<span class="font-body-md text-[11px] opacity-75">1.4%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-primary-fixed text-primary transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="134">
+<span class="font-label-md text-label-md font-bold">134</span>
+<span class="font-body-md text-[11px] opacity-75">7.2%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-surface-container-low text-secondary transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="12">
+<span class="font-label-md text-label-md font-bold">12</span>
+<span class="font-body-md text-[11px] opacity-75">0.6%</span>
+</div>
+</td>
+<td class="p-1.5">
+<div class="matrix-cell h-14 rounded-xl flex flex-col items-center justify-center bg-google-blue-tint text-primary-container transition-transform hover:scale-[1.03] shadow-sm cursor-default" data-val="76">
+<span class="font-label-md text-label-md font-bold">76</span>
+<span class="font-body-md text-[11px] opacity-75">4.1%</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Heatmap Color Scale Legend -->
+<div class="flex flex-wrap items-center justify-between pt-4 border-t border-surface-container">
+<div class="flex items-center gap-2">
+<span class="font-label-md text-label-md text-on-surface">Critical Nexus:</span>
+<span class="px-2.5 py-1 rounded-full bg-google-red-tint text-google-red font-label-md text-[13px] font-semibold">Visual Rec × Wrong Photo (268)</span>
+<span class="px-2.5 py-1 rounded-full bg-google-red-tint text-google-red font-label-md text-[13px] font-semibold">Parsing × Wrong Photo (212)</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-body-md text-label-md text-secondary">Volume Intensity</span>
+<div class="flex items-center gap-1.5">
+<span class="font-body-md text-xs text-secondary">0</span>
+<div class="h-3 w-6 rounded bg-surface-container-low"></div>
+<div class="h-3 w-6 rounded bg-surface-container"></div>
+<div class="h-3 w-6 rounded bg-google-blue-tint"></div>
+<div class="h-3 w-6 rounded bg-primary-fixed"></div>
+<div class="h-3 w-6 rounded bg-primary-container"></div>
+<div class="h-3 w-6 rounded bg-google-red"></div>
+<span class="font-body-md text-xs text-secondary">250+ posts</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION B: What people are discussing (Top Named Clusters) -->
+<section class="flex flex-col gap-6 mb-10">
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">What people are discussing (Top Named Clusters)</h2>
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-md text-label-md text-on-surface-variant font-medium">Ranked by Corpus Frequency</span>
+</div>
+<p class="font-body-md text-body-md text-on-secondary-container">Qualitative thematic clusters extracted via natural language co-occurrence and validated by human annotators.</p>
+</div>
+<!-- Cluster Cards Container -->
+<div class="flex flex-col gap-5">
+<!-- THEME CARD 1 -->
+<article class="bg-surface-card rounded-2xl p-6 shadow-sm flex flex-col gap-5 transition-shadow hover:shadow-md border-l-4 border-google-red"><div class="flex flex-col md:flex-row md:items-center justify-between gap-3"><div class="flex items-start md:items-center gap-3"><span class="w-8 h-8 rounded-full bg-google-red-tint text-google-red flex items-center justify-center font-label-md text-label-md font-bold shrink-0">1</span><div><h3 class="font-title-md text-title-md text-on-surface font-semibold">Search regressed after recent Gemini/AI update</h3><p class="font-body-md text-label-md text-secondary">Broad dissatisfaction with generative parsing replacing straightforward lexical match.</p></div></div><div class="flex items-center gap-3 shrink-0 self-end md:self-auto"><span class="px-3 py-1 rounded-full bg-google-red-tint text-google-red font-label-md text-label-md font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-google-red"></span>High Severity</span><div class="text-right"><span class="font-headline-sm text-headline-sm font-semibold text-google-red">482</span><span class="font-body-md text-label-md text-secondary block text-xs">posts (25.7% share)</span></div></div></div><div class="flex flex-col gap-1.5"><div class="w-full bg-google-red-tint rounded-full h-2 overflow-hidden"><div class="bg-google-red h-2 rounded-full transition-all duration-700" style="width: 25.7%;"></div></div><div class="flex justify-between font-body-md text-[12px] text-secondary"><span>Volume share of categorized search failures</span><span class="font-semibold text-google-red">25.7%</span></div></div><div class="grid grid-cols-1 md:grid-cols-3 gap-3"><div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none"><p class="font-body-md text-label-md text-on-surface leading-snug italic">“The search used to find pictures of my car easily, now it shows completely random blue objects.”</p><div class="flex items-center justify-between text-secondary pt-2"><div class="flex items-center gap-1.5 font-label-md text-xs"><span class="material-symbols-outlined text-[16px] text-google-red">forum</span><span class="font-medium text-on-surface-variant">r/GooglePhotos</span></div><span class="font-body-md text-xs">2d ago</span></div></div><div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none"><p class="font-body-md text-label-md text-on-surface leading-snug italic">“Ever since the ‘Ask Photos’ rollout, exact keyword matching seems disabled. Simple queries return AI hallucinated themes.”</p><div class="flex items-center justify-between text-secondary pt-2"><div class="flex items-center gap-1.5 font-label-md text-xs"><span class="material-symbols-outlined text-[16px] text-tertiary">store</span><span class="font-medium text-on-surface-variant">Play Store Review</span></div><span class="font-body-md text-xs">1w ago</span></div></div><div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none"><p class="font-body-md text-label-md text-on-surface leading-snug italic">“Queries like ‘receipt December 2023’ now launch a thinking spinner and return vacation albums from 2019.”</p><div class="flex items-center justify-between text-secondary pt-2"><div class="flex items-center gap-1.5 font-label-md text-xs"><span class="material-symbols-outlined text-[16px] text-primary">support_agent</span><span class="font-medium text-on-surface-variant">Help Community</span></div><span class="font-body-md text-xs">3w ago</span></div></div></div></article>
+<!-- THEME CARD 2 -->
+<article class="bg-surface-card rounded-2xl p-6 shadow-sm flex flex-col gap-5 transition-shadow hover:shadow-md border-l-4 border-google-red"><div class="flex flex-col md:flex-row md:items-center justify-between gap-3"><div class="flex items-start md:items-center gap-3"><span class="w-8 h-8 rounded-full bg-google-red-tint text-google-red flex items-center justify-center font-label-md text-label-md font-bold shrink-0">2</span><div><h3 class="font-title-md text-title-md text-on-surface font-semibold">Face recognition fails for ageing family members or babies</h3><p class="font-body-md text-label-md text-secondary">Longitudinal biological shifts fracture persona clusters into multiple isolated entities.</p></div></div><div class="flex items-center gap-3 shrink-0 self-end md:self-auto"><span class="px-3 py-1 rounded-full bg-google-red-tint text-google-red font-label-md text-label-md font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-google-red"></span>High Severity</span><div class="text-right"><span class="font-headline-sm text-headline-sm font-semibold text-google-red">394</span><span class="font-body-md text-label-md text-secondary block text-xs">posts (21.0% share)</span></div></div></div><div class="flex flex-col gap-1.5"><div class="w-full bg-google-red-tint rounded-full h-2 overflow-hidden"><div class="bg-google-red h-2 rounded-full transition-all duration-700" style="width: 21.0%;"></div></div><div class="flex justify-between font-body-md text-[12px] text-secondary"><span>Volume share of categorized search failures</span><span class="font-semibold text-google-red">21.0%</span></div></div><div class="grid grid-cols-1 md:grid-cols-3 gap-3"><div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none"><p class="font-body-md text-label-md text-on-surface leading-snug italic">“Can't group my toddler with baby photos anymore. The algorithm treated his face at 6 months as an unknown stranger.”</p><div class="flex items-center justify-between text-secondary pt-2"><div class="flex items-center gap-1.5 font-label-md text-xs"><span class="material-symbols-outlined text-[16px] text-google-red">forum</span><span class="font-medium text-on-surface-variant">r/GooglePhotos</span></div><span class="font-body-md text-xs">4d ago</span></div></div><div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none"><p class="font-body-md text-label-md text-on-surface leading-snug italic">“Photos of my grandmother when she was young in scanned B&amp;W albums are completely ignored by the face picker.”</p><div class="flex items-center justify-between text-secondary pt-2"><div class="flex items-center gap-1.5 font-label-md text-xs"><span class="material-symbols-outlined text-[16px] text-primary">support_agent</span><span class="font-medium text-on-surface-variant">Help Community</span></div><span class="font-body-md text-xs">1w ago</span></div></div><div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none"><p class="font-body-md text-label-md text-on-surface leading-snug italic">“Manual merge has been broken for months. If you merge two faces, the app reverts them after 48 hours silently.”</p><div class="flex items-center justify-between text-secondary pt-2"><div class="flex items-center gap-1.5 font-label-md text-xs"><span class="material-symbols-outlined text-[16px] text-tertiary">store</span><span class="font-medium text-on-surface-variant">Play Store Review</span></div><span class="font-body-md text-xs">2w ago</span></div></div></div></article>
+<!-- THEME CARD 3 -->
+<article class="bg-surface-card rounded-2xl p-6 shadow-sm flex flex-col gap-5 transition-shadow hover:shadow-md">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+<div class="flex items-start md:items-center gap-3">
+<span class="w-8 h-8 rounded-full bg-primary-fixed text-primary flex items-center justify-center font-label-md text-label-md font-bold shrink-0">3</span>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Text-in-photo search degraded for receipts and documents</h3>
+<p class="font-body-md text-label-md text-secondary">Degradation in optical character indexing on mobile captures of bills, serial numbers, and paper receipts.</p>
+</div>
+</div>
+<div class="flex items-center gap-3 shrink-0 self-end md:self-auto">
+<span class="px-3 py-1 rounded-full bg-google-yellow-tint text-on-surface font-label-md text-label-md font-semibold flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-google-yellow"></span>
+              Medium Severity
+            </span>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">318</span>
+<span class="font-body-md text-label-md text-secondary block text-xs">posts (17.0% share)</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<div class="w-full bg-surface-container rounded-full h-2 overflow-hidden">
+<div class="bg-primary-container h-2 rounded-full transition-all duration-700" style="width: 17.0%;"></div>
+</div>
+<div class="flex justify-between font-body-md text-[12px] text-secondary">
+<span>Volume share of categorized search failures</span>
+<span class="font-semibold text-primary">17.0%</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+<div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none">
+<p class="font-body-md text-label-md text-on-surface leading-snug italic">“I take photos of appliance model serial tags so I don't lose them. Search used to find them by number instantly; now 0 hits.”</p>
+<div class="flex items-center justify-between text-secondary pt-2">
+<div class="flex items-center gap-1.5 font-label-md text-xs">
+<span class="material-symbols-outlined text-[16px] text-tertiary">store</span>
+<span class="font-medium text-on-surface-variant">Play Store Review</span>
+</div>
+<span class="font-body-md text-xs">5d ago</span>
+</div>
+</div>
+<div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none">
+<p class="font-body-md text-label-md text-on-surface leading-snug italic">“OCR text extraction used to work offline or instantly. Now receipt search forces a cloud query that fails on handwritten items.”</p>
+<div class="flex items-center justify-between text-secondary pt-2">
+<div class="flex items-center gap-1.5 font-label-md text-xs">
+<span class="material-symbols-outlined text-[16px] text-google-red">forum</span>
+<span class="font-medium text-on-surface-variant">r/GooglePixel</span>
+</div>
+<span class="font-body-md text-xs">2w ago</span>
+</div>
+</div>
+<div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none">
+<p class="font-body-md text-label-md text-on-surface leading-snug italic">“I used Google Photos as a lightweight filing cabinet for tax slips. The search regression makes it completely useless.”</p>
+<div class="flex items-center justify-between text-secondary pt-2">
+<div class="flex items-center gap-1.5 font-label-md text-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">support_agent</span>
+<span class="font-medium text-on-surface-variant">Help Community</span>
+</div>
+<span class="font-body-md text-xs">3w ago</span>
+</div>
+</div>
+</div>
+</article>
+<!-- THEME CARD 4 -->
+<article class="bg-surface-card rounded-2xl p-6 shadow-sm flex flex-col gap-5 transition-shadow hover:shadow-md">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+<div class="flex items-start md:items-center gap-3">
+<span class="w-8 h-8 rounded-full bg-primary-fixed text-primary flex items-center justify-center font-label-md text-label-md font-bold shrink-0">4</span>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Location radius search includes wrong cities or trips</h3>
+<p class="font-body-md text-label-md text-secondary">Coarse geofencing merges adjacent trips or tags transit hubs instead of destination landmarks.</p>
+</div>
+</div>
+<div class="flex items-center gap-3 shrink-0 self-end md:self-auto">
+<span class="px-3 py-1 rounded-full bg-google-yellow-tint text-on-surface font-label-md text-label-md font-semibold flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-google-yellow"></span>
+              Medium Severity
+            </span>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">246</span>
+<span class="font-body-md text-label-md text-secondary block text-xs">posts (13.1% share)</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<div class="w-full bg-surface-container rounded-full h-2 overflow-hidden">
+<div class="bg-primary-container h-2 rounded-full transition-all duration-700" style="width: 13.1%;"></div>
+</div>
+<div class="flex justify-between font-body-md text-[12px] text-secondary">
+<span>Volume share of categorized search failures</span>
+<span class="font-semibold text-primary">13.1%</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+<div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none">
+<p class="font-body-md text-label-md text-on-surface leading-snug italic">“Searching ‘Paris’ brings up photos taken 80 miles outside the city because the app thinks it's all one trip.”</p>
+<div class="flex items-center justify-between text-secondary pt-2">
+<div class="flex items-center gap-1.5 font-label-md text-xs">
+<span class="material-symbols-outlined text-[16px] text-google-red">forum</span>
+<span class="font-medium text-on-surface-variant">r/GooglePhotos</span>
+</div>
+<span class="font-body-md text-xs">6d ago</span>
+</div>
+</div>
+<div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none">
+<p class="font-body-md text-label-md text-on-surface leading-snug italic">“Photos without GPS data but with estimated locations are placed in random ocean coordinates or center of country.”</p>
+<div class="flex items-center justify-between text-secondary pt-2">
+<div class="flex items-center gap-1.5 font-label-md text-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">support_agent</span>
+<span class="font-medium text-on-surface-variant">Help Community</span>
+</div>
+<span class="font-body-md text-xs">2w ago</span>
+</div>
+</div>
+<div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none">
+<p class="font-body-md text-label-md text-on-surface leading-snug italic">“Map view shows 200 photos at the local airport because that was the last cell tower ping before flying out.”</p>
+<div class="flex items-center justify-between text-secondary pt-2">
+<div class="flex items-center gap-1.5 font-label-md text-xs">
+<span class="material-symbols-outlined text-[16px] text-tertiary">store</span>
+<span class="font-medium text-on-surface-variant">Play Store Review</span>
+</div>
+<span class="font-body-md text-xs">3w ago</span>
+</div>
+</div>
+</div>
+</article>
+<!-- THEME CARD 5 -->
+<article class="bg-surface-card rounded-2xl p-6 shadow-sm flex flex-col gap-5 transition-shadow hover:shadow-md">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+<div class="flex items-start md:items-center gap-3">
+<span class="w-8 h-8 rounded-full bg-primary-fixed text-primary flex items-center justify-center font-label-md text-label-md font-bold shrink-0">5</span>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Vague descriptive search returns irrelevant stock memories</h3>
+<p class="font-body-md text-label-md text-secondary">Users recall emotional tone, lighting, or setting (e.g., “sunflowers at dusk”) and get generic sunset photos.</p>
+</div>
+</div>
+<div class="flex items-center gap-3 shrink-0 self-end md:self-auto">
+<span class="px-3 py-1 rounded-full bg-google-green-tint text-tertiary font-label-md text-label-md font-semibold flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+              Low Severity
+            </span>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">198</span>
+<span class="font-body-md text-label-md text-secondary block text-xs">posts (10.6% share)</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<div class="w-full bg-surface-container rounded-full h-2 overflow-hidden">
+<div class="bg-primary-container h-2 rounded-full transition-all duration-700" style="width: 10.6%;"></div>
+</div>
+<div class="flex justify-between font-body-md text-[12px] text-secondary">
+<span>Volume share of categorized search failures</span>
+<span class="font-semibold text-primary">10.6%</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+<div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none">
+<p class="font-body-md text-label-md text-on-surface leading-snug italic">“I typed ‘me holding a yellow mug on balcony’ and got 40 pictures of yellow cars and coffee shops.”</p>
+<div class="flex items-center justify-between text-secondary pt-2">
+<div class="flex items-center gap-1.5 font-label-md text-xs">
+<span class="material-symbols-outlined text-[16px] text-google-red">forum</span>
+<span class="font-medium text-on-surface-variant">r/GooglePhotos</span>
+</div>
+<span class="font-body-md text-xs">1w ago</span>
+</div>
+</div>
+<div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none">
+<p class="font-body-md text-label-md text-on-surface leading-snug italic">“Concept search prioritizes stock objects over the actual subject focus. If a tree is in the corner, it labels the whole photo ‘Forest’.”</p>
+<div class="flex items-center justify-between text-secondary pt-2">
+<div class="flex items-center gap-1.5 font-label-md text-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">support_agent</span>
+<span class="font-medium text-on-surface-variant">Help Community</span>
+</div>
+<span class="font-body-md text-xs">3w ago</span>
+</div>
+</div>
+<div class="bg-surface-bg rounded-xl p-4 flex flex-col justify-between gap-3 shadow-none">
+<p class="font-body-md text-label-md text-on-surface leading-snug italic">“Doesn't recognize qualitative conditions like ‘rainy night’ or ‘foggy morning’. Just relies on sunny day object tags.”</p>
+<div class="flex items-center justify-between text-secondary pt-2">
+<div class="flex items-center gap-1.5 font-label-md text-xs">
+<span class="material-symbols-outlined text-[16px] text-tertiary">store</span>
+<span class="font-medium text-on-surface-variant">Play Store Review</span>
+</div>
+<span class="font-body-md text-xs">4w ago</span>
+</div>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Footnote Disclosure (Design Rule Section 3) -->
+<aside class="w-full bg-surface-container rounded-2xl p-5 shadow-sm flex items-center gap-4 mb-4">
+<div class="w-10 h-10 rounded-full bg-surface-card flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">info</span>
+</div>
+<div class="flex-1">
+<p class="font-body-md text-label-md text-on-surface leading-relaxed">
+<span class="font-semibold text-on-surface">Statistical Classification Coverage:</span> 
+        12.6% of posts (236 posts) did not fit a named theme and were classified into unclustered exploratory feedback.
+      </p>
+</div>
+<div class="hidden sm:flex items-center">
+<span class="px-3 py-1 rounded-full bg-surface-card text-on-surface-variant font-label-md text-xs uppercase tracking-wider shadow-sm">N=236 Outliers</span>
+</div>
+</aside>
+<!-- Interactive script for toggles -->
+<script>
+    (function() {
+      const toggleBtn = document.getElementById('toggle-relative-btn');
+      let showingPct = false;
+
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', () => {
+          showingPct = !showingPct;
+          const cells = document.querySelectorAll('.matrix-cell');
+          cells.forEach(cell => {
+            const val = parseInt(cell.getAttribute('data-val'), 10);
+            const countSpan = cell.querySelector('span:first-child');
+            const subSpan = cell.querySelector('span:last-child');
+            if (showingPct) {
+              const pct = ((val / 1874) * 100).toFixed(1) + '%';
+              countSpan.textContent = pct;
+              subSpan.textContent = val + ' posts';
+            } else {
+              countSpan.textContent = val;
+              subSpan.textContent = ((val / 1874) * 100).toFixed(1) + '%';
+            }
+          });
+        });
+      }
+    })();
+  </script>
+</div></main></div></body></html>

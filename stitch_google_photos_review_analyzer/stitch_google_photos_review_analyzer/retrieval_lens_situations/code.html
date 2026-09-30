@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Flex:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-container":"#dde0e6","tertiary-container":"#008939","on-secondary-container":"#5f6368","surface-variant":"#e3e2e6","surface-container-low":"#f4f3f7","on-primary-container":"#ffffff","secondary-fixed":"#dfe3e8","error":"#ba1a1a","surface-tint":"#005bc0","surface-container-highest":"#e3e2e6","surface-dim":"#dbd9dd","google-red-tint":"#fce8e6","surface-container":"#efedf1","tertiary-fixed-dim":"#6ddd81","outline":"#727785","secondary-fixed-dim":"#c3c7cc","google-red":"#ea4335","on-secondary-fixed-variant":"#43474c","on-tertiary":"#ffffff","primary-fixed-dim":"#adc7ff","on-surface":"#1a1b1e","on-error":"#ffffff","primary-container":"#1a73e8","primary-fixed":"#d8e2ff","google-blue-tint":"#e8f0fe","surface-container-lowest":"#ffffff","google-yellow":"#fbbc04","error-container":"#ffdad6","google-yellow-tint":"#fef7e0","on-primary-fixed-variant":"#004493","inverse-on-surface":"#f1f0f4","on-tertiary-fixed-variant":"#005320","inverse-surface":"#2f3033","tertiary":"#006d2c","on-secondary":"#ffffff","google-green-tint":"#e6f4ea","surface-bg":"#f8f9fa","border-subtle":"#dadce0","inverse-primary":"#adc7ff","surface-card":"#ffffff","outline-variant":"#c1c6d6","on-secondary-fixed":"#181c20","tertiary-fixed":"#89fa9b","surface":"#faf9fd","on-tertiary-container":"#ffffff","on-primary":"#ffffff","on-primary-fixed":"#001a41","on-surface-variant":"#414754","on-tertiary-fixed":"#002108","surface-bright":"#faf9fd","on-error-container":"#93000a","on-background":"#1a1b1e","background":"#faf9fd","primary":"#005bbf","secondary":"#5b5f64","surface-container-high":"#e9e7eb"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-xl":"2rem",margin:"2rem","space-sm":"0.5rem","space-lg":"1.5rem",gutter:"1.5rem","space-md":"1rem","space-xs":"0.25rem"},fontFamily:{"body-lg":["Inter"],"label-md":["Inter"],"headline-sm":["Roboto Flex"],"headline-lg":["Roboto Flex"],"headline-md":["Roboto Flex"],"title-md":["Inter"],"body-md":["Inter"],"label-lg":["Inter"]},fontSize:{"body-lg":["16px",{lineHeight:"24px",fontWeight:"400"}],"label-md":["14px",{lineHeight:"20px",letterSpacing:"0.1px",fontWeight:"600"}],"headline-sm":["20px",{lineHeight:"28px",fontWeight:"500"}],"headline-lg":["32px",{lineHeight:"40px",fontWeight:"600"}],"headline-md":["24px",{lineHeight:"32px",fontWeight:"600"}],"title-md":["16px",{lineHeight:"24px",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",fontWeight:"400"}],"label-lg":["14px",{lineHeight:"20px",fontWeight:"500"}]}}}}</script></head><body class="bg-surface-bg font-body-md text-on-surface antialiased"><div class="fixed top-0 left-0 right-0 z-50 flex flex-col"><div class="h-9 w-full bg-google-yellow-tint border-b border-border-subtle flex items-center justify-center px-4 gap-2 text-on-surface select-none"><span class="material-symbols-outlined text-google-yellow text-[18px]">info</span><span class="font-label-md text-xs font-medium tracking-tight text-on-surface-variant">Demo data — for layout preview only. Collected 4,820 public posts across Reddit, App Stores, and Forums.</span></div><header class="h-16 w-full bg-surface-card border-b border-border-subtle flex items-center justify-between px-space-lg shadow-[0_1px_4px_rgba(60,64,67,0.06)]"><div class="flex items-center gap-3"><img alt="Google Photos Pinwheel Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UvnrGJJhVC3hHx1BKAGcfTIv7nqO8hAxQihmnAf8sO3GoOZ2NUktyIOmfNFlfu_qSfQxMjfcEt0i-dk6_TeCHfiXiz1wZB_6p7YIQlYsZfJBDPDb3vmQ9ojSbpY7_bzsrrUzJo4yuaXfkruH2sAsqnl8XDN-J2TkTcRDActEXYwM6WspFtXdfsWw-fVNAItu3DYUrK8AD343lwPaB9yfZeD7fHqvix4JXijIUnzTwLEQZjkdR9-g8VHGc1"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight font-medium">Retrieval Lens</span><span class="ml-1 px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant text-[11px] font-label-md uppercase tracking-wider">Research View</span></div><div class="flex-1 max-w-xl mx-space-xl"><div class="relative flex items-center"><span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px] pointer-events-none">search</span><input class="w-full h-10 pl-10 pr-4 bg-surface-bg border border-border-subtle rounded-full font-body-md text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:border-primary-container focus:bg-surface-card transition-all" placeholder="Search themes, verbatim quotes, or intents..." type="text"/></div></div><div class="flex items-center gap-space-md"><button class="h-9 px-4 rounded-full border border-border-subtle bg-surface-card text-on-surface font-label-md text-label-md flex items-center gap-2 hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-[18px] text-on-surface-variant">download</span><span>Download full analysis</span></button><div class="flex items-center pl-2 border-l border-border-subtle"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-border-subtle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1tSTGhfB1svpSPwRaivz1rc8e08_1IrIGsRoa61atyEVGpStU8vIjFL9nc6digDhUYPsiPve1NQnD3qS2ohk6wWCCMwvtzrmF9JR6rWHORJG6cONZRSbKBB4rmOSJYWApR3oM1fjIXKWkq6Lp_I9fQPvWAZFZwOsa23DGQq9E7v3E1CA0tVbVDLc8HX7wX_zfiF_0bX3cMlIukSUs2JLTdH_9vgiorw797LDOvaxZ_LP1hSzP0L-L0A"/></div></div></header></div><aside class="fixed left-0 top-[100px] bottom-0 w-60 bg-surface-card border-r border-border-subtle z-40 flex flex-col py-space-md px-3"><nav class="flex flex-col gap-1 w-full" data-active-classes="bg-google-blue-tint text-primary-container font-medium"><a class="flex items-center gap-3 px-4 py-2.5 rounded-full font-label-lg text-label-lg text-on-secondary-container hover:bg-surface-container hover:text-on-surface transition-all" data-path="overview" href="#"><span class="material-symbols-outlined text-[20px]">explore</span><span>Overview</span></a><a class="flex items-center gap-3 px-4 py-2.5 rounded-full font-label-lg text-label-lg text-on-secondary-container hover:bg-surface-container hover:text-on-surface transition-all" data-path="themes" href="#"><span class="material-symbols-outlined text-[20px]">bubble_chart</span><span>Themes</span></a><a aria-current="page" class="flex items-center gap-3 px-4 py-2.5 rounded-full transition-all bg-google-blue-tint text-primary-container font-medium" data-path="situations" href="#"><span class="material-symbols-outlined text-[20px]">table_chart</span><span>Situations</span></a><a class="flex items-center gap-3 px-4 py-2.5 rounded-full font-label-lg text-label-lg text-on-secondary-container hover:bg-surface-container hover:text-on-surface transition-all" data-path="key-insights" href="#"><span class="material-symbols-outlined text-[20px]">lightbulb</span><span>Key Insights</span></a><a class="flex items-center gap-3 px-4 py-2.5 rounded-full font-label-lg text-label-lg text-on-secondary-container hover:bg-surface-container hover:text-on-surface transition-all" data-path="ask-the-data" href="#"><span class="material-symbols-outlined text-[20px]">chat</span><span>Ask the data</span></a><a class="flex items-center gap-3 px-4 py-2.5 rounded-full font-label-lg text-label-lg text-on-secondary-container hover:bg-surface-container hover:text-on-surface transition-all" data-path="method-and-limits" href="#"><span class="material-symbols-outlined text-[20px]">tune</span><span>Method and limits</span></a></nav><div class="mt-auto p-3 bg-surface-bg rounded-xl border border-border-subtle"><div class="flex items-center gap-2 mb-1"><span class="material-symbols-outlined text-tertiary text-[16px]">verified</span><span class="font-label-md text-xs font-semibold text-on-surface">Dataset Active</span></div><p class="font-body-md text-xs text-on-surface-variant leading-snug">Corpus v2.4 synced • N=4,820</p></div></aside><div class="pl-60"><main class="relative pt-[100px] min-h-screen bg-surface-bg p-space-xl"><div class="flex flex-col w-full">
+<div class="flex flex-col gap-6 mb-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<div class="flex items-center gap-2 mb-1.5">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary">Contextual Analysis</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Section 4</span>
+</div>
+<h1 class="font-headline-md text-headline-md text-on-surface tracking-tight">User Retrieval Situations & Opportunity Ranking</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-1">Ranked retrieval scenarios based on opportunity score, friction severity, and resolution rates.</p>
+</div>
+<div class="flex items-center gap-3">
+<div class="px-4 py-2 rounded-xl bg-surface-container flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[20px]">dataset</span>
+<div class="flex flex-col">
+<span class="font-label-md text-xs text-on-surface-variant uppercase tracking-wider leading-none">Total Analyzed</span>
+<span class="font-headline-sm text-headline-sm text-on-surface leading-tight font-semibold">2,379 <span class="font-body-md text-body-md text-on-surface-variant font-normal">posts</span></span>
+</div>
+</div>
+</div>
+</div>
+<!-- Formula & Scope Caption Box -->
+<div class="rounded-xl bg-google-blue-tint p-4 shadow-sm flex items-start sm:items-center gap-3.5">
+<div class="w-8 h-8 rounded-full bg-surface-card flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">info</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<strong class="font-label-md text-on-surface">Opportunity Score = Volume × Friction Severity × Unresolved Rate</strong> (scaled 0–100). 
+        <span class="text-on-surface-variant/80">Note: These are situational retrieval contexts extracted from public posts, not user demographics (public data does not disclose age or location).</span>
+</p>
+</div>
+<!-- Visual Summary Metric Tiles -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<div class="bg-surface-card p-5 rounded-2xl shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant">Top Opportunity Scenario</span>
+<span class="font-headline-sm text-headline-sm text-on-surface mt-1">Urgent Proof & Documents</span>
+<span class="font-body-md text-body-md text-tertiary flex items-center gap-1 mt-1 font-medium">
+<span class="material-symbols-outlined text-[18px]">priority_high</span> Score 88 / 100
+          </span>
+</div>
+<div class="w-12 h-12 rounded-2xl bg-google-red-tint flex items-center justify-center text-google-red">
+<span class="material-symbols-outlined text-[26px]">document_scanner</span>
+</div>
+</div>
+<div class="bg-surface-card p-5 rounded-2xl shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant">Avg. Unresolved Benchmark</span>
+<span class="font-headline-sm text-headline-sm text-on-surface mt-1">53.8% Overall Loss</span>
+<span class="font-body-md text-body-md text-on-surface-variant mt-1">Users gave up or abandoned search</span>
+</div>
+<div class="w-12 h-12 rounded-2xl bg-google-yellow-tint flex items-center justify-center text-google-yellow">
+<span class="material-symbols-outlined text-[26px]">search_off</span>
+</div>
+</div>
+<div class="bg-surface-card p-5 rounded-2xl shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant">Dominant Friction Dimension</span>
+<span class="font-headline-sm text-headline-sm text-on-surface mt-1">Temporal & OCR Gap</span>
+<span class="font-body-md text-body-md text-primary mt-1">High friction on text & scanned items</span>
+</div>
+<div class="w-12 h-12 rounded-2xl bg-google-blue-tint flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">psychology</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Controls Bar -->
+<div class="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 mb-5">
+<!-- Sort buttons -->
+<div class="flex flex-wrap items-center gap-2 bg-surface-container-low p-1.5 rounded-full" id="sort-controls">
+<button class="sort-btn h-9 px-4 rounded-full font-label-md text-label-md transition-all shadow-sm bg-primary text-on-primary font-semibold flex items-center gap-1.5" data-sort="score" type="button">
+<span class="material-symbols-outlined text-[16px]">trending_up</span>
+<span>Sort by Opportunity Score</span>
+</button>
+<button class="sort-btn h-9 px-4 rounded-full font-label-md text-label-md transition-all bg-surface-card text-on-surface hover:bg-surface-container flex items-center gap-1.5" data-sort="volume" type="button">
+<span class="material-symbols-outlined text-[16px]">bar_chart</span>
+<span>Sort by Post Count</span>
+</button>
+<button class="sort-btn h-9 px-4 rounded-full font-label-md text-label-md transition-all bg-surface-card text-on-surface hover:bg-surface-container flex items-center gap-1.5" data-sort="severity" type="button">
+<span class="material-symbols-outlined text-[16px]">warning</span>
+<span>Sort by Severity</span>
+</button>
+</div>
+<!-- Search filter bar -->
+<div class="relative w-full md:w-80">
+<span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px] pointer-events-none">filter_alt</span>
+<input class="w-full h-10 pl-10 pr-9 bg-surface-card rounded-full font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:ring-2 focus:ring-primary shadow-sm transition-all" id="situation-filter" placeholder="Filter situations or keywords..." type="text"/>
+<button class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-on-surface" id="clear-filter" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+</div>
+<!-- SituationsTable Component -->
+<div class="bg-surface-card rounded-2xl shadow-sm overflow-hidden flex flex-col mb-12">
+<!-- Table Header -->
+<div class="grid grid-cols-12 gap-4 px-6 py-4 bg-surface-container-low text-on-surface-variant font-label-md text-label-md uppercase tracking-wider select-none">
+<div class="col-span-12 lg:col-span-4 flex items-center gap-1">
+<span>Retrieval Situation</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex items-center gap-1">
+<span>Volume & Share</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex items-center gap-1">
+<span>Friction Severity</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex items-center gap-1">
+<span>Unresolved Rate</span>
+</div>
+<div class="col-span-8 lg:col-span-2 flex items-center justify-between gap-1">
+<span>Opportunity Score</span>
+<span class="text-right">Evidence</span>
+</div>
+</div>
+<!-- Rows Container -->
+<div class="flex flex-col" id="situations-list">
+<!-- ROW 1 -->
+<div class="situation-row flex flex-col bg-surface-card hover:bg-surface-container-lowest transition-colors" data-name="Document photo remembered when taken needed urgently as proof passport scan" data-score="88" data-severity="3" data-volume="412">
+<div class="grid grid-cols-12 gap-4 px-6 py-5 items-center">
+<div class="col-span-12 lg:col-span-4 flex flex-col pr-2">
+<div class="flex items-center gap-2 mb-1">
+<span class="w-2.5 h-2.5 rounded-full bg-google-red"></span>
+<span class="font-title-md text-title-md text-on-surface">Document Photo • Urgent Proof</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Remembered when it was taken • needed it urgently as proof or verification
+            </p>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-semibold">412 <span class="font-body-md text-body-md text-on-surface-variant font-normal">posts</span></span>
+<div class="w-full bg-surface-container-high rounded-full h-1.5 mt-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 17.2%;"></div>
+</div>
+<span class="font-label-md text-xs text-on-surface-variant mt-1">17.2% corpus share</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<div class="flex items-center gap-1.5 mb-1.5">
+<span class="h-2 w-5 rounded-full bg-google-red"></span>
+<span class="h-2 w-5 rounded-full bg-google-red"></span>
+<span class="h-2 w-5 rounded-full bg-google-red"></span>
+</div>
+<span class="font-label-md text-label-md text-google-red font-semibold">3/3 High</span>
+<span class="font-body-md text-xs text-on-surface-variant">Panic/Time-sensitive</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-semibold">68%</span>
+<span class="px-2 py-0.5 rounded-full bg-google-red-tint text-google-red text-xs font-label-md font-semibold">Critical</span>
+</div>
+<p class="font-body-md text-xs text-on-surface-variant mt-1">Photo remained lost / abandoned</p>
+</div>
+<div class="col-span-12 lg:col-span-2 flex items-center justify-between gap-3">
+<div class="flex flex-col flex-1 mr-2">
+<div class="flex items-center justify-between mb-1">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary">88</span>
+<span class="font-label-md text-xs text-on-surface-variant">Rank #1</span>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-500" style="width: 88%;"></div>
+</div>
+</div>
+<button aria-expanded="false" class="quote-toggle-btn h-9 w-9 rounded-full bg-surface-container hover:bg-google-blue-tint hover:text-primary flex items-center justify-center shrink-0 transition-colors" title="Expand quote evidence" type="button">
+<span class="material-symbols-outlined text-[20px] transition-transform duration-200">keyboard_arrow_down</span>
+</button>
+</div>
+</div>
+<!-- Collapsible Evidence Panel -->
+<div class="quote-panel hidden px-6 pb-6 pt-2 bg-surface-container-lowest">
+<div class="p-4 rounded-xl bg-surface-bg flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-xs font-semibold uppercase tracking-wider text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[16px]">format_quote</span>
+                Verbatim Evidence (2 public citations attached)
+              </span>
+<span class="font-body-md text-xs text-on-surface-variant">Public Reddit & Forum Corpus</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-3 mt-1">
+<div class="p-3.5 rounded-lg bg-surface-card shadow-sm flex flex-col justify-between">
+<p class="font-body-md text-body-md text-on-surface italic leading-relaxed">
+                  “Needed photo of my passport scan at the gate and search brought up memes and receipts from 3 years ago instead. Had to manually scroll through 12,000 photos in line while sweating.”
+                </p>
+<div class="flex items-center justify-between mt-3 pt-2 text-xs font-label-md text-on-surface-variant">
+<span>r/googlephotos • Thread #912</span>
+<span class="px-2 py-0.5 rounded-full bg-google-red-tint text-google-red">High Stress</span>
+</div>
+</div>
+<div class="p-3.5 rounded-lg bg-surface-card shadow-sm flex flex-col justify-between">
+<p class="font-body-md text-body-md text-on-surface italic leading-relaxed">
+                  “Searching ‘car insurance card renewal’ returns random engine bay pictures. The exact date was last month yet it completely ignored text inside the photo.”
+                </p>
+<div class="flex items-center justify-between mt-3 pt-2 text-xs font-label-md text-on-surface-variant">
+<span>Product Forum • ID #4401</span>
+<span class="px-2 py-0.5 rounded-full bg-google-red-tint text-google-red">OCR Fail</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- ROW 2 -->
+<div class="situation-row flex flex-col bg-surface-card hover:bg-surface-container-lowest transition-colors" data-name="Pet photo from several years ago remembered color breed no exact date dog cat puppy" data-score="74" data-severity="2" data-volume="365">
+<div class="grid grid-cols-12 gap-4 px-6 py-5 items-center">
+<div class="col-span-12 lg:col-span-4 flex flex-col pr-2">
+<div class="flex items-center gap-2 mb-1">
+<span class="w-2.5 h-2.5 rounded-full bg-google-yellow"></span>
+<span class="font-title-md text-title-md text-on-surface">Pet Photo • Multi-Year Memory</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Pet photo from several years ago • remembered color and breed • no exact date
+            </p>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-semibold">365 <span class="font-body-md text-body-md text-on-surface-variant font-normal">posts</span></span>
+<div class="w-full bg-surface-container-high rounded-full h-1.5 mt-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 15.3%;"></div>
+</div>
+<span class="font-label-md text-xs text-on-surface-variant mt-1">15.3% corpus share</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<div class="flex items-center gap-1.5 mb-1.5">
+<span class="h-2 w-5 rounded-full bg-google-yellow"></span>
+<span class="h-2 w-5 rounded-full bg-google-yellow"></span>
+<span class="h-2 w-5 rounded-full bg-surface-container-highest"></span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">2/3 Medium</span>
+<span class="font-body-md text-xs text-on-surface-variant">High frequency • Emotional</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-semibold">52%</span>
+<span class="px-2 py-0.5 rounded-full bg-google-yellow-tint text-on-surface-variant text-xs font-label-md font-semibold">Moderate</span>
+</div>
+<p class="font-body-md text-xs text-on-surface-variant mt-1">Gave up after generic animal tags</p>
+</div>
+<div class="col-span-12 lg:col-span-2 flex items-center justify-between gap-3">
+<div class="flex flex-col flex-1 mr-2">
+<div class="flex items-center justify-between mb-1">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary">74</span>
+<span class="font-label-md text-xs text-on-surface-variant">Rank #2</span>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-500" style="width: 74%;"></div>
+</div>
+</div>
+<button aria-expanded="false" class="quote-toggle-btn h-9 w-9 rounded-full bg-surface-container hover:bg-google-blue-tint hover:text-primary flex items-center justify-center shrink-0 transition-colors" title="Expand quote evidence" type="button">
+<span class="material-symbols-outlined text-[20px] transition-transform duration-200">keyboard_arrow_down</span>
+</button>
+</div>
+</div>
+<div class="quote-panel hidden px-6 pb-6 pt-2 bg-surface-container-lowest">
+<div class="p-4 rounded-xl bg-surface-bg flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-xs font-semibold uppercase tracking-wider text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[16px]">format_quote</span>
+                Verbatim Evidence (1 public citation attached)
+              </span>
+<span class="font-body-md text-xs text-on-surface-variant">r/googlephotos</span>
+</div>
+<div class="p-3.5 rounded-lg bg-surface-card shadow-sm">
+<p class="font-body-md text-body-md text-on-surface italic leading-relaxed">
+                “I have 3 different golden retrievers over 12 years. If I type ‘golden retriever playing in snow’ it gives me a mush of 900 pictures with no ability to specify ‘the puppy we had in 2016’ without knowing exact dates.”
+              </p>
+</div>
+</div>
+</div>
+</div>
+<!-- ROW 3 -->
+<div class="situation-row flex flex-col bg-surface-card hover:bg-surface-container-lowest transition-colors" data-name="Family event milestone remembered location context face clustering missed people wedding graduation" data-score="71" data-severity="3" data-volume="310">
+<div class="grid grid-cols-12 gap-4 px-6 py-5 items-center">
+<div class="col-span-12 lg:col-span-4 flex flex-col pr-2">
+<div class="flex items-center gap-2 mb-1">
+<span class="w-2.5 h-2.5 rounded-full bg-google-red"></span>
+<span class="font-title-md text-title-md text-on-surface">Family Event • Milestone Gathering</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Family event or milestone • remembered location context • face clustering missed people
+            </p>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-semibold">310 <span class="font-body-md text-body-md text-on-surface-variant font-normal">posts</span></span>
+<div class="w-full bg-surface-container-high rounded-full h-1.5 mt-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 13.0%;"></div>
+</div>
+<span class="font-label-md text-xs text-on-surface-variant mt-1">13.0% corpus share</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<div class="flex items-center gap-1.5 mb-1.5">
+<span class="h-2 w-5 rounded-full bg-google-red"></span>
+<span class="h-2 w-5 rounded-full bg-google-red"></span>
+<span class="h-2 w-5 rounded-full bg-google-red"></span>
+</div>
+<span class="font-label-md text-label-md text-google-red font-semibold">3/3 High</span>
+<span class="font-body-md text-xs text-on-surface-variant">Social & Sentimental</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-semibold">59%</span>
+<span class="px-2 py-0.5 rounded-full bg-google-red-tint text-google-red text-xs font-label-md font-semibold">Elevated</span>
+</div>
+<p class="font-body-md text-xs text-on-surface-variant mt-1">Side profiles & partial faces dropped</p>
+</div>
+<div class="col-span-12 lg:col-span-2 flex items-center justify-between gap-3">
+<div class="flex flex-col flex-1 mr-2">
+<div class="flex items-center justify-between mb-1">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary">71</span>
+<span class="font-label-md text-xs text-on-surface-variant">Rank #3</span>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-500" style="width: 71%;"></div>
+</div>
+</div>
+<button aria-expanded="false" class="quote-toggle-btn h-9 w-9 rounded-full bg-surface-container hover:bg-google-blue-tint hover:text-primary flex items-center justify-center shrink-0 transition-colors" title="Expand quote evidence" type="button">
+<span class="material-symbols-outlined text-[20px] transition-transform duration-200">keyboard_arrow_down</span>
+</button>
+</div>
+</div>
+<div class="quote-panel hidden px-6 pb-6 pt-2 bg-surface-container-lowest">
+<div class="p-4 rounded-xl bg-surface-bg flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-xs font-semibold uppercase tracking-wider text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[16px]">format_quote</span>
+                Verbatim Evidence (1 public citation attached)
+              </span>
+<span class="font-body-md text-xs text-on-surface-variant">App Store Review</span>
+</div>
+<div class="p-3.5 rounded-lg bg-surface-card shadow-sm">
+<p class="font-body-md text-body-md text-on-surface italic leading-relaxed">
+                “Trying to find the group picture from my grandfather’s 80th birthday in Chicago. Because he was looking away from the camera, facial recognition didn’t tag him, and searching ‘grandpa birthday party cake’ gave nothing.”
+              </p>
+</div>
+</div>
+</div>
+</div>
+<!-- ROW 4 -->
+<div class="situation-row flex flex-col bg-surface-card hover:bg-surface-container-lowest transition-colors" data-name="Specific object tool remembered visual features natural language query failed serial number kitchen hardware" data-score="62" data-severity="2" data-volume="284">
+<div class="grid grid-cols-12 gap-4 px-6 py-5 items-center">
+<div class="col-span-12 lg:col-span-4 flex flex-col pr-2">
+<div class="flex items-center gap-2 mb-1">
+<span class="w-2.5 h-2.5 rounded-full bg-google-yellow"></span>
+<span class="font-title-md text-title-md text-on-surface">Specific Object • Visual Memory</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Specific object or tool • remembered visual features • natural language query failed
+            </p>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-semibold">284 <span class="font-body-md text-body-md text-on-surface-variant font-normal">posts</span></span>
+<div class="w-full bg-surface-container-high rounded-full h-1.5 mt-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 11.9%;"></div>
+</div>
+<span class="font-label-md text-xs text-on-surface-variant mt-1">11.9% corpus share</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<div class="flex items-center gap-1.5 mb-1.5">
+<span class="h-2 w-5 rounded-full bg-google-yellow"></span>
+<span class="h-2 w-5 rounded-full bg-google-yellow"></span>
+<span class="h-2 w-5 rounded-full bg-surface-container-highest"></span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">2/3 Medium</span>
+<span class="font-body-md text-xs text-on-surface-variant">Pragmatic utility</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-semibold">48%</span>
+<span class="px-2 py-0.5 rounded-full bg-google-yellow-tint text-on-surface-variant text-xs font-label-md font-semibold">Moderate</span>
+</div>
+<p class="font-body-md text-xs text-on-surface-variant mt-1">Over-reliance on generic labels</p>
+</div>
+<div class="col-span-12 lg:col-span-2 flex items-center justify-between gap-3">
+<div class="flex flex-col flex-1 mr-2">
+<div class="flex items-center justify-between mb-1">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary">62</span>
+<span class="font-label-md text-xs text-on-surface-variant">Rank #4</span>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-500" style="width: 62%;"></div>
+</div>
+</div>
+<button aria-expanded="false" class="quote-toggle-btn h-9 w-9 rounded-full bg-surface-container hover:bg-google-blue-tint hover:text-primary flex items-center justify-center shrink-0 transition-colors" title="Expand quote evidence" type="button">
+<span class="material-symbols-outlined text-[20px] transition-transform duration-200">keyboard_arrow_down</span>
+</button>
+</div>
+</div>
+<div class="quote-panel hidden px-6 pb-6 pt-2 bg-surface-container-lowest">
+<div class="p-4 rounded-xl bg-surface-bg flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-xs font-semibold uppercase tracking-wider text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[16px]">format_quote</span>
+                Verbatim Evidence (1 public citation attached)
+              </span>
+<span class="font-body-md text-xs text-on-surface-variant">Reddit r/Android</span>
+</div>
+<div class="p-3.5 rounded-lg bg-surface-card shadow-sm">
+<p class="font-body-md text-body-md text-on-surface italic leading-relaxed">
+                “Took a photo of the barcode and model sticker on my water heater before it was enclosed. Can’t remember if it was 2021 or 2022. Searching ‘water heater sticker’ or ‘metal tank label’ just shows outdoor monuments.”
+              </p>
+</div>
+</div>
+</div>
+</div>
+<!-- ROW 5 -->
+<div class="situation-row flex flex-col bg-surface-card hover:bg-surface-container-lowest transition-colors" data-name="Old scanned historical photo no EXIF timestamp lost in bottomless timeline vintage ancestry" data-score="58" data-severity="3" data-volume="245">
+<div class="grid grid-cols-12 gap-4 px-6 py-5 items-center">
+<div class="col-span-12 lg:col-span-4 flex flex-col pr-2">
+<div class="flex items-center gap-2 mb-1">
+<span class="w-2.5 h-2.5 rounded-full bg-google-red"></span>
+<span class="font-title-md text-title-md text-on-surface">Historical Scans • No EXIF Data</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Old scanned historical photo • no EXIF timestamp • lost in bottomless timeline
+            </p>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-semibold">245 <span class="font-body-md text-body-md text-on-surface-variant font-normal">posts</span></span>
+<div class="w-full bg-surface-container-high rounded-full h-1.5 mt-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 10.3%;"></div>
+</div>
+<span class="font-label-md text-xs text-on-surface-variant mt-1">10.3% corpus share</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<div class="flex items-center gap-1.5 mb-1.5">
+<span class="h-2 w-5 rounded-full bg-google-red"></span>
+<span class="h-2 w-5 rounded-full bg-google-red"></span>
+<span class="h-2 w-5 rounded-full bg-google-red"></span>
+</div>
+<span class="font-label-md text-label-md text-google-red font-semibold">3/3 High</span>
+<span class="font-body-md text-xs text-on-surface-variant">Archival / High Value</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-semibold">64%</span>
+<span class="px-2 py-0.5 rounded-full bg-google-red-tint text-google-red text-xs font-label-md font-semibold">Severe</span>
+</div>
+<p class="font-body-md text-xs text-on-surface-variant mt-1">Timestamp assigned to scan day</p>
+</div>
+<div class="col-span-12 lg:col-span-2 flex items-center justify-between gap-3">
+<div class="flex flex-col flex-1 mr-2">
+<div class="flex items-center justify-between mb-1">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary">58</span>
+<span class="font-label-md text-xs text-on-surface-variant">Rank #5</span>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-500" style="width: 58%;"></div>
+</div>
+</div>
+<button aria-expanded="false" class="quote-toggle-btn h-9 w-9 rounded-full bg-surface-container hover:bg-google-blue-tint hover:text-primary flex items-center justify-center shrink-0 transition-colors" title="Expand quote evidence" type="button">
+<span class="material-symbols-outlined text-[20px] transition-transform duration-200">keyboard_arrow_down</span>
+</button>
+</div>
+</div>
+<div class="quote-panel hidden px-6 pb-6 pt-2 bg-surface-container-lowest">
+<div class="p-4 rounded-xl bg-surface-bg flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-xs font-semibold uppercase tracking-wider text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[16px]">format_quote</span>
+                Verbatim Evidence (1 public citation attached)
+              </span>
+<span class="font-body-md text-xs text-on-surface-variant">Support Forum</span>
+</div>
+<div class="p-3.5 rounded-lg bg-surface-card shadow-sm">
+<p class="font-body-md text-body-md text-on-surface italic leading-relaxed">
+                “I spent weeks scanning my late mother’s 1970s slide collection using PhotoScan. Because they all uploaded with today’s date, they were completely scattered or buried when I synced a new phone.”
+              </p>
+</div>
+</div>
+</div>
+</div>
+<!-- ROW 6 -->
+<div class="situation-row flex flex-col bg-surface-card hover:bg-surface-container-lowest transition-colors" data-name="Screenshot conversation recipe remembered partial phrase OCR didnt index text chat" data-score="41" data-severity="1" data-volume="198">
+<div class="grid grid-cols-12 gap-4 px-6 py-5 items-center">
+<div class="col-span-12 lg:col-span-4 flex flex-col pr-2">
+<div class="flex items-center gap-2 mb-1">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary"></span>
+<span class="font-title-md text-title-md text-on-surface">Screenshot • Text Query Gap</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Screenshot of conversation or recipe • remembered partial phrase • OCR didn't index
+            </p>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-semibold">198 <span class="font-body-md text-body-md text-on-surface-variant font-normal">posts</span></span>
+<div class="w-full bg-surface-container-high rounded-full h-1.5 mt-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 8.3%;"></div>
+</div>
+<span class="font-label-md text-xs text-on-surface-variant mt-1">8.3% corpus share</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<div class="flex items-center gap-1.5 mb-1.5">
+<span class="h-2 w-5 rounded-full bg-tertiary"></span>
+<span class="h-2 w-5 rounded-full bg-surface-container-highest"></span>
+<span class="h-2 w-5 rounded-full bg-surface-container-highest"></span>
+</div>
+<span class="font-label-md text-label-md text-tertiary font-semibold">1/3 Low</span>
+<span class="font-body-md text-xs text-on-surface-variant">Low urgency workaround</span>
+</div>
+<div class="col-span-4 lg:col-span-2 flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-semibold">38%</span>
+<span class="px-2 py-0.5 rounded-full bg-google-green-tint text-tertiary text-xs font-label-md font-semibold">Manageable</span>
+</div>
+<p class="font-body-md text-xs text-on-surface-variant mt-1">Eventually located in Screenshots album</p>
+</div>
+<div class="col-span-12 lg:col-span-2 flex items-center justify-between gap-3">
+<div class="flex flex-col flex-1 mr-2">
+<div class="flex items-center justify-between mb-1">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary">41</span>
+<span class="font-label-md text-xs text-on-surface-variant">Rank #6</span>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-500" style="width: 41%;"></div>
+</div>
+</div>
+<button aria-expanded="false" class="quote-toggle-btn h-9 w-9 rounded-full bg-surface-container hover:bg-google-blue-tint hover:text-primary flex items-center justify-center shrink-0 transition-colors" title="Expand quote evidence" type="button">
+<span class="material-symbols-outlined text-[20px] transition-transform duration-200">keyboard_arrow_down</span>
+</button>
+</div>
+</div>
+<div class="quote-panel hidden px-6 pb-6 pt-2 bg-surface-container-lowest">
+<div class="p-4 rounded-xl bg-surface-bg flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-xs font-semibold uppercase tracking-wider text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[16px]">format_quote</span>
+                Verbatim Evidence (1 public citation attached)
+              </span>
+<span class="font-body-md text-xs text-on-surface-variant">Reddit r/googlephotos</span>
+</div>
+<div class="p-3.5 rounded-lg bg-surface-card shadow-sm">
+<p class="font-body-md text-body-md text-on-surface italic leading-relaxed">
+                “Took a screenshot of an artisanal sourdough recipe in Reddit comments. Searching ‘flour levain hydration’ yielded zero matches because the OCR apparently failed on dark mode text.”
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Long-Tail Disclosure Bottom Row (Section 4 Compliance) -->
+<div class="px-6 py-5 bg-surface-container-low/70 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-on-surface-variant">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-outline text-[20px]">scatter_plot</span>
+<div class="flex flex-col sm:flex-row sm:items-center sm:gap-2">
+<span class="font-title-md text-title-md text-on-surface-variant font-medium">Other diverse situations (<10 posts each)</span>
+<span class="hidden sm:inline text-outline-variant">•</span>
+<span class="font-body-md text-body-md">565 posts total</span>
+<span class="hidden sm:inline text-outline-variant">•</span>
+<span class="font-body-md text-body-md italic text-on-surface-variant/80">Unclustered long-tail retrieval contexts.</span>
+</div>
+</div>
+<div class="flex items-center gap-2 self-end sm:self-auto shrink-0">
+<span class="px-3 py-1 rounded-full bg-surface-card font-label-md text-xs text-on-surface-variant shadow-sm">
+          23.7% long-tail residue
+        </span>
+</div>
+</div>
+</div>
+<!-- Deep Dive Technical Findings Card -->
+<div class="rounded-2xl bg-surface-card p-6 shadow-sm flex flex-col md:flex-row items-center gap-6 mb-4">
+<div class="w-14 h-14 rounded-2xl bg-google-blue-tint text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[32px]">insights</span>
+</div>
+<div class="flex flex-col flex-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Key Product Implication from Situational Clustering</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1.5 leading-relaxed">
+        High opportunity scores are disproportionately driven by <em>high-stakes panic scenarios</em> (e.g., identity verification at transit hubs) rather than aggregate volume alone. While pet and scenery recall represent significant search frequency, failure in urgent document and milestone retrieval causes immediate reputational trust erosion.
+      </p>
+</div>
+<div class="flex items-center gap-3 shrink-0">
+<button class="h-10 px-5 rounded-full bg-primary text-on-primary font-label-md text-label-md font-semibold hover:bg-primary/90 shadow-sm flex items-center gap-2 transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">article</span>
+<span>View Synthesis Memo</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  (function initSituationsPage() {
+    const sortButtons = document.querySelectorAll('.sort-btn');
+    const situationsList = document.getElementById('situations-list');
+    const filterInput = document.getElementById('situation-filter');
+    const clearFilterBtn = document.getElementById('clear-filter');
+    const quoteToggles = document.querySelectorAll('.quote-toggle-btn');
+
+    // Quote Accordion Toggle
+    quoteToggles.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const row = btn.closest('.situation-row');
+        const panel = row.querySelector('.quote-panel');
+        const icon = btn.querySelector('.material-symbols-outlined');
+        const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+
+        if (isExpanded) {
+          panel.classList.add('hidden');
+          btn.setAttribute('aria-expanded', 'false');
+          btn.classList.remove('bg-primary', 'text-on-primary');
+          btn.classList.add('bg-surface-container');
+          icon.style.transform = 'rotate(0deg)';
+        } else {
+          panel.classList.remove('hidden');
+          btn.setAttribute('aria-expanded', 'true');
+          btn.classList.remove('bg-surface-container');
+          btn.classList.add('bg-primary', 'text-on-primary');
+          icon.style.transform = 'rotate(180deg)';
+        }
+      });
+    });
+
+    // Sorting Logic
+    sortButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        sortButtons.forEach(b => {
+          b.className = 'sort-btn h-9 px-4 rounded-full font-label-md text-label-md transition-all bg-surface-card text-on-surface hover:bg-surface-container flex items-center gap-1.5';
+        });
+        btn.className = 'sort-btn h-9 px-4 rounded-full font-label-md text-label-md transition-all shadow-sm bg-primary text-on-primary font-semibold flex items-center gap-1.5';
+
+        const sortMode = btn.getAttribute('data-sort');
+        const rows = Array.from(situationsList.querySelectorAll('.situation-row'));
+
+        rows.sort((a, b) => {
+          const valA = parseFloat(a.getAttribute(`data-${sortMode}`));
+          const valB = parseFloat(b.getAttribute(`data-${sortMode}`));
+          return valB - valA;
+        });
+
+        rows.forEach(r => situationsList.appendChild(r));
+      });
+    });
+
+    // Filtering Logic
+    filterInput.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase().trim();
+      clearFilterBtn.classList.toggle('hidden', q.length === 0);
+
+      const rows = situationsList.querySelectorAll('.situation-row');
+      rows.forEach(row => {
+        const text = (row.getAttribute('data-name') || '').toLowerCase();
+        if (!q || text.includes(q)) {
+          row.classList.remove('hidden');
+        } else {
+          row.classList.add('hidden');
+        }
+      });
+    });
+
+    clearFilterBtn.addEventListener('click', () => {
+      filterInput.value = '';
+      clearFilterBtn.classList.add('hidden');
+      filterInput.dispatchEvent(new Event('input'));
+      filterInput.focus();
+    });
+  })();
+</script></main></div></body></html>

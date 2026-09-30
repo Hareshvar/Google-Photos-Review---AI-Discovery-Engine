@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-09-27_1426",
+  "precomputed_stats_md5": "e2470ff8ec72ef8073b2a1ad70a505b0",
+  "cards_state": [
+    {
+      "id": "q1",
+      "number": 1,
+      "question": "Q1: Which photo types fail search most frequently?",
+      "n": 9774,
+      "is_low_evidence": false,
+      "low_evidence_warning": null,
+      "computed_state": "normal_answer"
+    },
+    {
+      "id": "q2",
+      "number": 2,
+      "question": "Q2: What visual memory cues do users rely on when exact tags fail?",
+      "n": 9774,
+      "is_low_evidence": false,
+      "low_evidence_warning": null,
+      "computed_state": "normal_answer"
+    },
+    {
+      "id": "q3",
+      "number": 3,
+      "question": "Q3: Which photo metadata elements are most frequently forgotten or corrupted?",
+      "n": 9774,
+      "is_low_evidence": false,
+      "low_evidence_warning": null,
+      "computed_state": "normal_answer"
+    },
+    {
+      "id": "q4",
+      "number": 4,
+      "question": "Q4: How do searchers construct queries when exact memory is incomplete?",
+      "n": 9774,
+      "is_low_evidence": false,
+      "low_evidence_warning": null,
+      "computed_state": "normal_answer"
+    },
+    {
+      "id": "q5",
+      "number": 5,
+      "question": "Q5: What are the primary user jobs when initiating photo search?",
+      "n": 9774,
+      "is_low_evidence": false,
+      "low_evidence_warning": null,
+      "computed_state": "normal_answer"
+    },
+    {
+      "id": "q6",
+      "number": 6,
+      "question": "Q6: Where in the search architecture do system failures occur?",
+      "n": 9774,
+      "is_low_evidence": false,
+      "low_evidence_warning": null,
+      "computed_state": "normal_answer"
+    },
+    {
+      "id": "q7",
+      "number": 7,
+      "question": "Q7: What friction occurs during search result evaluation?",
+      "n": 9774,
+      "is_low_evidence": false,
+      "low_evidence_warning": null,
+      "computed_state": "normal_answer"
+    },
+    {
+      "id": "q8",
+      "number": 8,
+      "question": "Q8: What workaround strategies do searchers adopt when search fails?",
+      "n": 9774,
+      "is_low_evidence": false,
+      "low_evidence_warning": null,
+      "computed_state": "normal_answer"
+    },
+    {
+      "id": "q9",
+      "number": 9,
+      "question": "Q9: What is the overall failure rate breakdown across the KPI tree?",
+      "n": 9774,
+      "is_low_evidence": false,
+      "low_evidence_warning": null,
+      "computed_state": "normal_answer"
+    }
+  ]
+}
