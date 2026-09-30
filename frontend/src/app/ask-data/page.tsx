@@ -12,7 +12,8 @@ interface Message {
   citations?: Citation[];
   isRefusal?: boolean;
   refusalReason?: string;
-  refusalType?: 'pii_scrubbed' | 'out_of_scope' | 'no_evidence';
+  refusalType?: string;
+  disclaimer?: string;
 }
 
 export default function AskDataPage() {

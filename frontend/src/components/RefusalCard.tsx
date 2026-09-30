@@ -2,7 +2,7 @@ import React from 'react';
 
 interface RefusalCardProps {
   reason?: string;
-  refusalType?: 'pii_scrubbed' | 'out_of_scope' | 'no_evidence';
+  refusalType?: 'pii_scrubbed' | 'out_of_scope' | 'no_evidence' | 'rate_limit_exceeded' | string;
   suggestedPrompts?: string[];
   onSelectPrompt?: (p: string) => void;
 }
