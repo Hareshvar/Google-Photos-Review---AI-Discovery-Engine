@@ -29,6 +29,13 @@ def clean_response_formatting(text: str) -> str:
         "Ã©": "é",
         "\u202f": " ",
         "\xa0": " ",
+        "\u2011": "-",
+        "\u2013": "-",
+        "\u2014": "—",
+        "\u2018": "'",
+        "\u2019": "'",
+        "\u201c": '"',
+        "\u201d": '"',
     }
     for bad, good in replacements.items():
         text = text.replace(bad, good)
@@ -43,31 +50,31 @@ def clean_response_formatting(text: str) -> str:
     return text
 
 
-RAG_PROMPT_TEMPLATE = """You are "Ask the Data", an evidence-grounded research assistant for Retrieval Lens (Google Photos Photo Retrieval Discovery Engine).
 
-Prior Conversation History (Last 5 Chats / Exchanges):
+RAG_PROMPT_TEMPLATE = """You are "Ask the Data", an AI research assistant analyzing Google Photos user feedback and retrieval experiences.
+
+Prior Conversation History:
 {chat_history_context}
 
-Current User Question: "{prompt}"
+User Question: "{prompt}"
 
-Context from Retrieved Evidence Posts (Top Matches):
+Retrieved User Reviews & Post Evidence (Primary Source):
 {retrieved_context}
 
-Context from Precomputed System Statistics:
-- Total Relevant Posts Sample: n={total_relevant}
-- Key Insights Precomputed Distributions (Q1-Q9):
-{key_insights_summary}
-- Emergent UX Intent Themes: {themes_summary}
-- Top Situations: {situations_summary}
+Dataset Overview Context (n={total_relevant} total collected posts):
+- Key Quantitative Insights: {key_insights_summary}
+- Emergent Themes: {themes_summary}
+- Main Situations: {situations_summary}
 
-Strict Generation Rules:
-1. Maintain memory and context from the Prior Conversation History when answering follow-up questions.
-2. Base your answer ONLY on the provided post evidence and precomputed statistics.
-3. State ONLY factual conclusions supported by the evidence. NEVER invent percentages or numbers.
-4. Do NOT include raw technical cluster codes, cluster IDs (e.g. "cluster 01", "cluster_01"), or bracketed labels. Use clean natural language terms.
-5. Keep response concise (2-4 sentences max), clear, executive-ready, and objective.
-6. If there is insufficient evidence in the context, explicitly state: "There isn't enough evidence in the collected posts to answer that question confidently."
+Instructions for Your Response:
+1. Direct Executive Summary: Write a clear, narrative summary answer that directly answers the user's question by synthesizing the user reviews and post evidence above.
+2. Grounded in Qualitative Feedback: Focus on explaining WHAT users describe in their reviews—their real-world struggles, specific photo types (e.g., unorganized photos not in albums, photos of specific people or pets, older memories), search queries that fail, and user frustration.
+3. No Raw Percentage Dumps: Do NOT output a mechanical list of raw percentages (e.g. "Option A (33.92%), Option B (23.32%)"). Synthesize the insights into a fluid, conversational explanation.
+4. No Meta-References: Do NOT tell the user to "inspect the quote citations below", "go through the reviews", or reference citation chips. Simply provide the complete synthesized answer directly.
+5. Tone & Structure: Keep the tone professional, objective, and executive-ready (2-4 well-crafted sentences or paragraphs).
+6. Factuality: Rely strictly on the provided user posts and background statistics. If the evidence does not contain relevant information, state: "There isn't enough evidence in the collected user posts to answer that question confidently."
 """
+
 
 
 class RAGEngine:
@@ -291,41 +298,49 @@ class RAGEngine:
 
         # Q1: Target Types / photo types
         if any(w in prompt_lower for w in ["type", "kinds", "category", "what photos", "which photo", "content", "struggle"]):
-            return (
-                "Based on verified feedback across public discussion channels, users struggle most to find unindexed general media, "
-                "photos of family members or pets, and older nostalgic memories. "
-                f"User reports highlight that retrieval breaks down when exact dates or visual tags are missing: {quote_context}"
-            ).strip()
+            summary = (
+                "Based on user feedback, searchers encounter the greatest difficulty when trying to locate unindexed media, "
+                "photos of specific people or pets, and older nostalgic memories. "
+                "Users frequently report that search fails when photos are not assigned to dedicated albums or when visual search tags do not register specific subjects."
+            )
+            if quote_context:
+                summary += f" User reviews highlight specific struggles such as: {quote_context}"
+            return summary.strip()
 
         # Q2 / Q3: Remembered or forgotten cues
         if any(w in prompt_lower for w in ["cue", "remember", "forget", "clue", "information", "recall"]):
-            return (
-                "User feedback reveals that searchers most frequently recall people or faces and approximate date periods when looking for a photo. "
-                "However, they struggle when trying to express specific visual details, album names, or exact locations into search queries. "
-                f"As highlighted in user submissions: {quote_context}"
-            ).strip()
+            summary = (
+                "When searching for lost photos, users primarily rely on memory cues like recognizable faces, people, and approximate time periods. "
+                "However, they face major hurdles when attempting to translate specific visual details, locations, or album names into effective search queries."
+            )
+            if quote_context:
+                summary += f" User submissions illustrate this friction: {quote_context}"
+            return summary.strip()
 
         # Q6 / Q9: Flow / Errors / Failures
         if any(w in prompt_lower for w in ["error", "fail", "flow", "breakdown", "kpi", "step", "problem"]):
-            return (
-                "Analysis of photo retrieval journeys indicates that the majority of search failures occur at the initial query stage, "
-                "where Google Photos returns zero or incorrect results despite the photo existing in the library. "
-                f"Users frequently experience friction when queries fail to match implicit context: {quote_context}"
-            ).strip()
+            summary = (
+                "Analysis of user experience feedback shows that most retrieval failures occur at the initial query stage. "
+                "Searchers report zero or inaccurate results even when the target photo is present in their cloud library, leading to manual scrolling and drop-off."
+            )
+            if quote_context:
+                summary += f" User reports describe this problem: {quote_context}"
+            return summary.strip()
 
         # Default fluid summary
         if quote_context:
             return (
-                "Analysis of collected feedback reveals significant friction during photo retrieval. "
-                f"Users report difficulty finding specific photos when search keywords or temporal filters fail: {quote_context}"
+                "Analysis of collected user feedback reveals significant friction during photo search. "
+                f"Searchers experience frequent failures when keywords fail to match implicit photo context: {quote_context}"
             ).strip()
 
-        return "Analysis of collected feedback indicates user friction when attempting to locate photos without exact date or visual tags."
+        return "Analysis of collected user feedback indicates significant friction when attempting to locate photos without exact dates or explicit visual tags."
+
 
     def _generate_llm_answer(self, prompt: str) -> Optional[str]:
-        # Try Gemini models (gemini-3.6-flash first for high capacity, then gemini-3.8-flash)
+        # Try Gemini models (gemini-3.6-flash first for high capacity, then gemini-3.8-flash, gemini-3.5-flash-lite, gemini-3.5-flash)
         if self._gemini_client:
-            for m in ["gemini-3.6-flash", "gemini-3.8-flash"]:
+            for m in ["gemini-3.6-flash", "gemini-3.8-flash", "gemini-3.5-flash-lite", "gemini-3.5-flash"]:
                 try:
                     resp = self._gemini_client.models.generate_content(
                         model=m,
@@ -336,9 +351,10 @@ class RAGEngine:
                 except Exception as e:
                     logger.warning(f"Gemini model '{m}' failed: {e}")
 
-        # Try Groq models (openai/gpt-oss-120b first, then openai/gpt-oss-20b)
+
+        # Try Groq models (openai/gpt-oss-120b first, then openai/gpt-oss-20b, qwen/qwen3.8-27b)
         if self._groq_client:
-            for gm in ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]:
+            for gm in ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "qwen/qwen3.8-27b"]:
                 try:
                     resp = self._groq_client.chat.completions.create(
                         model=gm,
@@ -351,4 +367,5 @@ class RAGEngine:
                     logger.warning(f"Groq model '{gm}' failed: {e}")
 
         return None
+
 
