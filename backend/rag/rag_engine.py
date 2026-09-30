@@ -290,7 +290,7 @@ class RAGEngine:
         }
 
     def _generate_llm_answer(self, prompt: str) -> Optional[str]:
-        # Try Gemini first (gemini-3.8-flash first, then gemini-3.6-flash fallback)
+        # Try Gemini models (gemini-3.8-flash first, then gemini-3.6-flash)
         if self._gemini_client:
             for m in ["gemini-3.8-flash", "gemini-3.6-flash"]:
                 try:
@@ -303,7 +303,7 @@ class RAGEngine:
                 except Exception as e:
                     logger.warning(f"Gemini model '{m}' failed: {e}")
 
-        # Try Groq fallback (openai/gpt-oss-120b first, then openai/gpt-oss-20b fallback)
+        # Try Groq models (openai/gpt-oss-120b first, then openai/gpt-oss-20b)
         if self._groq_client:
             for gm in ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]:
                 try:

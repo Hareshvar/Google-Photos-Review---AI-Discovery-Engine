@@ -26,6 +26,8 @@ export const RefusalCard: React.FC<RefusalCardProps> = ({
             ? 'Personal Information Detected'
             : refusalType === 'no_evidence'
             ? 'Not Enough Evidence in Dataset'
+            : refusalType === 'rate_limit_exceeded'
+            ? 'AI Generation Rate Limit Reached'
             : 'Out of Scope Query'}
         </span>
       </div>
