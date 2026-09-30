@@ -215,8 +215,18 @@ def download_export_bundle():
 @router.post("/chat")
 def chat_with_data(request: ChatRequest):
     """Grounded RAG Chatbot endpoint ('Ask the Data')."""
-    return rag_engine.ask(
-        prompt=request.prompt,
-        chat_history=request.chat_history,
-        session_id=request.session_id
-    )
+    try:
+        return rag_engine.ask(
+            prompt=request.prompt,
+            chat_history=request.chat_history,
+            session_id=request.session_id
+        )
+    except Exception as e:
+        logger.error(f"Error in chat_with_data: {e}", exc_info=True)
+        return {
+            "status": "error",
+            "is_refusal": True,
+            "refusal_type": "rate_limit_exceeded",
+            "answer": f"⚠️ Backend processing error: {str(e)}",
+            "citations": []
+        }
