@@ -43,7 +43,7 @@ const HUMAN_SYSTEM_ISSUES: Record<string, string> = {
 
 export const HeatmapChart: React.FC<HeatmapChartProps> = ({
   matrix,
-  totalRelevant = 9737,
+  totalRelevant = 916,
 }) => {
   // Extract unique failure steps and system issues present in data
   const failureSteps = Array.from(new Set(matrix.map((m) => m.failure_step)));

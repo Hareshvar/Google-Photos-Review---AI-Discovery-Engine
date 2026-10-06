@@ -31,7 +31,7 @@ export default function OverviewPage() {
   const stats = data?.stats || {
     collected: 31295,
     cleaned: 9776,
-    relevant: 9737,
+    relevant: 916,
     vague_memory_count: 6120,
     search_failures_count: 8950,
   };

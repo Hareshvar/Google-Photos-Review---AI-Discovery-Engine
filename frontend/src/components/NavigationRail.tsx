@@ -48,7 +48,7 @@ export function NavigationRail() {
           <span className="text-xs font-semibold text-on-surface">Corpus v2.0 Active</span>
         </div>
         <p className="text-xs text-on-surface-variant leading-snug">
-          Code-verified tags • N=9,737 relevant
+          Code-verified tags • N=916 relevant
         </p>
       </div>
     </aside>

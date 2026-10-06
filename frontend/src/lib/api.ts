@@ -12,17 +12,17 @@ export async function fetchOverview() {
       stats: {
         collected: 31295,
         cleaned: 9776,
-        relevant: 9737,
+        relevant: 916,
         vague_memory_count: 6120,
         search_failures_count: 8950
       },
       pipeline_steps: [
         { step: "Collect", label: "Collected", count: 31295 },
         { step: "Clean", label: "Cleaned", count: 9776 },
-        { step: "Classify", label: "Classified Relevant", count: 9737 },
-        { step: "Analyze", label: "Analyzed Insights", count: 9737 },
-        { step: "Index", label: "Indexed for Chat", count: 9737 },
-        { step: "App", label: "Rendered in Lens", count: 9737 }
+        { step: "Classify", label: "Classified Relevant", count: 916 },
+        { step: "Analyze", label: "Analyzed Insights", count: 916 },
+        { step: "Index", label: "Indexed for Chat", count: 916 },
+        { step: "App", label: "Rendered in Lens", count: 916 }
       ],
       source_health: [
         { source: "Google Help Community", records_collected: 3405, records_cleaned: 432, status: "active", failure_reason: null, relevance_rate: 99.3 },

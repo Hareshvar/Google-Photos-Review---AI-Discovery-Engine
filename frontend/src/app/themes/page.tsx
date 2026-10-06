@@ -48,7 +48,7 @@ export default function ThemesPage() {
       </div>
 
       {/* Section A: Heatmap */}
-      <HeatmapChart matrix={matrix} totalRelevant={data?.metadata?.total_relevant || 9737} />
+      <HeatmapChart matrix={matrix} totalRelevant={data?.metadata?.total_relevant || 916} />
 
       {/* Section B: Emergent Clusters */}
       <div className="flex flex-col gap-4">
