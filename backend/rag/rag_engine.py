@@ -66,14 +66,15 @@ Dataset Overview Context (n={total_relevant} total collected posts):
 - Emergent Themes: {themes_summary}
 - Main Situations: {situations_summary}
 
-Instructions for Your Response:
-1. Direct Executive Summary: Write a clear, narrative summary answer that directly answers the user's question by synthesizing the user reviews and post evidence above.
-2. Grounded in Qualitative Feedback: Focus on explaining WHAT users describe in their reviews—their real-world struggles, specific photo types (e.g., unorganized photos not in albums, photos of specific people or pets, older memories), search queries that fail, and user frustration.
-3. No Raw Percentage Dumps: Do NOT output a mechanical list of raw percentages (e.g. "Option A (33.92%), Option B (23.32%)"). Synthesize the insights into a fluid, conversational explanation.
-4. No Meta-References: Do NOT tell the user to "inspect the quote citations below", "go through the reviews", or reference citation chips. Simply provide the complete synthesized answer directly.
-5. Tone & Structure: Keep the tone professional, objective, and executive-ready (2-4 well-crafted sentences or paragraphs).
-6. Factuality: Rely strictly on the provided user posts and background statistics. If the evidence does not contain relevant information, state: "There isn't enough evidence in the collected user posts to answer that question confidently."
+STRICT RESPONSE CONSTRAINTS:
+1. MAX LENGTH: Keep your answer strictly 2 to 3 lines (sentences) maximum. Be concise, direct, and punchy.
+2. DIRECT RELEVANCE: Directly answer the user's specific question based on the retrieved user reviews above.
+3. NO BULLET LISTS OR MULTI-PARAGRAPH BLOCKS: Write only 2 to 3 clear sentences in a single short paragraph.
+4. NO RAW PERCENTAGE DUMPS: Do NOT output a mechanical list of raw percentages (e.g. "Option A (33.92%), Option B (23.32%)").
+5. NO META-REFERENCES: Do NOT tell the user to "inspect quote citations below" or reference citation chips.
+6. FACTUALITY: Rely strictly on the provided user posts. If evidence is lacking, state: "There isn't enough evidence in the collected user posts to answer that question confidently."
 """
+
 
 
 
@@ -292,49 +293,40 @@ class RAGEngine:
     def _synthesize_smart_fallback(self, prompt: str, total_relevant: int, citations: List[Dict[str, Any]]) -> str:
         prompt_lower = prompt.lower()
         
-        # Extract top quote snippets for context synthesis
+        # Extract top quote snippet for context synthesis
         quotes_list = [c.get("quote", "").strip() for c in citations if c.get("quote")]
-        quote_context = " ".join([f'"{q}"' for q in quotes_list[:2]]) if quotes_list else ""
+        quote_context = f'"{quotes_list[0]}"' if quotes_list else ""
 
         # Q1: Target Types / photo types
         if any(w in prompt_lower for w in ["type", "kinds", "category", "what photos", "which photo", "content", "struggle"]):
-            summary = (
-                "Based on user feedback, searchers encounter the greatest difficulty when trying to locate unindexed media, "
-                "photos of specific people or pets, and older nostalgic memories. "
-                "Users frequently report that search fails when photos are not assigned to dedicated albums or when visual search tags do not register specific subjects."
-            )
+            summary = "Users struggle most to find unindexed media, photos of specific people or pets, and older nostalgic memories. Search frequently fails when photos are not in dedicated albums or missing subject tags."
             if quote_context:
-                summary += f" User reviews highlight specific struggles such as: {quote_context}"
+                summary += f" User feedback highlights this friction: {quote_context}."
             return summary.strip()
 
         # Q2 / Q3: Remembered or forgotten cues
         if any(w in prompt_lower for w in ["cue", "remember", "forget", "clue", "information", "recall"]):
-            summary = (
-                "When searching for lost photos, users primarily rely on memory cues like recognizable faces, people, and approximate time periods. "
-                "However, they face major hurdles when attempting to translate specific visual details, locations, or album names into effective search queries."
-            )
+            if any(w in prompt_lower for w in ["forget", "lost", "missing"]):
+                summary = "When searching, users most frequently forget the exact date, time period, location tags, and specific album names. While they vividly recall visual subjects like faces or pets, missing temporal markers cause search to fail."
+            else:
+                summary = "Users primarily rely on memory cues like recognizable faces, people, and approximate time periods when searching for photos. However, translating visual details or locations into effective search keywords remains a key friction point."
             if quote_context:
-                summary += f" User submissions illustrate this friction: {quote_context}"
+                summary += f" As one user noted: {quote_context}."
             return summary.strip()
 
         # Q6 / Q9: Flow / Errors / Failures
         if any(w in prompt_lower for w in ["error", "fail", "flow", "breakdown", "kpi", "step", "problem"]):
-            summary = (
-                "Analysis of user experience feedback shows that most retrieval failures occur at the initial query stage. "
-                "Searchers report zero or inaccurate results even when the target photo is present in their cloud library, leading to manual scrolling and drop-off."
-            )
+            summary = "Analysis of user feedback shows most search failures occur at the initial query stage, returning zero or inaccurate results despite photos being in the cloud library. This forces users into tedious manual scrolling across main timelines."
             if quote_context:
-                summary += f" User reports describe this problem: {quote_context}"
+                summary += f" For instance: {quote_context}."
             return summary.strip()
 
-        # Default fluid summary
+        # Default fluid 2-3 line summary
         if quote_context:
-            return (
-                "Analysis of collected user feedback reveals significant friction during photo search. "
-                f"Searchers experience frequent failures when keywords fail to match implicit photo context: {quote_context}"
-            ).strip()
+            return f"Analysis of user feedback reveals significant friction during photo search when keywords fail to match implicit photo context: {quote_context}."
 
         return "Analysis of collected user feedback indicates significant friction when attempting to locate photos without exact dates or explicit visual tags."
+
 
 
     def _generate_llm_answer(self, prompt: str) -> Optional[str]:
